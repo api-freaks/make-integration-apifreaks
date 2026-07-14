@@ -1,0 +1,26 @@
+[
+  {
+    "name": "format",
+    "label": "Format",
+    "type": "select",
+    "required": false,
+    "help": "Format of the response",
+    "options": [
+      {
+        "label": "json",
+        "value": "json"
+      },
+      {
+        "label": "xml",
+        "value": "xml"
+      }
+    ]
+  },
+  {
+    "name": "User-Agent",
+    "label": "User Agent",
+    "type": "text",
+    "required": true,
+    "help": "The User-Agent string to parse."
+  }
+]

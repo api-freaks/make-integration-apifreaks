@@ -1,0 +1,47 @@
+[
+  {
+    "name": "format",
+    "label": "Format",
+    "type": "select",
+    "required": false,
+    "help": "Response format: `json` (default) or `xml`.",
+    "options": [
+      {
+        "label": "json",
+        "value": "json"
+      },
+      {
+        "label": "xml",
+        "value": "xml"
+      }
+    ]
+  },
+  {
+    "name": "from",
+    "label": "From",
+    "type": "text",
+    "required": true,
+    "help": "Source currency code."
+  },
+  {
+    "name": "to",
+    "label": "To",
+    "type": "text",
+    "required": true,
+    "help": "Target currency code."
+  },
+  {
+    "name": "amount",
+    "label": "Amount",
+    "type": "text",
+    "required": false,
+    "help": "Amount to convert as a positive decimal. Defaults to `1`."
+  },
+  {
+    "name": "date",
+    "label": "Date",
+    "type": "text",
+    "required": true,
+    "help": "Historical date in `YYYY-MM-DD` format."
+  }
+]

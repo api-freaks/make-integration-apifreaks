@@ -1,0 +1,7 @@
+{
+  "name": "bulkScreenshot",
+  "label": "Screenshot: Capture screenshots of multiple websites in a single...",
+  "description": "Our Bulk Screenshot API allows you to capture screenshots of multiple webpages simultaneously, saving you time and effort. Instead of manually capturing each page one by one, you can batch process URLs and receive high-quality screenshots in the format you choose.\n Maximum `50 URLs` per request.",
+  "connection": "apifreaks",
+  "typeId": 4
+}

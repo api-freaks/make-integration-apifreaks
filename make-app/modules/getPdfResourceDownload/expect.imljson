@@ -1,0 +1,9 @@
+[
+  {
+    "name": "resource_id",
+    "label": "Resource Id",
+    "type": "text",
+    "required": true,
+    "help": "The unique identifier of the file or ZIP archive to download."
+  }
+]

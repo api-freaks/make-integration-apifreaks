@@ -1,0 +1,7 @@
+{
+  "name": "getCountries",
+  "label": "GeoDB: Get list of countries",
+  "description": "Retrieve countries, optionally filtered by region or subregion.",
+  "connection": "apifreaks",
+  "typeId": 4
+}

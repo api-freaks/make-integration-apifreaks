@@ -1,0 +1,19 @@
+{
+  "url": "/v1.0/pdf/remove-pages",
+  "method": "POST",
+  "qs": {
+    "format": "{{parameters.format}}",
+    "file_id": "{{parameters.file_id}}",
+    "destroy": "{{parameters.destroy}}",
+    "output": "{{parameters.output}}",
+    "pages": "{{parameters.pages}}",
+    "webhook_url": "{{parameters.webhook_url}}",
+    "webhook_failure_notification": "{{parameters.webhook_failure_notification}}"
+  },
+  "body": {
+    "file": "{{parameters.file}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

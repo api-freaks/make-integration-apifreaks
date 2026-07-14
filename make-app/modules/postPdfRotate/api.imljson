@@ -1,0 +1,20 @@
+{
+  "url": "/v1.0/pdf/rotate",
+  "method": "POST",
+  "qs": {
+    "format": "{{parameters.format}}",
+    "file_id": "{{parameters.file_id}}",
+    "destroy": "{{parameters.destroy}}",
+    "output": "{{parameters.output}}",
+    "pages": "{{parameters.pages}}",
+    "rotate": "{{parameters.rotate}}",
+    "webhook_url": "{{parameters.webhook_url}}",
+    "webhook_failure_notification": "{{parameters.webhook_failure_notification}}"
+  },
+  "body": {
+    "file": "{{parameters.file}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

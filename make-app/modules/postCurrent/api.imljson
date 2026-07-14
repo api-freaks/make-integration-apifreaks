@@ -1,0 +1,13 @@
+{
+  "url": "/v1.0/weather/current",
+  "method": "POST",
+  "qs": {
+    "timezone": "{{parameters.timezone}}"
+  },
+  "body": {
+    "locations": "{{parameters.locations}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

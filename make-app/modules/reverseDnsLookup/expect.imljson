@@ -1,0 +1,81 @@
+[
+  {
+    "name": "format",
+    "label": "Format",
+    "type": "select",
+    "required": false,
+    "help": "Format of the response.",
+    "options": [
+      {
+        "label": "json",
+        "value": "json"
+      },
+      {
+        "label": "xml",
+        "value": "xml"
+      }
+    ]
+  },
+  {
+    "name": "type",
+    "label": "Type",
+    "type": "select",
+    "required": true,
+    "help": "The type of reverse DNS lookup to perform. Determines how the value parameter is interpreted:\n- A: IPv4 CIDR block\n- AAAA: IPv6 CIDR block\n- MX: Mail provider domain\n- NS: Name server provider hostname\n- SOA: SOA record admin domain\n- SPF/TXT: Target verification strings\n- CNAME: Target hostname\n",
+    "options": [
+      {
+        "label": "A",
+        "value": "A"
+      },
+      {
+        "label": "AAAA",
+        "value": "AAAA"
+      },
+      {
+        "label": "MX",
+        "value": "MX"
+      },
+      {
+        "label": "NS",
+        "value": "NS"
+      },
+      {
+        "label": "SOA",
+        "value": "SOA"
+      },
+      {
+        "label": "SPF",
+        "value": "SPF"
+      },
+      {
+        "label": "TXT",
+        "value": "TXT"
+      },
+      {
+        "label": "CNAME",
+        "value": "CNAME"
+      }
+    ]
+  },
+  {
+    "name": "value",
+    "label": "Value",
+    "type": "text",
+    "required": true,
+    "help": "Provide an IP or CIDR for A/AAAA lookups, or a hostname/selector for MX, NS, SOA, SPF, TXT, and CNAME queries. Wildcard regex patterns are also supported (e.g., mail.google.com, m*.google.com, _spf.g*.com, s*.g*.com)."
+  },
+  {
+    "name": "exact",
+    "label": "Exact",
+    "type": "boolean",
+    "required": false,
+    "help": "Accepts 'true' or 'false'. \"true\" returns only records that exactly match the input (NS, MX, CNAME, SOA, SPF, TXT). \"false\" returns all matches (default when omitted)."
+  },
+  {
+    "name": "page",
+    "label": "Page",
+    "type": "number",
+    "required": false,
+    "help": "Page number to paginate through results (defaults to 1)."
+  }
+]

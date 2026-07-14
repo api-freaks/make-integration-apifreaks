@@ -1,0 +1,15 @@
+{
+  "url": "/v1.0/domain/dns/live",
+  "method": "POST",
+  "qs": {
+    "format": "{{parameters.format}}",
+    "type": "{{parameters.type}}"
+  },
+  "body": {
+    "domainNames": "{{parameters.domainNames}}",
+    "ipAddresses": "{{parameters.ipAddresses}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

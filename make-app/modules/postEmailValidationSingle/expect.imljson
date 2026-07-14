@@ -1,0 +1,40 @@
+[
+  {
+    "name": "format",
+    "label": "Format",
+    "type": "select",
+    "required": false,
+    "help": "Format of the response",
+    "options": [
+      {
+        "label": "json",
+        "value": "json"
+      },
+      {
+        "label": "xml",
+        "value": "xml"
+      }
+    ]
+  },
+  {
+    "name": "email",
+    "label": "Email",
+    "type": "text",
+    "required": false,
+    "help": "Email address to validate"
+  },
+  {
+    "name": "name",
+    "label": "Name",
+    "type": "text",
+    "required": false,
+    "help": "Name of the email address"
+  },
+  {
+    "name": "ip",
+    "label": "Ip",
+    "type": "text",
+    "required": false,
+    "help": "IP address of the email address"
+  }
+]

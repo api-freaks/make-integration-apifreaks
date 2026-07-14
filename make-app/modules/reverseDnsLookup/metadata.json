@@ -1,0 +1,7 @@
+{
+  "name": "reverseDnsLookup",
+  "label": "DNS: Retrieve all the hostnames associated with any particular...",
+  "description": "Retrieve all the hostnames associated with any particular A, AAAA, MX, NS, SOA, SPF, TXT, and CNAME DNS records. For instance, you can access all the hostnames hosted on any IP/CIDR notation, all the domain names using Cloudflare name servers, and all the domain names using Google Mailbox\n",
+  "connection": "apifreaks",
+  "typeId": 4
+}

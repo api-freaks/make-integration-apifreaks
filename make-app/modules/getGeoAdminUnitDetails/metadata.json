@@ -1,0 +1,7 @@
+{
+  "name": "getGeoAdminUnitDetails",
+  "label": "GeoDB: Get GeoDB Admin Unit Details",
+  "description": "Retrieve detailed administrative unit information by country and optionally filtered by admin code.",
+  "connection": "apifreaks",
+  "typeId": 4
+}

@@ -1,0 +1,13 @@
+{
+  "url": "/v1.0/currency/rates/latest",
+  "method": "GET",
+  "qs": {
+    "format": "{{parameters.format}}",
+    "base": "{{parameters.base}}",
+    "symbols": "{{parameters.symbols}}",
+    "updates": "{{parameters.updates}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

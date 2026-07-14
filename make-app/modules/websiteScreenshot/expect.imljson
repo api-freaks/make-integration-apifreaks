@@ -1,0 +1,588 @@
+[
+  {
+    "name": "output",
+    "label": "Output",
+    "type": "select",
+    "required": false,
+    "help": "Output format for screenshot results",
+    "options": [
+      {
+        "label": "json",
+        "value": "json"
+      },
+      {
+        "label": "image",
+        "value": "image"
+      }
+    ]
+  },
+  {
+    "name": "file_type",
+    "label": "File Type",
+    "type": "select",
+    "required": false,
+    "help": "File type for screenshot output",
+    "options": [
+      {
+        "label": "PNG",
+        "value": "PNG"
+      },
+      {
+        "label": "JPEG",
+        "value": "JPEG"
+      },
+      {
+        "label": "WEBP",
+        "value": "WEBP"
+      },
+      {
+        "label": "PDF",
+        "value": "PDF"
+      },
+      {
+        "label": "mp4",
+        "value": "mp4"
+      },
+      {
+        "label": "gif",
+        "value": "gif"
+      },
+      {
+        "label": "webm",
+        "value": "webm"
+      }
+    ]
+  },
+  {
+    "name": "url",
+    "label": "Url",
+    "type": "text",
+    "required": true,
+    "help": "URLs to capture screenshots of"
+  },
+  {
+    "name": "width",
+    "label": "Width",
+    "type": "number",
+    "required": false,
+    "help": "Browser viewport width in pixels"
+  },
+  {
+    "name": "height",
+    "label": "Height",
+    "type": "number",
+    "required": false,
+    "help": "Browser viewport height in pixels"
+  },
+  {
+    "name": "full_page",
+    "label": "Full Page",
+    "type": "boolean",
+    "required": false,
+    "help": "Capture a full-page screenshot"
+  },
+  {
+    "name": "fresh",
+    "label": "Fresh",
+    "type": "boolean",
+    "required": false,
+    "help": "Bypass cache and take a fresh screenshot"
+  },
+  {
+    "name": "no_cookie_banners",
+    "label": "No Cookie Banners",
+    "type": "boolean",
+    "required": false,
+    "help": "Remove cookie banners from the screenshot"
+  },
+  {
+    "name": "enable_caching",
+    "label": "Enable Caching",
+    "type": "boolean",
+    "required": false,
+    "help": "Enable caching for repeated requests"
+  },
+  {
+    "name": "block_ads",
+    "label": "Block Ads",
+    "type": "boolean",
+    "required": false,
+    "help": "Block advertisements on the page"
+  },
+  {
+    "name": "block_chat_widgets",
+    "label": "Block Chat Widgets",
+    "type": "boolean",
+    "required": false,
+    "help": "Block chat widget scripts from loading"
+  },
+  {
+    "name": "extract_text",
+    "label": "Extract Text",
+    "type": "boolean",
+    "required": false,
+    "help": "Extract visible text from the page"
+  },
+  {
+    "name": "extract_html",
+    "label": "Extract Html",
+    "type": "boolean",
+    "required": false,
+    "help": "Extract HTML content of the page"
+  },
+  {
+    "name": "destroy_screenshot",
+    "label": "Destroy Screenshot",
+    "type": "boolean",
+    "required": false,
+    "help": "Auto-destroy screenshot after fetch"
+  },
+  {
+    "name": "lazy_load",
+    "label": "Lazy Load",
+    "type": "boolean",
+    "required": false,
+    "help": "Enable lazy-loading content before screenshot"
+  },
+  {
+    "name": "retina",
+    "label": "Retina",
+    "type": "boolean",
+    "required": false,
+    "help": "Capture screenshot in high-DPI (Retina) mode"
+  },
+  {
+    "name": "dark_mode",
+    "label": "Dark Mode",
+    "type": "boolean",
+    "required": false,
+    "help": "Render page in dark mode"
+  },
+  {
+    "name": "block_tracking",
+    "label": "Block Tracking",
+    "type": "boolean",
+    "required": false,
+    "help": "Block common user-tracking scripts"
+  },
+  {
+    "name": "enable_incognito",
+    "label": "Enable Incognito",
+    "type": "boolean",
+    "required": false,
+    "help": "Enable private/incognito mode for browser session"
+  },
+  {
+    "name": "omit_background",
+    "label": "Omit Background",
+    "type": "boolean",
+    "required": false,
+    "help": "Omit background color (transparent background)"
+  },
+  {
+    "name": "thumbnail_width",
+    "label": "Thumbnail Width",
+    "type": "number",
+    "required": false,
+    "help": "Thumbnail width in pixels"
+  },
+  {
+    "name": "adjust_top",
+    "label": "Adjust Top",
+    "type": "number",
+    "required": false,
+    "help": "Adjust top in pixels"
+  },
+  {
+    "name": "wait_for_event",
+    "label": "Wait For Event",
+    "type": "select",
+    "required": false,
+    "help": "Wait for a specific load event before capturing the screenshot.",
+    "options": [
+      {
+        "label": "load",
+        "value": "load"
+      },
+      {
+        "label": "domcontentloaded",
+        "value": "domcontentloaded"
+      },
+      {
+        "label": "networkidle",
+        "value": "networkidle"
+      }
+    ]
+  },
+  {
+    "name": "grayscale",
+    "label": "Grayscale",
+    "type": "number",
+    "required": false,
+    "help": "Range:0 to 100 for grayscale filter"
+  },
+  {
+    "name": "delay",
+    "label": "Delay",
+    "type": "number",
+    "required": false,
+    "help": "How many milliseconds to wait before taking the screenshot"
+  },
+  {
+    "name": "timeout",
+    "label": "Timeout",
+    "type": "number",
+    "required": false,
+    "help": "Maximum timeout in milliseconds. Defalut is `10,000`"
+  },
+  {
+    "name": "ttl",
+    "label": "Ttl",
+    "type": "number",
+    "required": false,
+    "help": "Number of seconds the screenshot should be cached"
+  },
+  {
+    "name": "clip[x]",
+    "label": "Clip[X]",
+    "type": "number",
+    "required": false,
+    "help": "X position of the clipping rectangle in pixels"
+  },
+  {
+    "name": "clip[y]",
+    "label": "Clip[Y]",
+    "type": "number",
+    "required": false,
+    "help": "Y position of the clipping rectangle in pixels"
+  },
+  {
+    "name": "clip[width]",
+    "label": "Clip[Width]",
+    "type": "number",
+    "required": false,
+    "help": "Width of the clipping rectangle in pixels"
+  },
+  {
+    "name": "clip[height]",
+    "label": "Clip[Height]",
+    "type": "number",
+    "required": false,
+    "help": "Height of the clipping rectangle in pixels"
+  },
+  {
+    "name": "css_url",
+    "label": "Css Url",
+    "type": "text",
+    "required": false,
+    "help": "URL to CSS file"
+  },
+  {
+    "name": "css",
+    "label": "Css",
+    "type": "text",
+    "required": false,
+    "help": "Your custom CSS code"
+  },
+  {
+    "name": "js_url",
+    "label": "Js Url",
+    "type": "text",
+    "required": false,
+    "help": "URL to JS file"
+  },
+  {
+    "name": "js",
+    "label": "Js",
+    "type": "text",
+    "required": false,
+    "help": "Your JS code"
+  },
+  {
+    "name": "block_js",
+    "label": "Block Js",
+    "type": "boolean",
+    "required": false,
+    "help": "Block Scripts"
+  },
+  {
+    "name": "block_stylesheets",
+    "label": "Block Stylesheets",
+    "type": "boolean",
+    "required": false,
+    "help": "Block Stylesheets"
+  },
+  {
+    "name": "block_images",
+    "label": "Block Images",
+    "type": "boolean",
+    "required": false,
+    "help": "Block Images"
+  },
+  {
+    "name": "block_media",
+    "label": "Block Media",
+    "type": "boolean",
+    "required": false,
+    "help": "Block Media"
+  },
+  {
+    "name": "block_font",
+    "label": "Block Font",
+    "type": "boolean",
+    "required": false,
+    "help": "Block Fonts"
+  },
+  {
+    "name": "block_text_track",
+    "label": "Block Text Track",
+    "type": "boolean",
+    "required": false,
+    "help": "Block Text Tracks"
+  },
+  {
+    "name": "block_xhr",
+    "label": "Block Xhr",
+    "type": "boolean",
+    "required": false,
+    "help": "Block XHR Requests"
+  },
+  {
+    "name": "block_fetch",
+    "label": "Block Fetch",
+    "type": "boolean",
+    "required": false,
+    "help": "Block Fetch Requests"
+  },
+  {
+    "name": "block_event_source",
+    "label": "Block Event Source",
+    "type": "boolean",
+    "required": false,
+    "help": "Block Event Source"
+  },
+  {
+    "name": "block_web_socket",
+    "label": "Block Web Socket",
+    "type": "boolean",
+    "required": false,
+    "help": "Block Web Sockets"
+  },
+  {
+    "name": "block_manifest",
+    "label": "Block Manifest",
+    "type": "boolean",
+    "required": false,
+    "help": "Block Manifest"
+  },
+  {
+    "name": "block_specific_requests",
+    "label": "Block Specific Requests",
+    "type": "text",
+    "required": false,
+    "help": "Comma- or newline-separated list of specific requests to block. Each line and comma are treated as separate requests for processing. Example: https://example.com, https://example.js\n"
+  },
+  {
+    "name": "blur_selector",
+    "label": "Blur Selector",
+    "type": "array",
+    "required": false,
+    "help": "Comma-separated list of indexed CSS selectors to blur.\nFormat: `index:<selector>`, e.g., `0:.banner,1:#ads`.\n"
+  },
+  {
+    "name": "remove_selector",
+    "label": "Remove Selector",
+    "type": "array",
+    "required": false,
+    "help": "Comma-separated list of indexed CSS selectors to remove.\nFormat: `index:<selector>`, e.g., `0:.banner,1:#ads`.\n"
+  },
+  {
+    "name": "result_file_name",
+    "label": "Result File Name",
+    "type": "text",
+    "required": false,
+    "help": "Specify a meaningful & unique file name to easily identify the screenshot result.\nAvoid using spaces or special characters; use hyphens or underscores to separate words.\n"
+  },
+  {
+    "name": "scrolling_screenshot",
+    "label": "Scrolling Screenshot",
+    "type": "boolean",
+    "required": false,
+    "help": "**`Scrolling Screenshot`**: Capture a long scrolling screenshot. When true, disable `fullPage` and `freshScreenshot`."
+  },
+  {
+    "name": "scroll_speed",
+    "label": "Scroll Speed",
+    "type": "select",
+    "required": false,
+    "help": "Speed of scrolling during the screenshot.",
+    "options": [
+      {
+        "label": "normal",
+        "value": "normal"
+      },
+      {
+        "label": "fast",
+        "value": "fast"
+      },
+      {
+        "label": "slow",
+        "value": "slow"
+      }
+    ]
+  },
+  {
+    "name": "scroll_back",
+    "label": "Scroll Back",
+    "type": "boolean",
+    "required": false,
+    "help": "If true, the scroll will reverse back to the top after reaching the bottom."
+  },
+  {
+    "name": "start_immediately",
+    "label": "Start Immediately",
+    "type": "boolean",
+    "required": false,
+    "help": "If true, the scrolling capture will start immediately upon page load."
+  },
+  {
+    "name": "multiple_scrolling",
+    "label": "Multiple Scrolling",
+    "type": "boolean",
+    "required": false,
+    "help": "If true, multiple scrolling screenshots will be taken at different viewport sizes."
+  },
+  {
+    "name": "sizes",
+    "label": "Sizes",
+    "type": "array",
+    "required": false,
+    "help": "Comma-separated list of viewport sizes in the format index:XXw:YYh. Example: sizes=0:120w:300h,1:240w:500h\n"
+  },
+  {
+    "name": "duration",
+    "label": "Duration",
+    "type": "number",
+    "required": false,
+    "help": "Duration in seconds for the scrolling capture. Acceptable range: 0 to 60 seconds.\n"
+  },
+  {
+    "name": "fail_on_error",
+    "label": "Fail On Error",
+    "type": "boolean",
+    "required": false,
+    "help": "If true, returns an error when the target page responds with 4xx or 5xx status."
+  },
+  {
+    "name": "longitude",
+    "label": "Longitude",
+    "type": "number",
+    "required": false,
+    "help": "Specify longitude for the browser Geolocation API."
+  },
+  {
+    "name": "latitude",
+    "label": "Latitude",
+    "type": "number",
+    "required": false,
+    "help": "Specify latitude for the browser Geolocation API."
+  },
+  {
+    "name": "proxy",
+    "label": "Proxy",
+    "type": "text",
+    "required": false,
+    "help": "Allows defining a proxy for the connection. Provide a JSON string with keys: server (include port number), username, and password."
+  },
+  {
+    "name": "headers",
+    "label": "Headers",
+    "type": "text",
+    "required": false,
+    "help": "Custom HTTP headers to include as key=value pairs. Use a semicolon to separate multiple headers (e.g., key1=value1;key2=value2)."
+  },
+  {
+    "name": "cookies",
+    "label": "Cookies",
+    "type": "text",
+    "required": false,
+    "help": "Cookies to include in the request before rendering. Supports single or multiple cookies. Example: cookie=value; otherCookie=otherValue;"
+  },
+  {
+    "name": "scroll_to_element",
+    "label": "Scroll To Element",
+    "type": "text",
+    "required": false,
+    "help": "Scrolls the page to bring the specified CSS selector into view before capture."
+  },
+  {
+    "name": "selector",
+    "label": "Selector",
+    "type": "text",
+    "required": false,
+    "help": "CSS selector to capture a specific element. Only that element is rendered."
+  },
+  {
+    "name": "selector_to_click",
+    "label": "Selector To Click",
+    "type": "text",
+    "required": false,
+    "help": "CSS selector for an element to click before capturing the screenshot."
+  },
+  {
+    "name": "click_recursion",
+    "label": "Click Recursion",
+    "type": "number",
+    "required": false,
+    "help": "Number of times to click the selector (when set via selector_to_click). Default: 1."
+  },
+  {
+    "name": "user_agent",
+    "label": "User Agent",
+    "type": "text",
+    "required": false,
+    "help": "Custom User-Agent string sent in the request headers."
+  },
+  {
+    "name": "accept_languages",
+    "label": "Accept Languages",
+    "type": "text",
+    "required": false,
+    "help": "Sets the accepted languages for the HTTP request. Sent as the Accept-Language header."
+  },
+  {
+    "name": "scroll_delay",
+    "label": "Scroll Delay",
+    "type": "number",
+    "required": false,
+    "help": "Delay in milliseconds between scroll steps when lazy_load is enabled."
+  },
+  {
+    "name": "custom_html",
+    "label": "Custom Html",
+    "type": "text",
+    "required": false,
+    "help": "Custom HTML to render instead of loading a URL. Overrides the url option."
+  },
+  {
+    "name": "image_quality",
+    "label": "Image Quality",
+    "type": "number",
+    "required": false,
+    "help": "Compression level for JPEG output (0–100). Lower = smaller file, higher = better quality. Only applies to JPEG."
+  },
+  {
+    "name": "extract_markdown",
+    "label": "Extract Markdown",
+    "type": "boolean",
+    "required": false,
+    "help": "Extracts rendered page content as a structured .md (Markdown) file."
+  },
+  {
+    "name": "get_image_urls",
+    "label": "Get Image Urls",
+    "type": "boolean",
+    "required": false,
+    "help": "Extracts all image URLs from the rendered DOM and returns them in structured format."
+  }
+]

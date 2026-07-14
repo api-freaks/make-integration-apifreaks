@@ -1,0 +1,93 @@
+[
+  {
+    "name": "format",
+    "label": "Format",
+    "type": "select",
+    "required": false,
+    "help": "Specifies the desired format for the API response. Choose 'json' for a JSON object or 'xml' for an XML structure.",
+    "options": [
+      {
+        "label": "json",
+        "value": "json"
+      },
+      {
+        "label": "xml",
+        "value": "xml"
+      }
+    ]
+  },
+  {
+    "name": "file_id",
+    "label": "File Id",
+    "type": "text",
+    "required": false,
+    "help": "The unique ID of a PDF file already uploaded to the API Freaks server. Use this as an alternative to uploading a new file."
+  },
+  {
+    "name": "output",
+    "label": "Output",
+    "type": "text",
+    "required": false,
+    "help": "Name of the output PDF."
+  },
+  {
+    "name": "compression_level",
+    "label": "Compression Level",
+    "type": "select",
+    "required": true,
+    "help": "Controls how aggressively the PDF is compressed. Lower levels preserve more quality, while higher levels reduce file size more.",
+    "options": [
+      {
+        "label": "low",
+        "value": "low"
+      },
+      {
+        "label": "balanced",
+        "value": "balanced"
+      },
+      {
+        "label": "high",
+        "value": "high"
+      },
+      {
+        "label": "extreme",
+        "value": "extreme"
+      }
+    ]
+  },
+  {
+    "name": "destroy",
+    "label": "Destroy",
+    "type": "boolean",
+    "required": false,
+    "help": "If set to true, the input file(s) will be deleted from the server immediately after the output is generated."
+  },
+  {
+    "name": "webhook_url",
+    "label": "Webhook Url",
+    "type": "text",
+    "required": false,
+    "help": "The URL to which the webhook notification will be sent after the task is completed."
+  },
+  {
+    "name": "webhook_failure_notification",
+    "label": "Webhook Failure Notification",
+    "type": "boolean",
+    "required": false,
+    "help": "If true, a notification will also be sent by email in case the webhook request fails all the retries.  The email notification will be sent to the requesting user or their organization’s admin if part of one."
+  },
+  {
+    "name": "X-Webhook-Authorization",
+    "label": "X Webhook Authorization",
+    "type": "text",
+    "required": false,
+    "help": "Optional custom header for webhook requests. Format: `Key:Value` (e.g., `Authorization:Bearer token123`). This will be sent as an HTTP header in the webhook call."
+  },
+  {
+    "name": "file",
+    "label": "File",
+    "type": "text",
+    "required": false,
+    "help": "The PDF file to be processed. If this parameter is not provided, you must specify `file_id` to use a previously uploaded file."
+  }
+]

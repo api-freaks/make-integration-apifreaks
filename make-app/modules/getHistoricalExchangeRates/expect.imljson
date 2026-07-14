@@ -1,0 +1,40 @@
+[
+  {
+    "name": "format",
+    "label": "Format",
+    "type": "select",
+    "required": false,
+    "help": "Response format: `json` (default) or `xml`.",
+    "options": [
+      {
+        "label": "json",
+        "value": "json"
+      },
+      {
+        "label": "xml",
+        "value": "xml"
+      }
+    ]
+  },
+  {
+    "name": "base",
+    "label": "Base",
+    "type": "text",
+    "required": false,
+    "help": "Base currency code. Defaults to `USD`. Supports fiat, crypto, and metals."
+  },
+  {
+    "name": "symbols",
+    "label": "Symbols",
+    "type": "text",
+    "required": false,
+    "help": "Comma-separated currency codes. Omit to get all available rates."
+  },
+  {
+    "name": "date",
+    "label": "Date",
+    "type": "text",
+    "required": true,
+    "help": "Historical date in `YYYY-MM-DD` format."
+  }
+]

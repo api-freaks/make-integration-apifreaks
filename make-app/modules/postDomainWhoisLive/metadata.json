@@ -1,0 +1,7 @@
+{
+  "name": "postDomainWhoisLive",
+  "label": "WHOIS: Retrieve WHOIS data of multiple domains in a single request",
+  "description": "Retrieve WHOIS information for `100 Domains per Request`.",
+  "connection": "apifreaks",
+  "typeId": 4
+}

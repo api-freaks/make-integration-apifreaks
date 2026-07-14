@@ -1,0 +1,12 @@
+{
+  "url": "/v1.0/commodity/rates/historical",
+  "method": "GET",
+  "qs": {
+    "format": "{{parameters.format}}",
+    "symbols": "{{parameters.symbols}}",
+    "date": "{{parameters.date}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

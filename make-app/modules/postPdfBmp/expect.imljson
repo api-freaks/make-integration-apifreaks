@@ -1,0 +1,118 @@
+[
+  {
+    "name": "format",
+    "label": "Format",
+    "type": "select",
+    "required": false,
+    "help": "Specifies the desired format for the API response. Choose 'json' for a JSON object or 'xml' for an XML structure.",
+    "options": [
+      {
+        "label": "json",
+        "value": "json"
+      },
+      {
+        "label": "xml",
+        "value": "xml"
+      }
+    ]
+  },
+  {
+    "name": "file_id",
+    "label": "File Id",
+    "type": "text",
+    "required": false,
+    "help": "The unique ID of a PDF file already uploaded to the API Freaks server. Use this as an alternative to uploading a new file directly."
+  },
+  {
+    "name": "destroy",
+    "label": "Destroy",
+    "type": "boolean",
+    "required": false,
+    "help": "If set to `true`, the input file(s) will be permanently deleted from the server immediately after the output PDF is generated."
+  },
+  {
+    "name": "output",
+    "label": "Output",
+    "type": "text",
+    "required": false,
+    "help": "The desired name for the output unrestricted PDF file. If not provided, a default name will be assigned."
+  },
+  {
+    "name": "pages",
+    "label": "Pages",
+    "type": "text",
+    "required": false,
+    "help": "Specifies the pages or ranges at which to split the PDF. Accepts individual page numbers (e.g., '1') and/or page ranges (e.g., '4-2', 'last'). Ranges can be ascending or descending. Use commas to separate entries and hyphens for ranges. Alternatively, provide only one of the following keywords: 'even' (split at every even-numbered page), 'odd' (split at every odd-numbered page), 'last' (split at the last page only), or 'all' (split into single pages). Examples: '1,4-2,last', 'odd', 'all'. Mixing special keywords with specific pages/ranges is not allowed."
+  },
+  {
+    "name": "resolution",
+    "label": "Resolution",
+    "type": "number",
+    "required": false,
+    "help": "Specifies the resolution (in DPI) for the output images. Acceptable Range is from 20 to 1200."
+  },
+  {
+    "name": "image_smoothing",
+    "label": "Image Smoothing",
+    "type": "text",
+    "required": false,
+    "help": "Determines the smoothing options to apply during image conversion. Valid values are 'none', 'all' or a combination of 'text', 'line', and 'image' (comma-separated).If not provided, no smoothing will be applied."
+  },
+  {
+    "name": "profile",
+    "label": "Profile",
+    "type": "select",
+    "required": false,
+    "help": "Specifies the color profile for the output PNG images. Acceptable values: bw (1-bit black & white, smallest size, no grayscale or color), gray (8-bit grayscale), rgb (24-bit RGB color, default), rgba (32-bit RGB color with alpha channel for transparency), 4-bit (4-bit indexed color, up to 16 colors, smaller size), or 8-bit (8-bit indexed color, up to 256 colors).",
+    "options": [
+      {
+        "label": "bw",
+        "value": "bw"
+      },
+      {
+        "label": "gray",
+        "value": "gray"
+      },
+      {
+        "label": "rgb",
+        "value": "rgb"
+      },
+      {
+        "label": "4-bit",
+        "value": "4-bit"
+      },
+      {
+        "label": "8-bit",
+        "value": "8-bit"
+      }
+    ]
+  },
+  {
+    "name": "webhook_url",
+    "label": "Webhook Url",
+    "type": "text",
+    "required": false,
+    "help": "The URL to which the webhook notification will be sent after the task is completed."
+  },
+  {
+    "name": "webhook_failure_notification",
+    "label": "Webhook Failure Notification",
+    "type": "boolean",
+    "required": false,
+    "help": "If true, a notification will also be sent by email in case the webhook request fails all the retries.  The email notification will be sent to the requesting user or their organization’s admin if part of one."
+  },
+  {
+    "name": "X-Webhook-Authorization",
+    "label": "X Webhook Authorization",
+    "type": "text",
+    "required": false,
+    "help": "Optional custom header for webhook requests. Format: `Key:Value` (e.g., `Authorization:Bearer token123`). This will be sent as an HTTP header in the webhook call."
+  },
+  {
+    "name": "file",
+    "label": "File",
+    "type": "text",
+    "required": false,
+    "help": "The PDF file to be processed. If this parameter is not provided, you must specify `file_id` to use a previously uploaded file."
+  }
+]

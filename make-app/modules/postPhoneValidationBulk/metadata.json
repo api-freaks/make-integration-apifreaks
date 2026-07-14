@@ -1,0 +1,7 @@
+{
+  "name": "postPhoneValidationBulk",
+  "label": "Phone Validation: Bulk validate phone numbers",
+  "description": "Validates up to 100 phone numbers in a single request. Each number is processed independently — invalid entries return per-number errors without affecting the rest of the batch.",
+  "connection": "apifreaks",
+  "typeId": 9
+}

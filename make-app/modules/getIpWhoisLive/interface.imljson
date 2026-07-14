@@ -1,0 +1,18 @@
+[
+  { "name": "status", "label": "Status", "type": "boolean" },
+  { "name": "ip_address", "label": "IP Address", "type": "text" },
+  { "name": "query_time", "label": "Query Time", "type": "text" },
+  { "name": "whois_server", "label": "WHOIS Server", "type": "text" },
+  {
+    "name": "organization",
+    "label": "Organization",
+    "type": "collection",
+    "spec": [
+      { "name": "handle", "label": "Handle", "type": "text" },
+      { "name": "name", "label": "Name", "type": "text" },
+      { "name": "city", "label": "City", "type": "text" },
+      { "name": "state", "label": "State", "type": "text" },
+      { "name": "zip_code", "label": "Zip Code", "type": "text" }
+    ]
+  }
+]

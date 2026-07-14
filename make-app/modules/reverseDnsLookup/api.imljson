@@ -1,0 +1,14 @@
+{
+  "url": "/v1.0/domain/dns/reverse",
+  "method": "GET",
+  "qs": {
+    "format": "{{parameters.format}}",
+    "type": "{{parameters.type}}",
+    "value": "{{parameters.value}}",
+    "exact": "{{parameters.exact}}",
+    "page": "{{parameters.page}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "url": "/v1.0/geolocation/timezone",
+  "method": "GET",
+  "qs": {
+    "format": "{{parameters.format}}",
+    "ip": "{{parameters.ip}}",
+    "tz": "{{parameters.tz}}",
+    "location": "{{parameters.location}}",
+    "lat": "{{parameters.lat}}",
+    "long": "{{parameters.long}}",
+    "lang": "{{parameters.lang}}",
+    "iata_code": "{{parameters.iata_code}}",
+    "icao_code": "{{parameters.icao_code}}",
+    "lo_code": "{{parameters.lo_code}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

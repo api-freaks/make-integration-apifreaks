@@ -1,0 +1,7 @@
+{
+  "name": "whoisLookup",
+  "label": "WHOIS: Retrieve the WHOIS Data for any domain",
+  "description": "Retrieve current WHOIS information for a domain name.\nThis endpoint provides detailed registration information including registrar details,\ndates, nameservers, and registrant information.\n",
+  "connection": "apifreaks",
+  "typeId": 4
+}

@@ -1,0 +1,7 @@
+{
+  "name": "getVatSupportedCountries",
+  "label": "Financial: Get supported countries",
+  "description": "Retrieves a list of supported countries.",
+  "connection": "apifreaks",
+  "typeId": 4
+}

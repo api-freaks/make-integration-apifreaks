@@ -1,0 +1,11 @@
+{
+  "url": "/v1.0/vat/rates/ip-address",
+  "method": "GET",
+  "qs": {
+    "format": "{{parameters.format}}",
+    "ipAddress": "{{parameters.ipAddress}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

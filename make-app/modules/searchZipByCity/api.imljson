@@ -1,0 +1,14 @@
+{
+  "url": "/v1.0/zipcode/search/city",
+  "method": "GET",
+  "qs": {
+    "format": "{{parameters.format}}",
+    "city": "{{parameters.city}}",
+    "country": "{{parameters.country}}",
+    "state_name": "{{parameters.state_name}}",
+    "page": "{{parameters.page}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

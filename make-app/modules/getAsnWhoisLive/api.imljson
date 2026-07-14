@@ -1,0 +1,11 @@
+{
+  "url": "/v1.0/asn/whois/live",
+  "method": "GET",
+  "qs": {
+    "format": "{{parameters.format}}",
+    "asn": "{{parameters.asn}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

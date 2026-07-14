@@ -1,0 +1,7 @@
+{
+  "name": "postDomainWhoisLiveV2",
+  "label": "WHOIS: Bulk domain WHOIS lookup (v2.0)",
+  "description": "Retrieve WHOIS information for `100 Domains per Request`. - v2.0 response format.",
+  "connection": "apifreaks",
+  "typeId": 4
+}

@@ -1,0 +1,12 @@
+{
+  "url": "/v1.0/geo/countries",
+  "method": "GET",
+  "qs": {
+    "format": "{{parameters.format}}",
+    "region": "{{parameters.region}}",
+    "subregion": "{{parameters.subregion}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

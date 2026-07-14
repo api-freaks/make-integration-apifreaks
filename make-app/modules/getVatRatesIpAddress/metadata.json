@@ -1,0 +1,7 @@
+{
+  "name": "getVatRatesIpAddress",
+  "label": "Financial: Get VAT rate by IP address",
+  "description": "Fetches VAT rate based on the specified or originating IP address.",
+  "connection": "apifreaks",
+  "typeId": 9
+}

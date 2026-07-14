@@ -1,0 +1,37 @@
+[
+  {
+    "name": "location",
+    "label": "Location",
+    "type": "text",
+    "required": false,
+    "help": "City name, place name, or full address."
+  },
+  {
+    "name": "lat",
+    "label": "Lat",
+    "type": "number",
+    "required": false,
+    "help": "Latitude of the location."
+  },
+  {
+    "name": "long",
+    "label": "Long",
+    "type": "number",
+    "required": false,
+    "help": "Longitude of the location."
+  },
+  {
+    "name": "ip",
+    "label": "Ip",
+    "type": "text",
+    "required": false,
+    "help": "IP(v4 or v6) address for location inference."
+  },
+  {
+    "name": "timezone",
+    "label": "Timezone",
+    "type": "text",
+    "required": false,
+    "help": "Timezone for the results."
+  }
+]

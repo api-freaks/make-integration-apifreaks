@@ -1,0 +1,13 @@
+{
+  "url": "/v1.0/commodity/fluctuation",
+  "method": "GET",
+  "qs": {
+    "format": "{{parameters.format}}",
+    "symbols": "{{parameters.symbols}}",
+    "startDate": "{{parameters.startDate}}",
+    "endDate": "{{parameters.endDate}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

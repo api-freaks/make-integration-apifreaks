@@ -1,0 +1,14 @@
+{
+  "url": "/v1.0/weather/current",
+  "method": "GET",
+  "qs": {
+    "location": "{{parameters.location}}",
+    "lat": "{{parameters.lat}}",
+    "long": "{{parameters.long}}",
+    "ip": "{{parameters.ip}}",
+    "timezone": "{{parameters.timezone}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

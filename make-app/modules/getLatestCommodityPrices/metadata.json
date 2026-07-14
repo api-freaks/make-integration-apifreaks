@@ -1,0 +1,7 @@
+{
+  "name": "getLatestCommodityPrices",
+  "label": "Commodity: Get latest commodity prices",
+  "description": "Returns the current live price for the requested commodity symbols.",
+  "connection": "apifreaks",
+  "typeId": 4
+}

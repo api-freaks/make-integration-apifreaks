@@ -1,0 +1,7 @@
+{
+  "name": "weakWordsDetect",
+  "label": "Readability: Detect weak, vague, and filler words with positions.",
+  "description": "Analyze text and return weak, vague, or filler words with zero-based word positions to help writers produce clearer and more concise content.",
+  "connection": "apifreaks",
+  "typeId": 4
+}

@@ -1,0 +1,10 @@
+{
+  "url": "/v1.0/credits/usage/info",
+  "method": "GET",
+  "qs": {
+    "format": "{{parameters.format}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

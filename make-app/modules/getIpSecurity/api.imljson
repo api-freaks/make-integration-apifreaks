@@ -1,0 +1,12 @@
+{
+  "url": "/v1.0/ip/security",
+  "method": "GET",
+  "qs": {
+    "ip": "{{parameters.ip}}",
+    "fields": "{{parameters.fields}}",
+    "excludes": "{{parameters.excludes}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

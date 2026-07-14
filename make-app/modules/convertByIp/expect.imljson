@@ -1,0 +1,65 @@
+[
+  {
+    "name": "format",
+    "label": "Format",
+    "type": "select",
+    "required": false,
+    "help": "Response format: `json` (default) or `xml`.",
+    "options": [
+      {
+        "label": "json",
+        "value": "json"
+      },
+      {
+        "label": "xml",
+        "value": "xml"
+      }
+    ]
+  },
+  {
+    "name": "from",
+    "label": "From",
+    "type": "text",
+    "required": true,
+    "help": "Source currency code."
+  },
+  {
+    "name": "ip",
+    "label": "Ip",
+    "type": "text",
+    "required": false,
+    "help": "IPv4 or IPv6 address. Defaults to the request IP."
+  },
+  {
+    "name": "amount",
+    "label": "Amount",
+    "type": "text",
+    "required": false,
+    "help": "Amount to convert as a positive decimal. Defaults to `1`."
+  },
+  {
+    "name": "updates",
+    "label": "Updates",
+    "type": "select",
+    "required": false,
+    "help": "Update frequency: `1m` (default), `10m`, `1h`, or `1d`.",
+    "options": [
+      {
+        "label": "1m",
+        "value": "1m"
+      },
+      {
+        "label": "10m",
+        "value": "10m"
+      },
+      {
+        "label": "1h",
+        "value": "1h"
+      },
+      {
+        "label": "1d",
+        "value": "1d"
+      }
+    ]
+  }
+]

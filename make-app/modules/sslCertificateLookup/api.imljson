@@ -1,0 +1,12 @@
+{
+  "url": "/v1.0/domain/ssl/live",
+  "method": "GET",
+  "qs": {
+    "format": "{{parameters.format}}",
+    "domainName": "{{parameters.domainName}}",
+    "sslRaw": "{{parameters.sslRaw}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

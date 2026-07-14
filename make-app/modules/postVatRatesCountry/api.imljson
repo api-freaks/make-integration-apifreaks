@@ -1,0 +1,13 @@
+{
+  "url": "/v1.0/vat/rates/country",
+  "method": "POST",
+  "qs": {
+    "format": "{{parameters.format}}"
+  },
+  "body": {
+    "countries": "{{parameters.countries}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

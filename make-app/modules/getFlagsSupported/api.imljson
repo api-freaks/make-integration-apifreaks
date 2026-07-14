@@ -1,0 +1,7 @@
+{
+  "url": "/v1.0/flags/supported",
+  "method": "GET",
+  "response": {
+    "output": "{{body}}"
+  }
+}

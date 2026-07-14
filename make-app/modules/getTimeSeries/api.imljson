@@ -1,0 +1,14 @@
+{
+  "url": "/v1.0/currency/time-series",
+  "method": "GET",
+  "qs": {
+    "format": "{{parameters.format}}",
+    "startDate": "{{parameters.startDate}}",
+    "endDate": "{{parameters.endDate}}",
+    "base": "{{parameters.base}}",
+    "symbols": "{{parameters.symbols}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "postPdfEncrypt",
+  "label": "PDF: Add password protection to a PDF",
+  "description": "This API encrypts a PDF file by setting a password required to open it.",
+  "connection": "apifreaks",
+  "typeId": 4
+}

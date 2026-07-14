@@ -1,0 +1,7 @@
+{
+  "name": "getSupportedCurrencies",
+  "label": "Currency: Get all supported currencies",
+  "description": "Returns a map of all supported currencies with metadata.",
+  "connection": "apifreaks",
+  "typeId": 4
+}

@@ -1,0 +1,13 @@
+{
+  "url": "/v2.0/domain/whois/live",
+  "method": "POST",
+  "qs": {
+    "format": "{{parameters.format}}"
+  },
+  "body": {
+    "domainNames": "{{parameters.domainNames}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

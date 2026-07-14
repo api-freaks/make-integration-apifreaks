@@ -1,0 +1,34 @@
+[
+  { "name": "ip", "label": "IP", "type": "text" },
+  {
+    "name": "location",
+    "label": "Location",
+    "type": "collection",
+    "spec": [
+      { "name": "country_code2", "label": "Country Code", "type": "text" },
+      { "name": "country_name", "label": "Country", "type": "text" },
+      { "name": "state_prov", "label": "State/Province", "type": "text" },
+      { "name": "city", "label": "City", "type": "text" },
+      { "name": "zipcode", "label": "Zip Code", "type": "text" },
+      { "name": "latitude", "label": "Latitude", "type": "text" },
+      { "name": "longitude", "label": "Longitude", "type": "text" },
+      { "name": "is_eu", "label": "Is EU", "type": "boolean" }
+    ]
+  },
+  {
+    "name": "network",
+    "label": "Network",
+    "type": "collection",
+    "spec": [
+      {
+        "name": "asn",
+        "label": "ASN",
+        "type": "collection",
+        "spec": [
+          { "name": "as_number", "label": "AS Number", "type": "text" },
+          { "name": "organization", "label": "Organization", "type": "text" }
+        ]
+      }
+    ]
+  }
+]

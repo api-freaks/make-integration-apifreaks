@@ -1,0 +1,10 @@
+{
+  "url": "/v1.0/user-agent/lookup",
+  "method": "GET",
+  "qs": {
+    "format": "{{parameters.format}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

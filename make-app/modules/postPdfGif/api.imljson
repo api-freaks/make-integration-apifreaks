@@ -1,0 +1,22 @@
+{
+  "url": "/v1.0/pdf/gif",
+  "method": "POST",
+  "qs": {
+    "format": "{{parameters.format}}",
+    "file_id": "{{parameters.file_id}}",
+    "destroy": "{{parameters.destroy}}",
+    "output": "{{parameters.output}}",
+    "pages": "{{parameters.pages}}",
+    "resolution": "{{parameters.resolution}}",
+    "image_smoothing": "{{parameters.image_smoothing}}",
+    "profile": "{{parameters.profile}}",
+    "webhook_url": "{{parameters.webhook_url}}",
+    "webhook_failure_notification": "{{parameters.webhook_failure_notification}}"
+  },
+  "body": {
+    "file": "{{parameters.file}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "getGeoRegions",
+  "label": "GeoDB: Get GeoDB Regions",
+  "description": "Get GeoDB Regions",
+  "connection": "apifreaks",
+  "typeId": 4
+}

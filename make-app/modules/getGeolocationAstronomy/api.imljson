@@ -1,0 +1,18 @@
+{
+  "url": "/v1.0/geolocation/astronomy",
+  "method": "GET",
+  "qs": {
+    "format": "{{parameters.format}}",
+    "location": "{{parameters.location}}",
+    "lat": "{{parameters.lat}}",
+    "long": "{{parameters.long}}",
+    "ip": "{{parameters.ip}}",
+    "lang": "{{parameters.lang}}",
+    "date": "{{parameters.date}}",
+    "elevation": "{{parameters.elevation}}",
+    "time_zone": "{{parameters.time_zone}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

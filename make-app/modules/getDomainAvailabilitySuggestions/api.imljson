@@ -1,0 +1,13 @@
+{
+  "url": "/v1.0/domain/availability/suggestions",
+  "method": "GET",
+  "qs": {
+    "format": "{{parameters.format}}",
+    "domain": "{{parameters.domain}}",
+    "source": "{{parameters.source}}",
+    "count": "{{parameters.count}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

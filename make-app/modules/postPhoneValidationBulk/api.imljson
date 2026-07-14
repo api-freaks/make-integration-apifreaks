@@ -1,0 +1,13 @@
+{
+  "url": "/v1.0/phone/validation/bulk",
+  "method": "POST",
+  "qs": {
+    "format": "{{parameters.format}}"
+  },
+  "body": {
+    "numbers": "{{parameters.numbers}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

@@ -1,0 +1,40 @@
+[
+  {
+    "name": "format",
+    "label": "Format",
+    "type": "select",
+    "required": false,
+    "help": "Format of the response.",
+    "options": [
+      {
+        "label": "json",
+        "value": "json"
+      },
+      {
+        "label": "xml",
+        "value": "xml"
+      }
+    ]
+  },
+  {
+    "name": "country",
+    "label": "Country",
+    "type": "text",
+    "required": true,
+    "help": "Country code in ISO 3166-1 alpha-2 format."
+  },
+  {
+    "name": "region",
+    "label": "Region",
+    "type": "text",
+    "required": true,
+    "help": "Name of the region, state or province associated with the country."
+  },
+  {
+    "name": "page",
+    "label": "Page",
+    "type": "number",
+    "required": false,
+    "help": "Page no. to retrieve paginated results."
+  }
+]

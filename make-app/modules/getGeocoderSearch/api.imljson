@@ -1,0 +1,15 @@
+{
+  "url": "/v1.0/geocoder/search",
+  "method": "GET",
+  "qs": {
+    "query": "{{parameters.query}}",
+    "limit": "{{parameters.limit}}",
+    "min_lat": "{{parameters.min_lat}}",
+    "max_lat": "{{parameters.max_lat}}",
+    "min_lon": "{{parameters.min_lon}}",
+    "max_lon": "{{parameters.max_lon}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "getGeoAdminUnits",
+  "label": "GeoDB: Get Administrative Units by Country",
+  "description": "Retrieve administrative divisions for a given country using ISO 3166-1 alpha-2 country codes. You can optionally filter by administrative levels.",
+  "connection": "apifreaks",
+  "typeId": 4
+}

@@ -1,0 +1,18 @@
+{
+  "url": "/v1.0/zipcode/distance",
+  "method": "POST",
+  "qs": {
+    "format": "{{parameters.format}}"
+  },
+  "body": {
+    "compare": "{{parameters.compare}}",
+    "code": "{{parameters.code}}",
+    "lat": "{{parameters.lat}}",
+    "long": "{{parameters.long}}",
+    "country": "{{parameters.country}}",
+    "unit": "{{parameters.unit}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

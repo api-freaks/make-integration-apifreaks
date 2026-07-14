@@ -1,0 +1,61 @@
+[
+  {
+    "name": "format",
+    "label": "Format",
+    "type": "select",
+    "required": false,
+    "help": "Format of the response.",
+    "options": [
+      {
+        "label": "json",
+        "value": "json"
+      },
+      {
+        "label": "xml",
+        "value": "xml"
+      }
+    ]
+  },
+  {
+    "name": "compare",
+    "label": "Compare",
+    "type": "array",
+    "required": true,
+    "help": "Comma separated list of postal / zip codes with which base point is compared w.r.t. Max 100 zip codes can be provided."
+  },
+  {
+    "name": "code",
+    "label": "Code",
+    "type": "text",
+    "required": false,
+    "help": "Postal/Zip code to be used as the base point."
+  },
+  {
+    "name": "lat",
+    "label": "Lat",
+    "type": "number",
+    "required": false,
+    "help": "Latitude coordinate for the base location."
+  },
+  {
+    "name": "long",
+    "label": "Long",
+    "type": "number",
+    "required": false,
+    "help": "Longitude coordinate for the base location."
+  },
+  {
+    "name": "country",
+    "label": "Country",
+    "type": "text",
+    "required": true,
+    "help": "Country code in ISO 3166-1 alpha-2 format."
+  },
+  {
+    "name": "unit",
+    "label": "Unit",
+    "type": "text",
+    "required": false,
+    "help": "Supported distance units are m, km, mi, ft, yd, in."
+  }
+]

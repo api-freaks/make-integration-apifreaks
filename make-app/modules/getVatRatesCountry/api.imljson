@@ -1,0 +1,12 @@
+{
+  "url": "/v1.0/vat/rates/country",
+  "method": "GET",
+  "qs": {
+    "format": "{{parameters.format}}",
+    "country": "{{parameters.country}}",
+    "state": "{{parameters.state}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

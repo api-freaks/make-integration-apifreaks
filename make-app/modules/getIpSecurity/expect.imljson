@@ -1,0 +1,23 @@
+[
+  {
+    "name": "ip",
+    "label": "Ip",
+    "type": "text",
+    "required": false,
+    "help": "A valid IPv4 or IPv6 address to look up. If omitted, the API uses the public IP of the requesting client."
+  },
+  {
+    "name": "fields",
+    "label": "Fields",
+    "type": "text",
+    "required": false,
+    "help": "Comma-separated list of fields to return. Supports dot notation (e.g. security.threat_score)."
+  },
+  {
+    "name": "excludes",
+    "label": "Excludes",
+    "type": "text",
+    "required": false,
+    "help": "Comma-separated list of fields to remove from the response. Supports dot notation (e.g. security.is_tor)."
+  }
+]

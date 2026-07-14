@@ -1,0 +1,40 @@
+[
+  {
+    "name": "format",
+    "label": "Format",
+    "type": "select",
+    "required": false,
+    "help": "Format of the response. Default is JSON.",
+    "options": [
+      {
+        "label": "json",
+        "value": "json"
+      },
+      {
+        "label": "xml",
+        "value": "xml"
+      }
+    ]
+  },
+  {
+    "name": "type",
+    "label": "Type",
+    "type": "select",
+    "required": false,
+    "help": "Type of supported country. Supported values: IBAN, SWIFT, VAT. By default, it returns all supported countries for all types.",
+    "options": [
+      {
+        "label": "IBAN",
+        "value": "IBAN"
+      },
+      {
+        "label": "SWIFT",
+        "value": "SWIFT"
+      },
+      {
+        "label": "VAT",
+        "value": "VAT"
+      }
+    ]
+  }
+]

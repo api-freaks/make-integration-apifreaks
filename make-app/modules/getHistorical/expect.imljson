@@ -1,0 +1,61 @@
+[
+  {
+    "name": "date",
+    "label": "Date",
+    "type": "text",
+    "required": true,
+    "help": "Specific date for which to fetch weather data in YYYY-MM-DD format. Historical dates must be past dates only. Current or future dates are not allowed for historical data. Data available from 1940 onwards."
+  },
+  {
+    "name": "location",
+    "label": "Location",
+    "type": "text",
+    "required": false,
+    "help": "City name, place name, or full address."
+  },
+  {
+    "name": "lat",
+    "label": "Lat",
+    "type": "number",
+    "required": false,
+    "help": "Latitude of the location."
+  },
+  {
+    "name": "long",
+    "label": "Long",
+    "type": "number",
+    "required": false,
+    "help": "Longitude of the location."
+  },
+  {
+    "name": "ip",
+    "label": "Ip",
+    "type": "text",
+    "required": false,
+    "help": "IP(v4 or v6) address for location inference."
+  },
+  {
+    "name": "precision",
+    "label": "Precision",
+    "type": "select",
+    "required": false,
+    "help": "Precision of the historical data. **Note:** 'daily' returns daily aggregates, 'hourly' returns hourly data.",
+    "options": [
+      {
+        "label": "daily",
+        "value": "daily"
+      },
+      {
+        "label": "hourly",
+        "value": "hourly"
+      }
+    ]
+  },
+  {
+    "name": "timezone",
+    "label": "Timezone",
+    "type": "text",
+    "required": false,
+    "help": "Timezone for the results."
+  }
+]

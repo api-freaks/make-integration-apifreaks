@@ -1,0 +1,40 @@
+[
+  {
+    "name": "format",
+    "label": "Format",
+    "type": "select",
+    "required": false,
+    "help": "Specify the desired response format. Options: 'json' (default) or 'xml'.",
+    "options": [
+      {
+        "label": "json",
+        "value": "json"
+      },
+      {
+        "label": "xml",
+        "value": "xml"
+      }
+    ]
+  },
+  {
+    "name": "country",
+    "label": "Country",
+    "type": "text",
+    "required": false,
+    "help": "Country name (accepts full name, e.g., Pakistan, United States). If only the country parameter is supplied, lists all banks in the country."
+  },
+  {
+    "name": "bank",
+    "label": "Bank",
+    "type": "text",
+    "required": false,
+    "help": "Bank name (upper case) used to filter SWIFT codes. Should be used together with the country parameter. If only country and bank are provided (without city), returns the list of cities for that bank."
+  },
+  {
+    "name": "city",
+    "label": "City",
+    "type": "text",
+    "required": false,
+    "help": "Gives SWIFT codes for a bank. Optionally specify the city (upper case) to narrow results to a specific city for that bank."
+  }
+]

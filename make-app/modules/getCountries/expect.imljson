@@ -1,0 +1,33 @@
+[
+  {
+    "name": "format",
+    "label": "Format",
+    "type": "select",
+    "required": false,
+    "help": "Format of the response",
+    "options": [
+      {
+        "label": "json",
+        "value": "json"
+      },
+      {
+        "label": "xml",
+        "value": "xml"
+      }
+    ]
+  },
+  {
+    "name": "region",
+    "label": "Region",
+    "type": "text",
+    "required": false,
+    "help": "Optional filter to return countries within a specific region from the region endpoint."
+  },
+  {
+    "name": "subregion",
+    "label": "Subregion",
+    "type": "text",
+    "required": false,
+    "help": "Optional filter to return countries within a specific subregion from the subregion endpoint."
+  }
+]

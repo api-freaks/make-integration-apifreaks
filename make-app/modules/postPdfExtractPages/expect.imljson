@@ -1,0 +1,82 @@
+[
+  {
+    "name": "format",
+    "label": "Format",
+    "type": "select",
+    "required": false,
+    "help": "Specifies the desired format for the API response. Choose 'json' for a JSON object or 'xml' for an XML structure.",
+    "options": [
+      {
+        "label": "json",
+        "value": "json"
+      },
+      {
+        "label": "xml",
+        "value": "xml"
+      }
+    ]
+  },
+  {
+    "name": "file_id",
+    "label": "File Id",
+    "type": "text",
+    "required": false,
+    "help": "The unique ID of a PDF file already uploaded to the API Freaks server. Use this as an alternative to uploading a new file directly."
+  },
+  {
+    "name": "destroy",
+    "label": "Destroy",
+    "type": "boolean",
+    "required": false,
+    "help": "If set to `true`, the input file(s) will be permanently deleted from the server immediately after the output PDF is generated."
+  },
+  {
+    "name": "output",
+    "label": "Output",
+    "type": "text",
+    "required": false,
+    "help": "The desired name for the output PDF file after pages have been extracted. If not provided, a default name will be assigned."
+  },
+  {
+    "name": "pages",
+    "label": "Pages",
+    "type": "text",
+    "required": true,
+    "help": "Specifies which pages to extract from the PDF. You can provide individual page numbers (e.g., '2') and/or page ranges in any order, including descending (e.g., '9-5', '16-last'). Use commas to separate entries and hyphens for ranges. You may alternatively pass only one of the special keywords: 'even' (extracts all even-numbered pages), 'odd' (extracts all odd-numbered pages), 'last' (extracts only the last page), or 'all' (extracts all pages into individual files). Examples: '2,6-3', 'even', 'all'. Mixing special keywords with specific pages/ranges is not allowed."
+  },
+  {
+    "name": "separated",
+    "label": "Separated",
+    "type": "boolean",
+    "required": false,
+    "help": "If set to `true`, each of the specified pages will be extracted and returned as a separate PDF file."
+  },
+  {
+    "name": "webhook_url",
+    "label": "Webhook Url",
+    "type": "text",
+    "required": false,
+    "help": "The URL to which the webhook notification will be sent after the task is completed."
+  },
+  {
+    "name": "webhook_failure_notification",
+    "label": "Webhook Failure Notification",
+    "type": "boolean",
+    "required": false,
+    "help": "If true, a notification will also be sent by email in case the webhook request fails all the retries.  The email notification will be sent to the requesting user or their organization’s admin if part of one."
+  },
+  {
+    "name": "X-Webhook-Authorization",
+    "label": "X Webhook Authorization",
+    "type": "text",
+    "required": false,
+    "help": "Optional custom header for webhook requests. Format: `Key:Value` (e.g., `Authorization:Bearer token123`). This will be sent as an HTTP header in the webhook call."
+  },
+  {
+    "name": "file",
+    "label": "File",
+    "type": "text",
+    "required": false,
+    "help": "The PDF file to be processed. If this parameter is not provided, you must specify `file_id` to use a previously uploaded file."
+  }
+]

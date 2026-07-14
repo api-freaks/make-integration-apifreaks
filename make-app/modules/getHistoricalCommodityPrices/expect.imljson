@@ -1,0 +1,23 @@
+[
+  {
+    "name": "format",
+    "label": "Format",
+    "type": "text",
+    "required": false,
+    "help": "Response format. Currently only `json` is supported."
+  },
+  {
+    "name": "symbols",
+    "label": "Symbols",
+    "type": "text",
+    "required": true,
+    "help": "Comma-separated list of commodity symbols."
+  },
+  {
+    "name": "date",
+    "label": "Date",
+    "type": "text",
+    "required": true,
+    "help": "Date in `YYYY-MM-DD` format. Data available from 1990 onwards."
+  }
+]

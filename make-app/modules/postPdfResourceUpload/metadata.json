@@ -1,0 +1,7 @@
+{
+  "name": "postPdfResourceUpload",
+  "label": "PDF: Upload multiple PDFs and get file IDs",
+  "description": "This API uploads multiple PDF files to the API Freaks server and generates their unique file IDs.",
+  "connection": "apifreaks",
+  "typeId": 4
+}

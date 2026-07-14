@@ -1,0 +1,7 @@
+{
+  "name": "performScraping",
+  "label": "Web Scraping: Perform web scraping with custom instructions",
+  "description": "Execute a series of web scraping instructions on a target URL. \nSupports various operations like form filling, clicking, data extraction, and CAPTCHA solving.\n",
+  "connection": "apifreaks",
+  "typeId": 4
+}

@@ -1,0 +1,40 @@
+[
+  {
+    "name": "format",
+    "label": "Format",
+    "type": "select",
+    "required": false,
+    "help": "Format of the response.",
+    "options": [
+      {
+        "label": "json",
+        "value": "json"
+      },
+      {
+        "label": "xml",
+        "value": "xml"
+      }
+    ]
+  },
+  {
+    "name": "host-name",
+    "label": "Host Name",
+    "type": "text",
+    "required": true,
+    "help": "Hostname or URL whose historical DNS records are required"
+  },
+  {
+    "name": "type",
+    "label": "Type",
+    "type": "text",
+    "required": true,
+    "help": "A comma-separated list of DNS record types for lookup.\nPossible values: A, AAAA, MX, NS, SOA, SPF, TXT, CNAME, or all\n"
+  },
+  {
+    "name": "page",
+    "label": "Page",
+    "type": "number",
+    "required": false,
+    "help": "Page number for paginated results"
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "name": "startDate",
+    "label": "Startdate",
+    "type": "text",
+    "required": false,
+    "help": "Start date for the forecast in YYYY-MM-DD format. Forecast dates must be current or future dates only. Past dates are not allowed for forecast data. The difference between startDate and endDate must not exceed 16 days."
+  },
+  {
+    "name": "endDate",
+    "label": "Enddate",
+    "type": "text",
+    "required": false,
+    "help": "End date for the forecast in YYYY-MM-DD format. Forecast dates must be current or future dates only. Past dates are not allowed for forecast data. The difference between startDate and endDate must not exceed 16 days."
+  },
+  {
+    "name": "forecastDays",
+    "label": "Forecastdays",
+    "type": "number",
+    "required": false,
+    "help": "Number of days for the forecast, from 1 to 16. Default is 7. Maximum value is 16."
+  },
+  {
+    "name": "location",
+    "label": "Location",
+    "type": "text",
+    "required": false,
+    "help": "City name, place name, or full address."
+  },
+  {
+    "name": "lat",
+    "label": "Lat",
+    "type": "number",
+    "required": false,
+    "help": "Latitude of the location."
+  },
+  {
+    "name": "long",
+    "label": "Long",
+    "type": "number",
+    "required": false,
+    "help": "Longitude of the location."
+  },
+  {
+    "name": "ip",
+    "label": "Ip",
+    "type": "text",
+    "required": false,
+    "help": "IP(v4 or v6) address for location inference."
+  },
+  {
+    "name": "precision",
+    "label": "Precision",
+    "type": "select",
+    "required": false,
+    "help": "Precision of the forecast data.",
+    "options": [
+      {
+        "label": "daily",
+        "value": "daily"
+      },
+      {
+        "label": "hourly",
+        "value": "hourly"
+      },
+      {
+        "label": "minutely",
+        "value": "minutely"
+      }
+    ]
+  },
+  {
+    "name": "timezone",
+    "label": "Timezone",
+    "type": "text",
+    "required": false,
+    "help": "Timezone for the results."
+  }
+]

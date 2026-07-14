@@ -1,0 +1,7 @@
+{
+  "name": "getGeolocationLookup",
+  "label": "IP Geolocation: Retrieve real-time and accurate IP geolocation and threat...",
+  "description": "Get detailed IP geolocation data for an IP address including country, city, timezone, currency, and optional threat intelligence and user-agent information",
+  "connection": "apifreaks",
+  "typeId": 4
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "format",
+    "label": "Format",
+    "type": "select",
+    "required": false,
+    "help": "Format of the response.",
+    "options": [
+      {
+        "label": "json",
+        "value": "json"
+      },
+      {
+        "label": "xml",
+        "value": "xml"
+      }
+    ]
+  },
+  {
+    "name": "domainNames",
+    "label": "Domainnames",
+    "type": "array",
+    "required": false,
+    "help": "A list of domain names for which WHOIS data is requested."
+  }
+]

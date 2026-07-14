@@ -1,0 +1,58 @@
+[
+  {
+    "name": "url",
+    "label": "Url",
+    "type": "text",
+    "required": true,
+    "help": "Target URL to scrape"
+  },
+  {
+    "name": "text",
+    "label": "Text",
+    "type": "boolean",
+    "required": false,
+    "help": "Set to `true` to return the data in text format else `false` for data in html format with tags."
+  },
+  {
+    "name": "jsEnabled",
+    "label": "Jsenabled",
+    "type": "boolean",
+    "required": false,
+    "help": "Set `true` to enable JavaScript rendering for dynamic pages. Set `false` for static HTML pages.\n\n\n Default value is `false`."
+  },
+  {
+    "name": "proxy",
+    "label": "Proxy",
+    "type": "text",
+    "required": false,
+    "help": "Use proxy for requests. Can be `true`/`false`, a proxy URL string, or a proxy configuration object."
+  },
+  {
+    "name": "sslIgnore",
+    "label": "Sslignore",
+    "type": "boolean",
+    "required": false,
+    "help": "Ignore SSL certificate errors.\n\n\n Only works if **jsEnabled** is **true**."
+  },
+  {
+    "name": "windowSize",
+    "label": "Windowsize",
+    "type": "text",
+    "required": false,
+    "help": "Specify the browser window size in the format 'width,height' (e.g., \"1920w,1080h\"). Default value is the default resolutions provided by web/browser.\n\n\n Only works if **jsEnabled** is **true**."
+  },
+  {
+    "name": "adBlock",
+    "label": "Adblock",
+    "type": "boolean",
+    "required": false,
+    "help": "Set to `true` to apply ad-blocker to the specified URL else false or ignore to not apply.\n\n\n Only works if **jsEnabled** is **true**."
+  },
+  {
+    "name": "captcha",
+    "label": "Captcha",
+    "type": "boolean",
+    "required": false,
+    "help": "if true user can provide captcha instructions in the instructions to solve image captchas.\n\n\n  Only works if **jsEnabled** is **true**."
+  }
+]

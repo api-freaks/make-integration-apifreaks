@@ -1,0 +1,11 @@
+{
+  "url": "/v1.0/geocoder/reverse",
+  "method": "GET",
+  "qs": {
+    "lat": "{{parameters.lat}}",
+    "lon": "{{parameters.lon}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

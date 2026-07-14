@@ -1,0 +1,16 @@
+[
+  {
+    "name": "timezone",
+    "label": "Timezone",
+    "type": "text",
+    "required": false,
+    "help": "Timezone for the results."
+  },
+  {
+    "name": "locations",
+    "label": "Locations",
+    "type": "array",
+    "required": false,
+    "help": "Array of locations to fetch weather data for"
+  }
+]

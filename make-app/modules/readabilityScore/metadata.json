@@ -1,0 +1,7 @@
+{
+  "name": "readabilityScore",
+  "label": "Readability: Calculate readability scores, grade, and sentence-level...",
+  "description": "Analyze text readability using industry-standard formulas including Flesch Reading Ease, Flesch-Kincaid Grade Level, Gunning Fog Index, SMOG Index, Coleman-Liau Index, and Automated Readability Index.",
+  "connection": "apifreaks",
+  "typeId": 4
+}

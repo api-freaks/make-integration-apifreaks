@@ -1,0 +1,7 @@
+{
+  "name": "getHistoricalCommodityPrices",
+  "label": "Commodity: Get historical commodity prices",
+  "description": "Returns OHLC price data for the requested commodity symbols on a specific date.",
+  "connection": "apifreaks",
+  "typeId": 4
+}

@@ -1,0 +1,15 @@
+{
+  "url": "/v1.0/phone/validation",
+  "method": "POST",
+  "qs": {
+    "format": "{{parameters.format}}"
+  },
+  "body": {
+    "number": "{{parameters.number}}",
+    "region": "{{parameters.region}}",
+    "dialer_region": "{{parameters.dialer_region}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

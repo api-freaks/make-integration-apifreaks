@@ -1,0 +1,7 @@
+{
+  "name": "getHistoricalDataLimits",
+  "label": "Currency: Get historical data availability limits",
+  "description": "Returns the date range when historical data is available for each currency.",
+  "connection": "apifreaks",
+  "typeId": 4
+}

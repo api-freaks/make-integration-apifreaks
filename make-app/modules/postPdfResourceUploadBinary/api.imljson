@@ -1,0 +1,11 @@
+{
+  "url": "/v1.0/pdf/resource/upload-binary",
+  "method": "POST",
+  "qs": {
+    "format": "{{parameters.format}}",
+    "file_name": "{{parameters.file_name}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

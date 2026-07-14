@@ -1,0 +1,14 @@
+{
+  "url": "/v1.0/zipcode/lookup",
+  "method": "POST",
+  "qs": {
+    "format": "{{parameters.format}}"
+  },
+  "body": {
+    "codes": "{{parameters.codes}}",
+    "country": "{{parameters.country}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

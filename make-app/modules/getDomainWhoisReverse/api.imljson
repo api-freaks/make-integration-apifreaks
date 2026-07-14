@@ -1,0 +1,17 @@
+{
+  "url": "/v1.0/domain/whois/reverse",
+  "method": "GET",
+  "qs": {
+    "format": "{{parameters.format}}",
+    "keyword": "{{parameters.keyword}}",
+    "email": "{{parameters.email}}",
+    "owner": "{{parameters.owner}}",
+    "company": "{{parameters.company}}",
+    "exact": "{{parameters.exact}}",
+    "mode": "{{parameters.mode}}",
+    "page": "{{parameters.page}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

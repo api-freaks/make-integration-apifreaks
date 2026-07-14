@@ -1,0 +1,7 @@
+{
+  "name": "postPhoneValidation",
+  "label": "Phone Validation: Validate a single phone number",
+  "description": "Validates a single phone number and returns detailed metadata including carrier, line type, geolocation, time zones, and standardized formats.",
+  "connection": "apifreaks",
+  "typeId": 4
+}

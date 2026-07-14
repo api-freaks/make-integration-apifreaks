@@ -1,0 +1,7 @@
+{
+  "name": "postPdfJpg",
+  "label": "PDF: Convert PDF to JPG",
+  "description": "This API converts a given PDF file into a sequence of JPG images.",
+  "connection": "apifreaks",
+  "typeId": 4
+}

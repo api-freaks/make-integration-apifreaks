@@ -1,0 +1,7 @@
+{
+  "name": "getPdfTaskStatus",
+  "label": "PDF: Check PDF task status",
+  "description": "This API checks the status of a previously initiated PDF processing task using its unique task ID.",
+  "connection": "apifreaks",
+  "typeId": 4
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "name": "format",
+    "label": "Format",
+    "type": "select",
+    "required": false,
+    "help": "Format of the response.",
+    "options": [
+      {
+        "label": "json",
+        "value": "json"
+      },
+      {
+        "label": "xml",
+        "value": "xml"
+      }
+    ]
+  },
+  {
+    "name": "lang",
+    "label": "Lang",
+    "type": "text",
+    "required": false,
+    "help": "Language of the response."
+  },
+  {
+    "name": "fields",
+    "label": "Fields",
+    "type": "text",
+    "required": false,
+    "help": "Comma-separated list of fields to include in the response. Can include \"geo\"."
+  },
+  {
+    "name": "excludes",
+    "label": "Excludes",
+    "type": "text",
+    "required": false,
+    "help": "Comma-separated list of fields to exclude from the response (except \"ip\")."
+  },
+  {
+    "name": "include",
+    "label": "Include",
+    "type": "text",
+    "required": false,
+    "help": "Comma-separated list of additional information to include in the response."
+  },
+  {
+    "name": "ips",
+    "label": "Ips",
+    "type": "array",
+    "required": true,
+    "help": "List of IP addresses or hostnames to lookup"
+  }
+]

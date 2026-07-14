@@ -1,0 +1,104 @@
+[
+  {
+    "name": "format",
+    "label": "Format",
+    "type": "select",
+    "required": false,
+    "help": "Format of the response.",
+    "options": [
+      {
+        "label": "json",
+        "value": "json"
+      },
+      {
+        "label": "xml",
+        "value": "xml"
+      }
+    ]
+  },
+  {
+    "name": "ip",
+    "label": "Ip",
+    "type": "text",
+    "required": false,
+    "help": "IPv4, IPv6, or hostname for geolocation lookup"
+  },
+  {
+    "name": "lang",
+    "label": "Lang",
+    "type": "select",
+    "required": false,
+    "help": "Response language for location fields",
+    "options": [
+      {
+        "label": "en",
+        "value": "en"
+      },
+      {
+        "label": "de",
+        "value": "de"
+      },
+      {
+        "label": "ru",
+        "value": "ru"
+      },
+      {
+        "label": "ja",
+        "value": "ja"
+      },
+      {
+        "label": "fr",
+        "value": "fr"
+      },
+      {
+        "label": "cn",
+        "value": "cn"
+      },
+      {
+        "label": "es",
+        "value": "es"
+      },
+      {
+        "label": "cs",
+        "value": "cs"
+      },
+      {
+        "label": "it",
+        "value": "it"
+      },
+      {
+        "label": "ko",
+        "value": "ko"
+      },
+      {
+        "label": "fa",
+        "value": "fa"
+      },
+      {
+        "label": "pt",
+        "value": "pt"
+      }
+    ]
+  },
+  {
+    "name": "fields",
+    "label": "Fields",
+    "type": "text",
+    "required": false,
+    "help": "Comma separated list of fields to include in response"
+  },
+  {
+    "name": "excludes",
+    "label": "Excludes",
+    "type": "text",
+    "required": false,
+    "help": "Comma separated list of fields to exclude from response"
+  },
+  {
+    "name": "include",
+    "label": "Include",
+    "type": "text",
+    "required": false,
+    "help": "Additional data to include (location, network, security, currency, time_zone, user_agent, country_metadata , hostname, liveHostname, hostnameFallbackLivet)"
+  }
+]

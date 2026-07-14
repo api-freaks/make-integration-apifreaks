@@ -1,0 +1,7 @@
+{
+  "name": "getCountryDetails",
+  "label": "GeoDB: Get GeoDB Country Details",
+  "description": "Get GeoDB Country Details",
+  "connection": "apifreaks",
+  "typeId": 4
+}

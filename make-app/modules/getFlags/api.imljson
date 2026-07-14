@@ -1,0 +1,14 @@
+{
+  "url": "/v1.0/flags",
+  "method": "GET",
+  "qs": {
+    "name": "{{parameters.name}}",
+    "shape": "{{parameters.shape}}",
+    "format": "{{parameters.format}}",
+    "size": "{{parameters.size}}",
+    "type": "{{parameters.type}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

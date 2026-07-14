@@ -1,0 +1,7 @@
+{
+  "name": "getDomainAvailability",
+  "label": "Domain: Check whether a domain is available for registration or not.",
+  "description": "The Domain Search API is designed to simplify the process of finding available domain names across all top-level domains (TLDs) and second-level domains (SLDs).",
+  "connection": "apifreaks",
+  "typeId": 4
+}

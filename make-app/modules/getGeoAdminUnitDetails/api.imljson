@@ -1,0 +1,12 @@
+{
+  "url": "/v1.0/geo/admin-unit/details",
+  "method": "GET",
+  "qs": {
+    "format": "{{parameters.format}}",
+    "country": "{{parameters.country}}",
+    "admin_unit": "{{parameters.admin_unit}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

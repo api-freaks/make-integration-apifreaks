@@ -1,0 +1,15 @@
+{
+  "url": "/v1.0/ip/security",
+  "method": "POST",
+  "qs": {
+    "format": "{{parameters.format}}",
+    "fields": "{{parameters.fields}}",
+    "excludes": "{{parameters.excludes}}"
+  },
+  "body": {
+    "ips": "{{parameters.ips}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "getSubregionsByRegion",
+  "label": "GeoDB: Get Subregions by Region",
+  "description": "Get Subregions by Region",
+  "connection": "apifreaks",
+  "typeId": 4
+}

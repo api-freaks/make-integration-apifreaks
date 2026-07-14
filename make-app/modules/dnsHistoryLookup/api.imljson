@@ -1,0 +1,13 @@
+{
+  "url": "/v1.0/domain/dns/history",
+  "method": "GET",
+  "qs": {
+    "format": "{{parameters.format}}",
+    "host-name": "{{parameters.host-name}}",
+    "type": "{{parameters.type}}",
+    "page": "{{parameters.page}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

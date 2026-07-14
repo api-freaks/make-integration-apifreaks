@@ -1,0 +1,11 @@
+{
+  "url": "/v1.0/swift-code/lookup",
+  "method": "GET",
+  "qs": {
+    "format": "{{parameters.format}}",
+    "swiftCode": "{{parameters.swiftCode}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

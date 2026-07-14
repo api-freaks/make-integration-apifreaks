@@ -1,0 +1,16 @@
+{
+  "url": "/v1.0/weather/historical",
+  "method": "GET",
+  "qs": {
+    "date": "{{parameters.date}}",
+    "location": "{{parameters.location}}",
+    "lat": "{{parameters.lat}}",
+    "long": "{{parameters.long}}",
+    "ip": "{{parameters.ip}}",
+    "precision": "{{parameters.precision}}",
+    "timezone": "{{parameters.timezone}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

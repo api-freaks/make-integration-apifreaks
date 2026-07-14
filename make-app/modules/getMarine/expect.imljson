@@ -1,0 +1,72 @@
+[
+  {
+    "name": "startDate",
+    "label": "Startdate",
+    "type": "text",
+    "required": false,
+    "help": "Starting date for marine forecast data in YYYY-MM-DD format. Forecast dates must be current or future dates only. Past dates are not allowed for forecast data. The difference between endDate and startDate must not exceed 16 days."
+  },
+  {
+    "name": "endDate",
+    "label": "Enddate",
+    "type": "text",
+    "required": false,
+    "help": "End date for marine forecast data in YYYY-MM-DD format. Forecast dates must be current or future dates only. Past dates are not allowed for forecast data. The difference between endDate and startDate must not exceed 16 days."
+  },
+  {
+    "name": "location",
+    "label": "Location",
+    "type": "text",
+    "required": false,
+    "help": "City name, place name, or full address."
+  },
+  {
+    "name": "lat",
+    "label": "Lat",
+    "type": "number",
+    "required": false,
+    "help": "Latitude of the location."
+  },
+  {
+    "name": "long",
+    "label": "Long",
+    "type": "number",
+    "required": false,
+    "help": "Longitude of the location."
+  },
+  {
+    "name": "ip",
+    "label": "Ip",
+    "type": "text",
+    "required": false,
+    "help": "IP(v4 or v6) address for location inference."
+  },
+  {
+    "name": "precision",
+    "label": "Precision",
+    "type": "select",
+    "required": false,
+    "help": "Precision of the marine data.",
+    "options": [
+      {
+        "label": "daily",
+        "value": "daily"
+      },
+      {
+        "label": "hourly",
+        "value": "hourly"
+      },
+      {
+        "label": "minutely",
+        "value": "minutely"
+      }
+    ]
+  },
+  {
+    "name": "timezone",
+    "label": "Timezone",
+    "type": "text",
+    "required": false,
+    "help": "Timezone for the results."
+  }
+]

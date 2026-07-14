@@ -1,0 +1,7 @@
+{
+  "name": "postPdfUnrestrict",
+  "label": "PDF: Remove permission restrictions from a PDF while keeping it...",
+  "description": "This API removes permission restrictions from a PDF while keeping it encrypted. If you want to remove all security (including encryption), use the `/pdf/decrypt` endpoint instead.",
+  "connection": "apifreaks",
+  "typeId": 4
+}

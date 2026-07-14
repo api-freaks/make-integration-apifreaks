@@ -1,0 +1,21 @@
+[
+  {
+    "name": "format",
+    "label": "Format",
+    "type": "select",
+    "required": false,
+    "options": [
+      {
+        "label": "json",
+        "value": "json"
+      }
+    ]
+  },
+  {
+    "name": "urls",
+    "label": "Urls",
+    "type": "array",
+    "required": true,
+    "help": "List of website URLs to capture screenshots of"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "url": "/v1.0/iban/validation",
+  "method": "GET",
+  "qs": {
+    "format": "{{parameters.format}}",
+    "iban": "{{parameters.iban}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

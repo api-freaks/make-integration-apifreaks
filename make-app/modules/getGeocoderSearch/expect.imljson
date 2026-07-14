@@ -1,0 +1,51 @@
+[
+  {
+    "name": "query",
+    "label": "Query",
+    "type": "text",
+    "required": true,
+    "help": "Free-form search query, e.g. Wembley Stadium, London"
+  },
+  {
+    "name": "limit",
+    "label": "Limit",
+    "type": "number",
+    "required": false,
+    "help": "Max number of results to return (1–40). May return fewer if matches are weak."
+  },
+  {
+    "name": "Accept-Language",
+    "label": "Accept Language",
+    "type": "text",
+    "required": false,
+    "help": "Preferred language order for showing search results. This may either be a simple comma-separated list of language codes or a single entry. The results will be in the 1st language which is matched from the header. As a fallback if the results are not supported in the given language, 'en' will be used."
+  },
+  {
+    "name": "min_lat",
+    "label": "Min Lat",
+    "type": "number",
+    "required": false,
+    "help": "Minimum latitude for the viewbox. Must be ≤ max_lat and between -90 and 90."
+  },
+  {
+    "name": "max_lat",
+    "label": "Max Lat",
+    "type": "number",
+    "required": false,
+    "help": "Maximum latitude for the viewbox. Must be ≥ min_lat and between -90 and 90."
+  },
+  {
+    "name": "min_lon",
+    "label": "Min Lon",
+    "type": "number",
+    "required": false,
+    "help": "Minimum longitude for the viewbox. Must be ≤ max_lon and between -180 and 180."
+  },
+  {
+    "name": "max_lon",
+    "label": "Max Lon",
+    "type": "number",
+    "required": false,
+    "help": "Maximum longitude for the viewbox. Must be ≥ min_lon and between -180 and 180."
+  }
+]

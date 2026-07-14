@@ -1,0 +1,48 @@
+[
+  {
+    "name": "apiKey",
+    "label": "Apikey",
+    "type": "text",
+    "required": true,
+    "help": "Your API key"
+  },
+  {
+    "name": "target",
+    "label": "Target",
+    "type": "select",
+    "required": false,
+    "help": "Target audience used to tune sentence difficulty levels",
+    "options": [
+      {
+        "label": "general",
+        "value": "general"
+      },
+      {
+        "label": "professional",
+        "value": "professional"
+      },
+      {
+        "label": "academic",
+        "value": "academic"
+      },
+      {
+        "label": "technical",
+        "value": "technical"
+      }
+    ]
+  },
+  {
+    "name": "exclude",
+    "label": "Exclude",
+    "type": "text",
+    "required": false,
+    "help": "Comma-separated response sections to omit. Possible values are readability_scores, sentence_readability, readability_grade"
+  },
+  {
+    "name": "text",
+    "label": "Text",
+    "type": "text",
+    "required": true,
+    "help": "Text to analyze for readability"
+  }
+]

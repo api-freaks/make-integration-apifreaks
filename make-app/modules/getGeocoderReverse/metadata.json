@@ -1,0 +1,7 @@
+{
+  "name": "getGeocoderReverse",
+  "label": "Geocoding: Reverse geocoding (coordinates to address)",
+  "description": "Convert geographic coordinates (latitude and longitude) into a human-readable address or place name.",
+  "connection": "apifreaks",
+  "typeId": 4
+}

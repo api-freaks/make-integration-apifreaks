@@ -1,0 +1,7 @@
+{
+  "name": "postDomainAvailability",
+  "label": "Domain: Check the availability of multiple domains in a single...",
+  "description": "Perform Bulk Domain Availability checks using a list of domains. Supports upto `100 Domains Per Request`.",
+  "connection": "apifreaks",
+  "typeId": 4
+}

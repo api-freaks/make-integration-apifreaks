@@ -1,0 +1,7 @@
+{
+  "name": "postPdfGif",
+  "label": "PDF: Convert PDF to GIF",
+  "description": "This API converts a given PDF file into a sequence of GIF images.",
+  "connection": "apifreaks",
+  "typeId": 4
+}

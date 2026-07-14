@@ -1,0 +1,7 @@
+{
+  "name": "getCommodityFluctuation",
+  "label": "Commodity: Get commodity price fluctuations",
+  "description": "Returns price fluctuation metrics (start, end, change, percent change) for the requested commodity symbols over a date range.",
+  "connection": "apifreaks",
+  "typeId": 4
+}

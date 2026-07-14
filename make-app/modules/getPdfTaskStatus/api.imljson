@@ -1,0 +1,11 @@
+{
+  "url": "/v1.0/pdf/task-status",
+  "method": "GET",
+  "qs": {
+    "format": "{{parameters.format}}",
+    "task_id": "{{parameters.task_id}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

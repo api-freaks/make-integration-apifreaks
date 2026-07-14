@@ -1,0 +1,25 @@
+{
+  "url": "/v1.0/timezone/converter",
+  "method": "GET",
+  "qs": {
+    "format": "{{parameters.format}}",
+    "time": "{{parameters.time}}",
+    "tz_from": "{{parameters.tz_from}}",
+    "tz_to": "{{parameters.tz_to}}",
+    "lat_from": "{{parameters.lat_from}}",
+    "long_from": "{{parameters.long_from}}",
+    "lat_to": "{{parameters.lat_to}}",
+    "long_to": "{{parameters.long_to}}",
+    "location_from": "{{parameters.location_from}}",
+    "location_to": "{{parameters.location_to}}",
+    "iata_from": "{{parameters.iata_from}}",
+    "iata_to": "{{parameters.iata_to}}",
+    "icao_from": "{{parameters.icao_from}}",
+    "icao_to": "{{parameters.icao_to}}",
+    "locode_from": "{{parameters.locode_from}}",
+    "locode_to": "{{parameters.locode_to}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

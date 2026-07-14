@@ -1,0 +1,7 @@
+{
+  "name": "getGeolocationAstronomyV2",
+  "label": "Other: Astronomy lookup (v2.0)",
+  "description": "Retrieve sunrise and sunset times, current position of the moon, and other related information by specifying a location address, location coordinates, IP address, or using the client IP address if no parameter is passed. - v2.0 response format.",
+  "connection": "apifreaks",
+  "typeId": 4
+}

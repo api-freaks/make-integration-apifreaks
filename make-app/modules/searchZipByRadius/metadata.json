@@ -1,0 +1,7 @@
+{
+  "name": "searchZipByRadius",
+  "label": "ZIP Code: Find ZIP/postal codes within a radius",
+  "description": "Find ZIP/postal codes within a radius",
+  "connection": "apifreaks",
+  "typeId": 4
+}

@@ -1,0 +1,33 @@
+[
+  {
+    "name": "format",
+    "label": "Format",
+    "type": "select",
+    "required": false,
+    "help": "Specify the desired response format. Options: 'json' (default) or 'xml'.",
+    "options": [
+      {
+        "label": "json",
+        "value": "json"
+      },
+      {
+        "label": "xml",
+        "value": "xml"
+      }
+    ]
+  },
+  {
+    "name": "vatNumber",
+    "label": "Vatnumber",
+    "type": "text",
+    "required": true,
+    "help": "EU or UK VAT number to validate."
+  },
+  {
+    "name": "requesterVatNumber",
+    "label": "Requestervatnumber",
+    "type": "text",
+    "required": false,
+    "help": "Requester EU or UK VAT number."
+  }
+]

@@ -1,0 +1,125 @@
+[
+  {
+    "name": "format",
+    "label": "Format",
+    "type": "select",
+    "required": false,
+    "help": "Format of the response. Can be \"json\" or \"xml\".",
+    "options": [
+      {
+        "label": "json",
+        "value": "json"
+      },
+      {
+        "label": "xml",
+        "value": "xml"
+      }
+    ]
+  },
+  {
+    "name": "location",
+    "label": "Location",
+    "type": "text",
+    "required": false,
+    "help": "Extract astronomy information using location (preferably city)"
+  },
+  {
+    "name": "lat",
+    "label": "Lat",
+    "type": "number",
+    "required": false,
+    "help": "Latitude to extract astronomy information using location coordinates"
+  },
+  {
+    "name": "long",
+    "label": "Long",
+    "type": "number",
+    "required": false,
+    "help": "Longitude to extract astronomy information using location coordinates"
+  },
+  {
+    "name": "ip",
+    "label": "Ip",
+    "type": "text",
+    "required": false,
+    "help": "IPv4 or IPv6 address to extract astronomy information using IP address"
+  },
+  {
+    "name": "lang",
+    "label": "Lang",
+    "type": "select",
+    "required": false,
+    "help": "Response language of \"location\" field in case of lookup through IP address only.",
+    "options": [
+      {
+        "label": "en",
+        "value": "en"
+      },
+      {
+        "label": "de",
+        "value": "de"
+      },
+      {
+        "label": "ru",
+        "value": "ru"
+      },
+      {
+        "label": "ja",
+        "value": "ja"
+      },
+      {
+        "label": "fr",
+        "value": "fr"
+      },
+      {
+        "label": "cn",
+        "value": "cn"
+      },
+      {
+        "label": "es",
+        "value": "es"
+      },
+      {
+        "label": "cs",
+        "value": "cs"
+      },
+      {
+        "label": "it",
+        "value": "it"
+      },
+      {
+        "label": "ko",
+        "value": "ko"
+      },
+      {
+        "label": "fa",
+        "value": "fa"
+      },
+      {
+        "label": "pt",
+        "value": "pt"
+      }
+    ]
+  },
+  {
+    "name": "date",
+    "label": "Date",
+    "type": "text",
+    "required": false,
+    "help": "Specific date (format YYYY-MM-DD) for which astronomy data is required"
+  },
+  {
+    "name": "elevation",
+    "label": "Elevation",
+    "type": "number",
+    "required": false,
+    "help": "Elevation above sea level at the location, in meters. The value should be between 0 meter and a maximum value of 10,000 meters. Negative value is set to 0."
+  },
+  {
+    "name": "time_zone",
+    "label": "Time Zone",
+    "type": "text",
+    "required": false,
+    "help": "Time zone to receive all time-based data in your preferred local time."
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "name": "format",
+    "label": "Format",
+    "type": "select",
+    "required": false,
+    "help": "Format of the response.",
+    "options": [
+      {
+        "label": "json",
+        "value": "json"
+      },
+      {
+        "label": "xml",
+        "value": "xml"
+      }
+    ]
+  },
+  {
+    "name": "domain",
+    "label": "Domain",
+    "type": "text",
+    "required": true,
+    "help": "Domain name for availability and suggestions."
+  },
+  {
+    "name": "after",
+    "label": "After",
+    "type": "text",
+    "required": false,
+    "help": "Filter subdomains seen after this date (format YYYY-MM-DD)."
+  },
+  {
+    "name": "before",
+    "label": "Before",
+    "type": "text",
+    "required": false,
+    "help": "Filter subdomains seen before this date( format YYYY-MM-DD)."
+  },
+  {
+    "name": "status",
+    "label": "Status",
+    "type": "select",
+    "required": false,
+    "help": "Filter subdomains by status (active or inactive).",
+    "options": [
+      {
+        "label": "active",
+        "value": "active"
+      },
+      {
+        "label": "inactive",
+        "value": "inactive"
+      }
+    ]
+  },
+  {
+    "name": "page",
+    "label": "Page",
+    "type": "number",
+    "required": false,
+    "help": "Page number for paginated results."
+  }
+]

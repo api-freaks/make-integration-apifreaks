@@ -1,0 +1,7 @@
+{
+  "name": "deletePdfFile",
+  "label": "PDF: Delete a PDF file",
+  "description": "This API deletes a PDF file using its unique file ID.",
+  "connection": "apifreaks",
+  "typeId": 4
+}

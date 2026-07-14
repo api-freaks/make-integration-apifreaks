@@ -1,0 +1,30 @@
+[
+  {
+    "name": "format",
+    "label": "Format",
+    "type": "text",
+    "required": false,
+    "help": "Response format. Currently only `json` is supported."
+  },
+  {
+    "name": "symbols",
+    "label": "Symbols",
+    "type": "text",
+    "required": true,
+    "help": "Comma-separated list of commodity symbols."
+  },
+  {
+    "name": "startDate",
+    "label": "Startdate",
+    "type": "text",
+    "required": true,
+    "help": "Start date in `YYYY-MM-DD` format."
+  },
+  {
+    "name": "endDate",
+    "label": "Enddate",
+    "type": "text",
+    "required": true,
+    "help": "End date in `YYYY-MM-DD` format. Maximum range is 365 days."
+  }
+]

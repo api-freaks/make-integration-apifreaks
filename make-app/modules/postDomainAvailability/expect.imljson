@@ -1,0 +1,43 @@
+[
+  {
+    "name": "format",
+    "label": "Format",
+    "type": "select",
+    "required": false,
+    "help": "Format of the response.",
+    "options": [
+      {
+        "label": "json",
+        "value": "json"
+      },
+      {
+        "label": "xml",
+        "value": "xml"
+      }
+    ]
+  },
+  {
+    "name": "source",
+    "label": "Source",
+    "type": "select",
+    "required": false,
+    "help": "Specify the data source for domain availability checks. Use \"dns\" for DNS-based lookups or \"whois\" for WHOIS-based lookups. By default, \"dns\" is used.",
+    "options": [
+      {
+        "label": "dns",
+        "value": "dns"
+      },
+      {
+        "label": "whois",
+        "value": "whois"
+      }
+    ]
+  },
+  {
+    "name": "domainNames",
+    "label": "Domainnames",
+    "type": "array",
+    "required": true,
+    "help": "List of domain names to check."
+  }
+]

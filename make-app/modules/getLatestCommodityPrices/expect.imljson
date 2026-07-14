@@ -1,0 +1,40 @@
+[
+  {
+    "name": "format",
+    "label": "Format",
+    "type": "text",
+    "required": false,
+    "help": "Response format. Currently only `json` is supported."
+  },
+  {
+    "name": "symbols",
+    "label": "Symbols",
+    "type": "text",
+    "required": true,
+    "help": "Comma-separated list of commodity symbols (e.g., `XAU`, `WTIOIL-SPOT`)."
+  },
+  {
+    "name": "updates",
+    "label": "Updates",
+    "type": "select",
+    "required": true,
+    "help": "Update frequency. Accepted values: `1m` (default), `10m`.",
+    "options": [
+      {
+        "label": "1m",
+        "value": "1m"
+      },
+      {
+        "label": "10m",
+        "value": "10m"
+      }
+    ]
+  },
+  {
+    "name": "quote",
+    "label": "Quote",
+    "type": "text",
+    "required": false,
+    "help": "Target currency for the exchange rate. Defaults to the market currency of each commodity."
+  }
+]

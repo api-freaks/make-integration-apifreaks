@@ -1,0 +1,94 @@
+[
+  {
+    "name": "format",
+    "label": "Format",
+    "type": "select",
+    "required": false,
+    "help": "Format of the response.",
+    "options": [
+      {
+        "label": "json",
+        "value": "json"
+      },
+      {
+        "label": "xml",
+        "value": "xml"
+      }
+    ]
+  },
+  {
+    "name": "code",
+    "label": "Code",
+    "type": "text",
+    "required": false,
+    "help": "Postal/Zip code to be used as the center point for the search."
+  },
+  {
+    "name": "lat",
+    "label": "Lat",
+    "type": "number",
+    "required": false,
+    "help": "Latitude coordinate for the base location."
+  },
+  {
+    "name": "long",
+    "label": "Long",
+    "type": "number",
+    "required": false,
+    "help": "Longitude coordinate for the base location."
+  },
+  {
+    "name": "country",
+    "label": "Country",
+    "type": "text",
+    "required": false,
+    "help": "Country code in ISO 3166-1 alpha-2 format. Required only when using the code parameter.\n"
+  },
+  {
+    "name": "radius",
+    "label": "Radius",
+    "type": "number",
+    "required": true,
+    "help": "Search radius for the query. The maximum allowed values are: - 100 km - 100 mi - 109361 yd - 100000 m - 328084 ft - 3937007.75 in\n"
+  },
+  {
+    "name": "unit",
+    "label": "Unit",
+    "type": "select",
+    "required": false,
+    "help": "Supported distance units are m, km, mi, ft, yd, in.",
+    "options": [
+      {
+        "label": "m",
+        "value": "m"
+      },
+      {
+        "label": "km",
+        "value": "km"
+      },
+      {
+        "label": "mi",
+        "value": "mi"
+      },
+      {
+        "label": "ft",
+        "value": "ft"
+      },
+      {
+        "label": "yd",
+        "value": "yd"
+      },
+      {
+        "label": "in",
+        "value": "in"
+      }
+    ]
+  },
+  {
+    "name": "page",
+    "label": "Page",
+    "type": "number",
+    "required": false,
+    "help": "Page no. to retrieve paginated results."
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "name": "postCurrent",
+  "label": "Weather: Get real-time weather data for multiple locations,...",
+  "description": "Retrieve current weather conditions for up to `50 locations` in a single request. A maximum of 50 locations (city names, IP addresses, or geographic coordinates) can be included in the request body.",
+  "connection": "apifreaks",
+  "typeId": 4
+}

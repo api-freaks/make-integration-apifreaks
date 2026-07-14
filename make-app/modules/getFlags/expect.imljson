@@ -1,0 +1,93 @@
+[
+  {
+    "name": "name",
+    "label": "Name",
+    "type": "text",
+    "required": true,
+    "help": "Country code in ISO 3166-1 alpha-2 format."
+  },
+  {
+    "name": "shape",
+    "label": "Shape",
+    "type": "select",
+    "required": true,
+    "help": "Flag shape. One of: `'flat'` or `'round'`.",
+    "options": [
+      {
+        "label": "flat",
+        "value": "flat"
+      },
+      {
+        "label": "round",
+        "value": "round"
+      }
+    ]
+  },
+  {
+    "name": "format",
+    "label": "Format",
+    "type": "select",
+    "required": false,
+    "help": "Flag format. Applicable only for PNG or WEBP formats. Default is png.",
+    "options": [
+      {
+        "label": "png",
+        "value": "png"
+      },
+      {
+        "label": "webp",
+        "value": "webp"
+      },
+      {
+        "label": "svg",
+        "value": "svg"
+      }
+    ]
+  },
+  {
+    "name": "size",
+    "label": "Size",
+    "type": "select",
+    "required": false,
+    "help": "Flag size in pixels. Valid options: `16px`, `24px`, `32px`, `48px`, `64px`. Applicable only for PNG or WEBP formats.",
+    "options": [
+      {
+        "label": "16px",
+        "value": "16px"
+      },
+      {
+        "label": "24px",
+        "value": "24px"
+      },
+      {
+        "label": "32px",
+        "value": "32px"
+      },
+      {
+        "label": "48px",
+        "value": "48px"
+      },
+      {
+        "label": "64px",
+        "value": "64px"
+      }
+    ]
+  },
+  {
+    "name": "type",
+    "label": "Type",
+    "type": "select",
+    "required": true,
+    "help": "Type of flag. One of: `country` or `organization`.",
+    "options": [
+      {
+        "label": "country",
+        "value": "country"
+      },
+      {
+        "label": "organization",
+        "value": "organization"
+      }
+    ]
+  }
+]

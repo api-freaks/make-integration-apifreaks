@@ -1,0 +1,11 @@
+{
+  "url": "/v1.0/pdf/file-status",
+  "method": "GET",
+  "qs": {
+    "format": "{{parameters.format}}",
+    "file_id": "{{parameters.file_id}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

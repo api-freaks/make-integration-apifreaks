@@ -1,0 +1,7 @@
+{
+  "name": "getHistoricalExchangeRates",
+  "label": "Currency: Get historical exchange rates",
+  "description": "Returns exchange rates for a specific historical date.",
+  "connection": "apifreaks",
+  "typeId": 4
+}

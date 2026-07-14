@@ -1,0 +1,16 @@
+{
+  "baseUrl": "https://api.apifreaks.com",
+  "headers": {
+    "X-apiKey": "{{connection.apiKey}}"
+  },
+  "response": {
+    "error": {
+      "message": "[{{statusCode}}] {{ifempty(body.message, ifempty(body.error, body))}}"
+    }
+  },
+  "log": {
+    "sanitize": [
+      "request.headers.X-apiKey"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "convertHistorical",
+  "label": "Currency: Convert currency with historical rates",
+  "description": "Converts an amount using exchange rates from a specific historical date.",
+  "connection": "apifreaks",
+  "typeId": 4
+}

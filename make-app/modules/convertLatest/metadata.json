@@ -1,0 +1,7 @@
+{
+  "name": "convertLatest",
+  "label": "Currency: Convert currency with latest rates",
+  "description": "Converts an amount from one currency to another using the latest exchange rates.",
+  "connection": "apifreaks",
+  "typeId": 4
+}

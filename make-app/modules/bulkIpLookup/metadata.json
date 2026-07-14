@@ -1,0 +1,7 @@
+{
+  "name": "bulkIpLookup",
+  "label": "IP Geolocation: Retrieve geolocation information for multiple IP addresses...",
+  "description": "Retrieve detailed geolocation data for multiple IP addresses in a single request.\nSupports up to `50,000` IP-addresses/host-names per request.",
+  "connection": "apifreaks",
+  "typeId": 9
+}

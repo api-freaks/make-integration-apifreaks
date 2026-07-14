@@ -1,0 +1,7 @@
+{
+  "name": "postUserAgentLookup",
+  "label": "User Agent: Retrieve the browser, device, and operating system details...",
+  "description": "Parse up to `50,000 User-Agent strings` at once in a single request.",
+  "connection": "apifreaks",
+  "typeId": 9
+}

@@ -1,0 +1,124 @@
+[
+  {
+    "name": "format",
+    "label": "Format",
+    "type": "select",
+    "required": false,
+    "help": "Format of the response .",
+    "options": [
+      {
+        "label": "json",
+        "value": "json"
+      },
+      {
+        "label": "xml",
+        "value": "xml"
+      }
+    ]
+  },
+  {
+    "name": "time",
+    "label": "Time",
+    "type": "text",
+    "required": false,
+    "help": "Time to convert in `yyyy-MM-dd HH:mm` or `yyyy-MM-dd HH:mm:ss` format."
+  },
+  {
+    "name": "tz_from",
+    "label": "Tz From",
+    "type": "text",
+    "required": false,
+    "help": "Source timezone name (e.g., `Asia/Kolkata`)."
+  },
+  {
+    "name": "tz_to",
+    "label": "Tz To",
+    "type": "text",
+    "required": false,
+    "help": "Target timezone name (e.g., `America/New_York`)."
+  },
+  {
+    "name": "lat_from",
+    "label": "Lat From",
+    "type": "number",
+    "required": false,
+    "help": "Latitude of source location."
+  },
+  {
+    "name": "long_from",
+    "label": "Long From",
+    "type": "number",
+    "required": false,
+    "help": "Longitude of source location."
+  },
+  {
+    "name": "lat_to",
+    "label": "Lat To",
+    "type": "number",
+    "required": false,
+    "help": "Latitude of target location."
+  },
+  {
+    "name": "long_to",
+    "label": "Long To",
+    "type": "number",
+    "required": false,
+    "help": "Longitude of target location."
+  },
+  {
+    "name": "location_from",
+    "label": "Location From",
+    "type": "text",
+    "required": false,
+    "help": "From location (city/country)."
+  },
+  {
+    "name": "location_to",
+    "label": "Location To",
+    "type": "text",
+    "required": false,
+    "help": "To location (city/country)."
+  },
+  {
+    "name": "iata_from",
+    "label": "Iata From",
+    "type": "text",
+    "required": false,
+    "help": "From IATA airport code (e.g., JFK)."
+  },
+  {
+    "name": "iata_to",
+    "label": "Iata To",
+    "type": "text",
+    "required": false,
+    "help": "To IATA airport code."
+  },
+  {
+    "name": "icao_from",
+    "label": "Icao From",
+    "type": "text",
+    "required": false,
+    "help": "From ICAO airport code (e.g., KJFK)."
+  },
+  {
+    "name": "icao_to",
+    "label": "Icao To",
+    "type": "text",
+    "required": false,
+    "help": "To ICAO airport code."
+  },
+  {
+    "name": "locode_from",
+    "label": "Locode From",
+    "type": "text",
+    "required": false,
+    "help": "From UN/LO CODE."
+  },
+  {
+    "name": "locode_to",
+    "label": "Locode To",
+    "type": "text",
+    "required": false,
+    "help": "To UN/LO CODE."
+  }
+]

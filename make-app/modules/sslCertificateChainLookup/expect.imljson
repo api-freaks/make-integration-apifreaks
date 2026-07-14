@@ -1,0 +1,33 @@
+[
+  {
+    "name": "format",
+    "label": "Format",
+    "type": "select",
+    "required": false,
+    "help": "Format of the response.",
+    "options": [
+      {
+        "label": "json",
+        "value": "json"
+      },
+      {
+        "label": "xml",
+        "value": "xml"
+      }
+    ]
+  },
+  {
+    "name": "domainName",
+    "label": "Domainname",
+    "type": "text",
+    "required": true,
+    "help": "Domain name or URL whose SSL certificate chain lookup is required"
+  },
+  {
+    "name": "sslRaw",
+    "label": "Sslraw",
+    "type": "boolean",
+    "required": false,
+    "help": "Set to true to get the raw openSSL response for each certificate in the chain"
+  }
+]

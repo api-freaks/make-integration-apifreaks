@@ -1,0 +1,47 @@
+[
+  {
+    "name": "format",
+    "label": "Format",
+    "type": "select",
+    "required": false,
+    "help": "Format of the response.",
+    "options": [
+      {
+        "label": "json",
+        "value": "json"
+      },
+      {
+        "label": "xml",
+        "value": "xml"
+      }
+    ]
+  },
+  {
+    "name": "city",
+    "label": "City",
+    "type": "text",
+    "required": true,
+    "help": "Name of the city in which we want to find zipcodes in."
+  },
+  {
+    "name": "country",
+    "label": "Country",
+    "type": "text",
+    "required": true,
+    "help": "Country code in ISO 3166-1 alpha-2 format."
+  },
+  {
+    "name": "state_name",
+    "label": "State Name",
+    "type": "text",
+    "required": false,
+    "help": "Name of the state or province associated with the country."
+  },
+  {
+    "name": "page",
+    "label": "Page",
+    "type": "number",
+    "required": false,
+    "help": "Page number to retrieve paginated results."
+  }
+]

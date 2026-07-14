@@ -1,0 +1,17 @@
+{
+  "url": "/v1.0/scraping",
+  "method": "POST",
+  "qs": {
+    "url": "{{parameters.url}}",
+    "text": "{{parameters.text}}",
+    "jsEnabled": "{{parameters.jsEnabled}}",
+    "proxy": "{{parameters.proxy}}",
+    "sslIgnore": "{{parameters.sslIgnore}}",
+    "windowSize": "{{parameters.windowSize}}",
+    "adBlock": "{{parameters.adBlock}}",
+    "captcha": "{{parameters.captcha}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

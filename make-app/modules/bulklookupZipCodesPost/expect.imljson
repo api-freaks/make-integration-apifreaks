@@ -1,0 +1,33 @@
+[
+  {
+    "name": "format",
+    "label": "Format",
+    "type": "select",
+    "required": false,
+    "help": "Format of the response.",
+    "options": [
+      {
+        "label": "json",
+        "value": "json"
+      },
+      {
+        "label": "xml",
+        "value": "xml"
+      }
+    ]
+  },
+  {
+    "name": "codes",
+    "label": "Codes",
+    "type": "array",
+    "required": true,
+    "help": "Comma separated list of postal / zip codes. Max. 100 values."
+  },
+  {
+    "name": "country",
+    "label": "Country",
+    "type": "text",
+    "required": false,
+    "help": "Country code in ISO 3166-1 alpha-2 format. If not provided, search results will be returned from all countries.\n"
+  }
+]

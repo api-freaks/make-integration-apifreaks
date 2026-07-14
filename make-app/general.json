@@ -1,0 +1,9 @@
+{
+  "name": "apifreaks",
+  "label": "APIFreaks",
+  "version": 1,
+  "theme": "#ffde00",
+  "language": "en",
+  "countries": [],
+  "description": "Unified OpenAPI spec for the APIFreaks API hub, generated from the live per-category Swagger docs. Authenticate with your API key sent as the X-apiKey header. Get a free key at https://apifreaks.com/signup."
+}

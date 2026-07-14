@@ -1,0 +1,47 @@
+[
+  {
+    "name": "url",
+    "label": "URL",
+    "type": "text",
+    "required": true,
+    "help": "Path relative to https://api.apifreaks.com - e.g. /v1.0/geolocation/lookup. You can also paste a full https:// URL to override the base."
+  },
+  {
+    "name": "method",
+    "label": "Method",
+    "type": "select",
+    "required": true,
+    "default": "GET",
+    "options": [
+      { "label": "GET", "value": "GET" },
+      { "label": "POST", "value": "POST" },
+      { "label": "PUT", "value": "PUT" },
+      { "label": "PATCH", "value": "PATCH" },
+      { "label": "DELETE", "value": "DELETE" }
+    ]
+  },
+  {
+    "name": "qs",
+    "label": "Query String",
+    "type": "array",
+    "spec": [
+      { "name": "key", "label": "Key", "type": "text" },
+      { "name": "value", "label": "Value", "type": "text" }
+    ]
+  },
+  {
+    "name": "headers",
+    "label": "Headers",
+    "type": "array",
+    "spec": [
+      { "name": "key", "label": "Key", "type": "text" },
+      { "name": "value", "label": "Value", "type": "text" }
+    ]
+  },
+  {
+    "name": "body",
+    "label": "Body",
+    "type": "any",
+    "help": "Request body for POST/PUT/PATCH calls."
+  }
+]

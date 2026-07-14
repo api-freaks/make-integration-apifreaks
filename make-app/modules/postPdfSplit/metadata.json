@@ -1,0 +1,7 @@
+{
+  "name": "postPdfSplit",
+  "label": "PDF: Split a PDF into smaller files",
+  "description": "This API splits a PDF into multiple parts based on specified page numbers or ranges.",
+  "connection": "apifreaks",
+  "typeId": 4
+}

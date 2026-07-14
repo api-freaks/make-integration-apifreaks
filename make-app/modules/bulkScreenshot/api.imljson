@@ -1,0 +1,13 @@
+{
+  "url": "/v1.0/screenshot",
+  "method": "POST",
+  "qs": {
+    "format": "{{parameters.format}}"
+  },
+  "body": {
+    "urls": "{{parameters.urls}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

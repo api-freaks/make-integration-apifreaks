@@ -1,0 +1,7 @@
+{
+  "name": "getGeoCities",
+  "label": "GeoDB: Get Cities by Country and Admin Unit",
+  "description": "Retrieve a list of cities within a country, optionally filtered by an administrative unit code.",
+  "connection": "apifreaks",
+  "typeId": 4
+}

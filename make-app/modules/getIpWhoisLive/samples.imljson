@@ -1,0 +1,13 @@
+{
+  "status": true,
+  "ip_address": "8.8.8.8",
+  "query_time": "2024-08-08 15:14:11",
+  "whois_server": "whois.arin.net",
+  "organization": {
+    "handle": "GOGL",
+    "name": "Google LLC",
+    "city": "Mountain View",
+    "state": "CA",
+    "zip_code": "94043"
+  }
+}

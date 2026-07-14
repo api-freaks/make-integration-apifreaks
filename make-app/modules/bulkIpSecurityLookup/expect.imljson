@@ -1,0 +1,40 @@
+[
+  {
+    "name": "format",
+    "label": "Format",
+    "type": "select",
+    "required": false,
+    "help": "Format of the response.",
+    "options": [
+      {
+        "label": "json",
+        "value": "json"
+      },
+      {
+        "label": "xml",
+        "value": "xml"
+      }
+    ]
+  },
+  {
+    "name": "fields",
+    "label": "Fields",
+    "type": "text",
+    "required": false,
+    "help": "Comma-separated list of fields to return. Supports dot notation (e.g. security.threat_score)."
+  },
+  {
+    "name": "excludes",
+    "label": "Excludes",
+    "type": "text",
+    "required": false,
+    "help": "Comma-separated list of fields to remove from the response. Supports dot notation (e.g. security.is_tor)."
+  },
+  {
+    "name": "ips",
+    "label": "Ips",
+    "type": "array",
+    "required": true,
+    "help": "List of IP addresses to lookup"
+  }
+]

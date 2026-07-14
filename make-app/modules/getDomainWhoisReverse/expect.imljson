@@ -1,0 +1,78 @@
+[
+  {
+    "name": "format",
+    "label": "Format",
+    "type": "select",
+    "required": false,
+    "help": "Format of the response.",
+    "options": [
+      {
+        "label": "json",
+        "value": "json"
+      },
+      {
+        "label": "xml",
+        "value": "xml"
+      }
+    ]
+  },
+  {
+    "name": "keyword",
+    "label": "Keyword",
+    "type": "text",
+    "required": false,
+    "help": "Keyword search term for reverse WHOIS by keyword (case-insensitive pattern matching)."
+  },
+  {
+    "name": "email",
+    "label": "Email",
+    "type": "text",
+    "required": false,
+    "help": "Email search term for reverse WHOIS by email address (case-insensitive exact or regex match; * wildcard supported)."
+  },
+  {
+    "name": "owner",
+    "label": "Owner",
+    "type": "text",
+    "required": false,
+    "help": "Registrant or owner name for reverse WHOIS (a full-text search phrase matching technique to retrieve results)."
+  },
+  {
+    "name": "company",
+    "label": "Company",
+    "type": "text",
+    "required": false,
+    "help": "Organization or company name for reverse WHOIS (full-text search phrase matching technique to retrieve results)."
+  },
+  {
+    "name": "exact",
+    "label": "Exact",
+    "type": "boolean",
+    "required": false,
+    "help": "Accepts 'true' or 'false'. \"true\" returns only records that exactly match the input (keyword, owner/registrant, or company). \"false\" returns all matches and is the default when omitted."
+  },
+  {
+    "name": "mode",
+    "label": "Mode",
+    "type": "select",
+    "required": false,
+    "help": "\"default\" for Complete WHOIS data and \"mini\" for Only important fields of each matching domain.",
+    "options": [
+      {
+        "label": "default",
+        "value": "default"
+      },
+      {
+        "label": "mini",
+        "value": "mini"
+      }
+    ]
+  },
+  {
+    "name": "page",
+    "label": "Page",
+    "type": "number",
+    "required": false,
+    "help": "Page number for paginated results."
+  }
+]

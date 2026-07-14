@@ -1,0 +1,40 @@
+[
+  {
+    "name": "format",
+    "label": "Format",
+    "type": "select",
+    "required": false,
+    "help": "Format of the response.",
+    "options": [
+      {
+        "label": "json",
+        "value": "json"
+      },
+      {
+        "label": "xml",
+        "value": "xml"
+      }
+    ]
+  },
+  {
+    "name": "type",
+    "label": "Type",
+    "type": "text",
+    "required": true,
+    "help": "A comma-separated list of DNS record types for lookup.\nPossible values: A, AAAA, MX, NS, SOA, SPF, TXT, CNAME, or all\n"
+  },
+  {
+    "name": "domainNames",
+    "label": "Domainnames",
+    "type": "array",
+    "required": true,
+    "help": "List of hostnames to lookup DNS records for"
+  },
+  {
+    "name": "ipAddresses",
+    "label": "Ipaddresses",
+    "type": "array",
+    "required": false,
+    "help": "Array of IP addresses to include in the lookup for enrichment"
+  }
+]

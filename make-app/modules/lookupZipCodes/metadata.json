@@ -1,0 +1,7 @@
+{
+  "name": "lookupZipCodes",
+  "label": "ZIP Code: Lookup ZIP/postal codes",
+  "description": "Lookup ZIP/postal codes",
+  "connection": "apifreaks",
+  "typeId": 4
+}

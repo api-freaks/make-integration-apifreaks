@@ -1,0 +1,7 @@
+{
+  "name": "getSubdomainsLookup",
+  "label": "Domain: Get subdomains related to the given domain name.",
+  "description": "The Subdomain Lookup API is designed to retrieve subdomains related to the given domain name. It helps you explore subdomains that are available for registration or usage.",
+  "connection": "apifreaks",
+  "typeId": 4
+}

@@ -1,0 +1,20 @@
+{
+  "url": "https://api.apifreaks.com/v1.0/geolocation/lookup",
+  "method": "GET",
+  "qs": {
+    "ip": "8.8.8.8"
+  },
+  "headers": {
+    "X-apiKey": "{{parameters.apiKey}}"
+  },
+  "response": {
+    "error": {
+      "message": "[{{statusCode}}] Invalid API key"
+    }
+  },
+  "log": {
+    "sanitize": [
+      "request.headers.X-apiKey"
+    ]
+  }
+}

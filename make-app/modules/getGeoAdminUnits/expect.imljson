@@ -1,0 +1,33 @@
+[
+  {
+    "name": "format",
+    "label": "Format",
+    "type": "select",
+    "required": false,
+    "help": "Format of the response.",
+    "options": [
+      {
+        "label": "json",
+        "value": "json"
+      },
+      {
+        "label": "xml",
+        "value": "xml"
+      }
+    ]
+  },
+  {
+    "name": "country",
+    "label": "Country",
+    "type": "text",
+    "required": true,
+    "help": "Country code in ISO 3166-1 alpha-2 format."
+  },
+  {
+    "name": "adminLevels",
+    "label": "Adminlevels",
+    "type": "array",
+    "required": false,
+    "help": "Comma-separated list to filter results by one or more administrative levels."
+  }
+]

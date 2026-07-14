@@ -1,0 +1,7 @@
+{
+  "name": "convertByIp",
+  "label": "Currency: Convert currency based on IP geolocation",
+  "description": "Converts an amount to the local currency of a given IP address.",
+  "connection": "apifreaks",
+  "typeId": 4
+}

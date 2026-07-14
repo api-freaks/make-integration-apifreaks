@@ -1,0 +1,7 @@
+{
+  "name": "postPdfLinearize",
+  "label": "PDF: Linearize a PDF",
+  "description": "API endpoint that linearizes any given PDF, restructuring it for faster loading and page-by-page viewing in web browsers.",
+  "connection": "apifreaks",
+  "typeId": 4
+}

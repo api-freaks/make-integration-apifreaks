@@ -1,0 +1,7 @@
+{
+  "name": "getSwiftCodeFinder",
+  "label": "Financial: Find SWIFT codes",
+  "description": "Fetches SWIFT codes for a given country, bank, and city.",
+  "connection": "apifreaks",
+  "typeId": 9
+}

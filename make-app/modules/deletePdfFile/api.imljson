@@ -1,0 +1,11 @@
+{
+  "url": "/v1.0/pdf/file",
+  "method": "DELETE",
+  "qs": {
+    "format": "{{parameters.format}}",
+    "file_id": "{{parameters.file_id}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

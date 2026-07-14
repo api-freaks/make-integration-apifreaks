@@ -1,0 +1,7 @@
+{
+  "name": "postVatRatesCountry",
+  "label": "Financial: Bulk VAT lookup by country",
+  "description": "Retrieves VAT details for multiple countries or country-state combinations in a single request. Maximum of `100` entries per request are allowed.",
+  "connection": "apifreaks",
+  "typeId": 4
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "format",
+    "label": "Format",
+    "type": "select",
+    "required": false,
+    "help": "Specify the desired response format. Options: 'json' (default) or 'xml'.",
+    "options": [
+      {
+        "label": "json",
+        "value": "json"
+      },
+      {
+        "label": "xml",
+        "value": "xml"
+      }
+    ]
+  },
+  {
+    "name": "iban",
+    "label": "Iban",
+    "type": "text",
+    "required": true,
+    "help": "IBAN to validate."
+  }
+]

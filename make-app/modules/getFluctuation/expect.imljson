@@ -1,0 +1,47 @@
+[
+  {
+    "name": "format",
+    "label": "Format",
+    "type": "select",
+    "required": false,
+    "help": "Response format: `json` (default) or `xml`.",
+    "options": [
+      {
+        "label": "json",
+        "value": "json"
+      },
+      {
+        "label": "xml",
+        "value": "xml"
+      }
+    ]
+  },
+  {
+    "name": "startDate",
+    "label": "Startdate",
+    "type": "text",
+    "required": true,
+    "help": "Start date in `YYYY-MM-DD` format."
+  },
+  {
+    "name": "endDate",
+    "label": "Enddate",
+    "type": "text",
+    "required": false,
+    "help": "End date in `YYYY-MM-DD` format. Defaults to yesterday."
+  },
+  {
+    "name": "base",
+    "label": "Base",
+    "type": "text",
+    "required": false,
+    "help": "Base currency code. Defaults to `USD`."
+  },
+  {
+    "name": "symbols",
+    "label": "Symbols",
+    "type": "text",
+    "required": false,
+    "help": "Comma-separated currency codes. Omit to get all available rates."
+  }
+]

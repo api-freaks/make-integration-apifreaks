@@ -1,0 +1,11 @@
+{
+  "url": "/v1.0/geo/country/details",
+  "method": "GET",
+  "qs": {
+    "format": "{{parameters.format}}",
+    "country": "{{parameters.country}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

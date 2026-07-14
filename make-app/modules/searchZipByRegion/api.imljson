@@ -1,0 +1,13 @@
+{
+  "url": "/v1.0/zipcode/search/region",
+  "method": "GET",
+  "qs": {
+    "format": "{{parameters.format}}",
+    "country": "{{parameters.country}}",
+    "region": "{{parameters.region}}",
+    "page": "{{parameters.page}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "postPdfRemovePages",
+  "label": "PDF: Delete specific pages from a PDF",
+  "description": "This API removes a selection or range of pages from a PDF file.",
+  "connection": "apifreaks",
+  "typeId": 4
+}

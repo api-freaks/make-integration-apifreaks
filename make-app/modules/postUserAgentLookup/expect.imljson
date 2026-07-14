@@ -1,0 +1,26 @@
+[
+  {
+    "name": "format",
+    "label": "Format",
+    "type": "select",
+    "required": false,
+    "help": "Format of the response",
+    "options": [
+      {
+        "label": "json",
+        "value": "json"
+      },
+      {
+        "label": "xml",
+        "value": "xml"
+      }
+    ]
+  },
+  {
+    "name": "uaStrings",
+    "label": "Uastrings",
+    "type": "array",
+    "required": false,
+    "help": "List of user agent strings to parse"
+  }
+]
