@@ -2,7 +2,6 @@
   "url": "/v1.0/currency/fluctuation",
   "method": "GET",
   "qs": {
-    "format": "{{parameters.format}}",
     "startDate": "{{parameters.startDate}}",
     "endDate": "{{parameters.endDate}}",
     "base": "{{parameters.base}}",

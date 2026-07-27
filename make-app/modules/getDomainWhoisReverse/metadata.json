@@ -1,7 +1,7 @@
 {
   "name": "getDomainWhoisReverse",
-  "label": "WHOIS: Get all the domains registered by a particular company or...",
+  "label": "Search reverse domain WHOIS",
   "description": "Performs a reverse WHOIS search using one or more search parameters like keyword, email, owner, or company.",
   "connection": "apifreaks",
-  "typeId": 4
+  "typeId": 9
 }

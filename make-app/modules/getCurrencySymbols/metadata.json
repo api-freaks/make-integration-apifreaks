@@ -1,6 +1,6 @@
 {
   "name": "getCurrencySymbols",
-  "label": "Currency: Get all currency symbols",
+  "label": "List currency symbols",
   "description": "Returns a map of currency codes to their full names.",
   "connection": "apifreaks",
   "typeId": 4

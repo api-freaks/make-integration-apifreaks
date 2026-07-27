@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "name": "success",
+    "label": "Success",
+    "type": "boolean"
+  },
+  {
+    "name": "timestamp",
+    "label": "Timestamp",
+    "type": "number"
+  },
+  {
+    "name": "rates",
+    "label": "Rates",
+    "type": "collection",
+    "spec": []
+  },
+  {
+    "name": "metadata",
+    "label": "Metadata",
+    "type": "collection",
+    "spec": []
+  }
+]

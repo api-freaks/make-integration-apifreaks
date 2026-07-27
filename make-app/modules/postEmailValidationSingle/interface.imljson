@@ -1,1 +1,262 @@
-[]
+[
+  {
+    "name": "success",
+    "label": "Success",
+    "type": "boolean"
+  },
+  {
+    "name": "email",
+    "label": "Email",
+    "type": "text"
+  },
+  {
+    "name": "name",
+    "label": "Name",
+    "type": "text"
+  },
+  {
+    "name": "reason",
+    "label": "Reason",
+    "type": "text"
+  },
+  {
+    "name": "validEmail",
+    "label": "Valid email",
+    "type": "text"
+  },
+  {
+    "name": "validSyntax",
+    "label": "Valid syntax",
+    "type": "boolean"
+  },
+  {
+    "name": "domain",
+    "label": "Domain",
+    "type": "collection",
+    "spec": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "validDomain",
+        "label": "Valid domain",
+        "type": "boolean"
+      },
+      {
+        "name": "disposable",
+        "label": "Disposable",
+        "type": "boolean"
+      },
+      {
+        "name": "spam",
+        "label": "Spam",
+        "type": "boolean"
+      },
+      {
+        "name": "free",
+        "label": "Free",
+        "type": "boolean"
+      },
+      {
+        "name": "catchAll",
+        "label": "Catch all",
+        "type": "boolean"
+      }
+    ]
+  },
+  {
+    "name": "account",
+    "label": "Account",
+    "type": "collection",
+    "spec": [
+      {
+        "name": "role",
+        "label": "Role",
+        "type": "boolean"
+      },
+      {
+        "name": "fullMailBox",
+        "label": "Full mail box",
+        "type": "boolean"
+      }
+    ]
+  },
+  {
+    "name": "dns",
+    "label": "DNS",
+    "type": "collection",
+    "spec": [
+      {
+        "name": "mxRecords",
+        "label": "MX records",
+        "type": "array",
+        "spec": {
+          "type": "text",
+          "label": "MX records"
+        }
+      },
+      {
+        "name": "aRecords",
+        "label": "A records",
+        "type": "array",
+        "spec": {
+          "type": "text",
+          "label": "A records"
+        }
+      }
+    ]
+  },
+  {
+    "name": "ipAddress",
+    "label": "IP address",
+    "type": "text"
+  },
+  {
+    "name": "address",
+    "label": "Address",
+    "type": "collection",
+    "spec": [
+      {
+        "name": "validIpAddress",
+        "label": "Valid IP address",
+        "type": "boolean"
+      },
+      {
+        "name": "location",
+        "label": "Location",
+        "type": "collection",
+        "spec": [
+          {
+            "name": "city",
+            "label": "City",
+            "type": "text"
+          },
+          {
+            "name": "district",
+            "label": "District",
+            "type": "text"
+          },
+          {
+            "name": "zipcode",
+            "label": "Zipcode",
+            "type": "text"
+          },
+          {
+            "name": "state_prov",
+            "label": "State prov",
+            "type": "text"
+          },
+          {
+            "name": "country_name",
+            "label": "Country name",
+            "type": "text"
+          },
+          {
+            "name": "continent_name",
+            "label": "Continent name",
+            "type": "text"
+          },
+          {
+            "name": "continent_code",
+            "label": "Continent code",
+            "type": "text"
+          },
+          {
+            "name": "country_code2",
+            "label": "Country code 2",
+            "type": "text"
+          },
+          {
+            "name": "country_code3",
+            "label": "Country code 3",
+            "type": "text"
+          },
+          {
+            "name": "country_name_official",
+            "label": "Country name official",
+            "type": "text"
+          },
+          {
+            "name": "accuracy_radius",
+            "label": "Accuracy radius",
+            "type": "text"
+          },
+          {
+            "name": "confidence",
+            "label": "Confidence",
+            "type": "text"
+          },
+          {
+            "name": "is_eu",
+            "label": "Is EU",
+            "type": "boolean"
+          }
+        ]
+      },
+      {
+        "name": "security",
+        "label": "Security",
+        "type": "collection",
+        "spec": [
+          {
+            "name": "threat_score",
+            "label": "Threat score",
+            "type": "number"
+          },
+          {
+            "name": "is_tor",
+            "label": "Is tor",
+            "type": "boolean"
+          },
+          {
+            "name": "is_proxy",
+            "label": "Is proxy",
+            "type": "boolean"
+          },
+          {
+            "name": "proxy_type",
+            "label": "Proxy type",
+            "type": "text"
+          },
+          {
+            "name": "proxy_provider",
+            "label": "Proxy provider",
+            "type": "text"
+          },
+          {
+            "name": "is_anonymous",
+            "label": "Is anonymous",
+            "type": "boolean"
+          },
+          {
+            "name": "is_known_attacker",
+            "label": "Is known attacker",
+            "type": "boolean"
+          },
+          {
+            "name": "is_spam",
+            "label": "Is spam",
+            "type": "boolean"
+          },
+          {
+            "name": "is_bot",
+            "label": "Is bot",
+            "type": "boolean"
+          },
+          {
+            "name": "is_cloud_provider",
+            "label": "Is cloud provider",
+            "type": "boolean"
+          },
+          {
+            "name": "cloud_provider",
+            "label": "Cloud provider",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,22 +1,5 @@
 [
   {
-    "name": "format",
-    "label": "Format",
-    "type": "select",
-    "required": false,
-    "help": "Format of the response.",
-    "options": [
-      {
-        "label": "json",
-        "value": "json"
-      },
-      {
-        "label": "xml",
-        "value": "xml"
-      }
-    ]
-  },
-  {
     "name": "compare",
     "label": "Compare",
     "type": "array",
@@ -32,14 +15,14 @@
   },
   {
     "name": "lat",
-    "label": "Lat",
+    "label": "Latitude",
     "type": "number",
     "required": false,
     "help": "Latitude coordinate for the base location."
   },
   {
     "name": "long",
-    "label": "Long",
+    "label": "Longitude",
     "type": "number",
     "required": false,
     "help": "Longitude coordinate for the base location."
@@ -54,8 +37,34 @@
   {
     "name": "unit",
     "label": "Unit",
-    "type": "text",
+    "type": "select",
     "required": false,
-    "help": "Supported distance units are m, km, mi, ft, yd, in."
+    "help": "Supported distance units are m, km, mi, ft, yd, in.",
+    "options": [
+      {
+        "label": "m",
+        "value": "m"
+      },
+      {
+        "label": "km",
+        "value": "km"
+      },
+      {
+        "label": "mi",
+        "value": "mi"
+      },
+      {
+        "label": "ft",
+        "value": "ft"
+      },
+      {
+        "label": "yd",
+        "value": "yd"
+      },
+      {
+        "label": "in",
+        "value": "in"
+      }
+    ]
   }
 ]

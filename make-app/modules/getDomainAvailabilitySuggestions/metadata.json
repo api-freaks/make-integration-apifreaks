@@ -1,6 +1,6 @@
 {
   "name": "getDomainAvailabilitySuggestions",
-  "label": "Domain: Check domain availability and receive suggestions for...",
+  "label": "Suggest available domains",
   "description": "The Domain Search API is designed to simplify the process of finding available domain names across all top-level domains (TLDs) and second-level domains (SLDs).",
   "connection": "apifreaks",
   "typeId": 4

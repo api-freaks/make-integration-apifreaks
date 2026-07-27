@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "name": "weak_words",
+    "label": "Weak words",
+    "type": "array",
+    "spec": [
+      {
+        "name": "word",
+        "label": "Word",
+        "type": "text"
+      },
+      {
+        "name": "offset",
+        "label": "Offset",
+        "type": "number"
+      }
+    ]
+  }
+]

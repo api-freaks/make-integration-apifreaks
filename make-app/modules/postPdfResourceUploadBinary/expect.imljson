@@ -1,26 +1,18 @@
 [
   {
-    "name": "format",
-    "label": "Format",
-    "type": "select",
-    "required": false,
-    "help": "Specifies the desired format for the API response. Choose 'json' for a JSON object or 'xml' for an XML structure.",
-    "options": [
-      {
-        "label": "json",
-        "value": "json"
-      },
-      {
-        "label": "xml",
-        "value": "xml"
-      }
-    ]
+    "name": "fileName",
+    "label": "File name",
+    "type": "filename",
+    "required": true,
+    "help": "The desired name for the uploaded PDF file. This name will be used for storage on the server. **NOTE**: Please ensure file_name has extension `.pdf`.",
+    "semantic": "file:name"
   },
   {
-    "name": "file_name",
-    "label": "File Name",
-    "type": "text",
+    "name": "fileData",
+    "label": "File",
+    "type": "buffer",
     "required": true,
-    "help": "The desired name for the uploaded PDF file. This name will be used for storage on the server.\n\n\n **NOTE**: Please ensure file_name has extension `.pdf`."
+    "semantic": "file:data",
+    "help": "The PDF file to upload, in binary form."
   }
 ]

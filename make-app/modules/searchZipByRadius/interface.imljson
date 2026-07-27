@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "name": "code",
+    "label": "Code",
+    "type": "text"
+  },
+  {
+    "name": "region",
+    "label": "Region",
+    "type": "text"
+  },
+  {
+    "name": "city",
+    "label": "City",
+    "type": "text"
+  },
+  {
+    "name": "district",
+    "label": "District",
+    "type": "text"
+  },
+  {
+    "name": "distance",
+    "label": "Distance",
+    "type": "number"
+  }
+]

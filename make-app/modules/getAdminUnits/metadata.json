@@ -1,7 +1,7 @@
 {
   "name": "getAdminUnits",
-  "label": "GeoDB: Get administrative units for a country",
-  "description": "Retrieve administrative units based on ISO 3166-1 alpha-2 country code.",
+  "label": "List administrative levels",
+  "description": "Returns the administrative levels available in the GeoDB dataset.",
   "connection": "apifreaks",
   "typeId": 4
 }

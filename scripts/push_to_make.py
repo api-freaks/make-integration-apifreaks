@@ -240,6 +240,16 @@ def main():
             print("[%d/%d] %s: %s %s" % (i, len(names), mname, st, resp))
         time.sleep(args.sleep)
 
+    # ---- groups (uploaded after modules, since they reference module names) ----
+    gpath = os.path.join(d, "groups.json")
+    if os.path.exists(gpath) and not args.limit:
+        groups = load(gpath)
+        st, url, _ = put_first([
+            "%s/sdk/apps/%s/%s/groups" % (API, app, ver),
+            "%s/sdk/apps/%s/groups" % (API, app),
+        ], groups)
+        print("set groups:", st)
+
     print("\ndone. modules created: %d, failed: %d" % (ok, fail))
 
 

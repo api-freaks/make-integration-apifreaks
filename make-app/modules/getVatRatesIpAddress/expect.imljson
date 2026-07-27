@@ -1,26 +1,16 @@
 [
   {
-    "name": "format",
-    "label": "Format",
-    "type": "select",
-    "required": false,
-    "help": "Specify the desired response format. Options: 'json' (default) or 'xml'.",
-    "options": [
-      {
-        "label": "json",
-        "value": "json"
-      },
-      {
-        "label": "xml",
-        "value": "xml"
-      }
-    ]
-  },
-  {
     "name": "ipAddress",
-    "label": "Ipaddress",
+    "label": "IP address",
     "type": "text",
     "required": false,
     "help": "IPv4 or IPv6 address to look up VAT rate for. If omitted, the originating IP address will be used."
+  },
+  {
+    "name": "limit",
+    "label": "Limit",
+    "type": "uinteger",
+    "default": 10,
+    "help": "Maximum number of results to return."
   }
 ]

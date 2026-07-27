@@ -1,14 +1,14 @@
 [
   {
     "name": "startDate",
-    "label": "Startdate",
+    "label": "Start date",
     "type": "text",
     "required": true,
     "help": "Starting date for the data in YYYY-MM-DD format. Historical dates must be past dates only. Current or future dates are not allowed for historical data. Data available from 1940 onwards. For precision=daily, the difference between endDate and startDate must not exceed 90 days. For precision=hourly, the difference must not exceed 7 days."
   },
   {
     "name": "endDate",
-    "label": "Enddate",
+    "label": "End date",
     "type": "text",
     "required": true,
     "help": "End date for the data in YYYY-MM-DD format. Historical dates must be past dates only. Current or future dates are not allowed for historical data. Data available from 1940 onwards. For precision=daily, the difference between endDate and startDate must not exceed 90 days. For precision=hourly, the difference must not exceed 7 days."
@@ -22,21 +22,21 @@
   },
   {
     "name": "lat",
-    "label": "Lat",
+    "label": "Latitude",
     "type": "number",
     "required": false,
     "help": "Latitude of the location."
   },
   {
     "name": "long",
-    "label": "Long",
+    "label": "Longitude",
     "type": "number",
     "required": false,
     "help": "Longitude of the location."
   },
   {
     "name": "ip",
-    "label": "Ip",
+    "label": "IP",
     "type": "text",
     "required": false,
     "help": "IP(v4 or v6) address for location inference."

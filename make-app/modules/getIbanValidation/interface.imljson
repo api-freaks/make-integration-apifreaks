@@ -1,1 +1,106 @@
-[]
+[
+  {
+    "name": "valid",
+    "label": "Valid",
+    "type": "boolean"
+  },
+  {
+    "name": "iban",
+    "label": "IBAN",
+    "type": "text"
+  },
+  {
+    "name": "validation",
+    "label": "Validation",
+    "type": "collection",
+    "spec": [
+      {
+        "name": "is_alpha_numeric",
+        "label": "Is alpha numeric",
+        "type": "boolean"
+      },
+      {
+        "name": "is_iban_supported_country",
+        "label": "Is IBAN supported country",
+        "type": "boolean"
+      },
+      {
+        "name": "is_valid_length",
+        "label": "Is valid length",
+        "type": "boolean"
+      },
+      {
+        "name": "is_valid_structure",
+        "label": "Is valid structure",
+        "type": "boolean"
+      },
+      {
+        "name": "is_iban_check_digit_valid",
+        "label": "Is IBAN check digit valid",
+        "type": "boolean"
+      },
+      {
+        "name": "bban",
+        "label": "Bban",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "name": "bank_data",
+    "label": "Bank data",
+    "type": "collection",
+    "spec": [
+      {
+        "name": "bic",
+        "label": "BIC",
+        "type": "text"
+      },
+      {
+        "name": "bank",
+        "label": "Bank",
+        "type": "text"
+      },
+      {
+        "name": "bank_code",
+        "label": "Bank code",
+        "type": "text"
+      },
+      {
+        "name": "branch_code",
+        "label": "Branch code",
+        "type": "text"
+      },
+      {
+        "name": "country",
+        "label": "Country",
+        "type": "text"
+      },
+      {
+        "name": "country_iso2",
+        "label": "Country iso 2",
+        "type": "text"
+      },
+      {
+        "name": "city",
+        "label": "City",
+        "type": "text"
+      },
+      {
+        "name": "address",
+        "label": "Address",
+        "type": "text"
+      },
+      {
+        "name": "account",
+        "label": "Account",
+        "type": "text"
+      },
+      {
+        "name": "sepa",
+        "label": "Sepa",
+        "type": "boolean"
+      }
+    ]
+  }
+]

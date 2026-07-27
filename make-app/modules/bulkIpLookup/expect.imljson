@@ -1,24 +1,7 @@
 [
   {
-    "name": "format",
-    "label": "Format",
-    "type": "select",
-    "required": false,
-    "help": "Format of the response.",
-    "options": [
-      {
-        "label": "json",
-        "value": "json"
-      },
-      {
-        "label": "xml",
-        "value": "xml"
-      }
-    ]
-  },
-  {
     "name": "lang",
-    "label": "Lang",
+    "label": "Language",
     "type": "text",
     "required": false,
     "help": "Language of the response."
@@ -46,9 +29,16 @@
   },
   {
     "name": "ips",
-    "label": "Ips",
+    "label": "IP addresses",
     "type": "array",
     "required": true,
     "help": "List of IP addresses or hostnames to lookup"
+  },
+  {
+    "name": "limit",
+    "label": "Limit",
+    "type": "uinteger",
+    "default": 10,
+    "help": "Maximum number of results to return."
   }
 ]

@@ -1,24 +1,7 @@
 [
   {
-    "name": "format",
-    "label": "Format",
-    "type": "select",
-    "required": false,
-    "help": "Format of the response.",
-    "options": [
-      {
-        "label": "json",
-        "value": "json"
-      },
-      {
-        "label": "xml",
-        "value": "xml"
-      }
-    ]
-  },
-  {
-    "name": "host-name",
-    "label": "Host Name",
+    "name": "hostName",
+    "label": "Host name",
     "type": "text",
     "required": true,
     "help": "Hostname or URL whose historical DNS records are required"
@@ -28,13 +11,13 @@
     "label": "Type",
     "type": "text",
     "required": true,
-    "help": "A comma-separated list of DNS record types for lookup.\nPossible values: A, AAAA, MX, NS, SOA, SPF, TXT, CNAME, or all\n"
+    "help": "A comma-separated list of DNS record types for lookup. Possible values: A, AAAA, MX, NS, SOA, SPF, TXT, CNAME, or all"
   },
   {
-    "name": "page",
-    "label": "Page",
-    "type": "number",
-    "required": false,
-    "help": "Page number for paginated results"
+    "name": "limit",
+    "label": "Limit",
+    "type": "uinteger",
+    "default": 10,
+    "help": "Maximum number of results to return."
   }
 ]

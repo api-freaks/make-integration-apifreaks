@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "name": "name",
+    "label": "Name",
+    "type": "text"
+  },
+  {
+    "name": "iso2",
+    "label": "Iso 2",
+    "type": "text"
+  },
+  {
+    "name": "iso3",
+    "label": "Iso 3",
+    "type": "text"
+  }
+]

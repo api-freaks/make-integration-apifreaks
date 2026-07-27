@@ -2,12 +2,15 @@
   "url": "/v1.0/swift-code/finder",
   "method": "GET",
   "qs": {
-    "format": "{{parameters.format}}",
     "country": "{{parameters.country}}",
     "bank": "{{parameters.bank}}",
     "city": "{{parameters.city}}"
   },
   "response": {
-    "output": "{{body}}"
+    "iterate": "{{body}}",
+    "output": {
+      "value": "{{item}}"
+    },
+    "limit": "{{parameters.limit}}"
   }
 }

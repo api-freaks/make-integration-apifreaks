@@ -1,1 +1,233 @@
-[]
+[
+  {
+    "name": "location",
+    "label": "Location",
+    "type": "text"
+  },
+  {
+    "name": "current",
+    "label": "Current",
+    "type": "collection",
+    "spec": [
+      {
+        "name": "timestamp",
+        "label": "Timestamp",
+        "type": "date"
+      },
+      {
+        "name": "temperature_2m",
+        "label": "Temperature 2m",
+        "type": "number"
+      },
+      {
+        "name": "relative_humidity_2m",
+        "label": "Relative humidity 2m",
+        "type": "number"
+      },
+      {
+        "name": "apparent_temperature",
+        "label": "Apparent temperature",
+        "type": "number"
+      },
+      {
+        "name": "snowfall",
+        "label": "Snowfall",
+        "type": "number"
+      },
+      {
+        "name": "rain",
+        "label": "Rain",
+        "type": "number"
+      },
+      {
+        "name": "showers",
+        "label": "Showers",
+        "type": "number"
+      },
+      {
+        "name": "precipitation",
+        "label": "Precipitation",
+        "type": "number"
+      },
+      {
+        "name": "weather_code",
+        "label": "Weather code",
+        "type": "number"
+      },
+      {
+        "name": "cloud_cover",
+        "label": "Cloud cover",
+        "type": "number"
+      },
+      {
+        "name": "pressure_msl",
+        "label": "Pressure msl",
+        "type": "number"
+      },
+      {
+        "name": "surface_pressure",
+        "label": "Surface pressure",
+        "type": "number"
+      },
+      {
+        "name": "wind_speed_10m",
+        "label": "Wind speed 10m",
+        "type": "number"
+      },
+      {
+        "name": "wind_direction_10m",
+        "label": "Wind direction 10m",
+        "type": "number"
+      },
+      {
+        "name": "wind_gusts_10m",
+        "label": "Wind gusts 10m",
+        "type": "number"
+      },
+      {
+        "name": "astronomy",
+        "label": "Astronomy",
+        "type": "collection",
+        "spec": [
+          {
+            "name": "date",
+            "label": "Date",
+            "type": "date"
+          },
+          {
+            "name": "mid_night",
+            "label": "Mid night",
+            "type": "text"
+          },
+          {
+            "name": "night_end",
+            "label": "Night end",
+            "type": "text"
+          },
+          {
+            "name": "sunrise",
+            "label": "Sunrise",
+            "type": "text"
+          },
+          {
+            "name": "solar_noon",
+            "label": "Solar noon",
+            "type": "text"
+          },
+          {
+            "name": "sunset",
+            "label": "Sunset",
+            "type": "text"
+          },
+          {
+            "name": "night_begin",
+            "label": "Night begin",
+            "type": "text"
+          },
+          {
+            "name": "day_length",
+            "label": "Day length",
+            "type": "text"
+          },
+          {
+            "name": "sun_status",
+            "label": "Sun status",
+            "type": "text"
+          },
+          {
+            "name": "moon_phase",
+            "label": "Moon phase",
+            "type": "text"
+          },
+          {
+            "name": "moonrise",
+            "label": "Moonrise",
+            "type": "text"
+          },
+          {
+            "name": "moonset",
+            "label": "Moonset",
+            "type": "text"
+          },
+          {
+            "name": "moon_status",
+            "label": "Moon status",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "name": "air_quality",
+        "label": "Air quality",
+        "type": "collection",
+        "spec": [
+          {
+            "name": "timestamp",
+            "label": "Timestamp",
+            "type": "date"
+          },
+          {
+            "name": "european_aqi",
+            "label": "European aqi",
+            "type": "number"
+          },
+          {
+            "name": "us_aqi",
+            "label": "Us aqi",
+            "type": "number"
+          },
+          {
+            "name": "pm10",
+            "label": "Pm 10",
+            "type": "number"
+          },
+          {
+            "name": "pm2_5",
+            "label": "Pm 2 5",
+            "type": "number"
+          },
+          {
+            "name": "carbon_monoxide",
+            "label": "Carbon monoxide",
+            "type": "number"
+          },
+          {
+            "name": "nitrogen_dioxide",
+            "label": "Nitrogen dioxide",
+            "type": "number"
+          },
+          {
+            "name": "sulphur_dioxide",
+            "label": "Sulphur dioxide",
+            "type": "number"
+          },
+          {
+            "name": "ozone",
+            "label": "Ozone",
+            "type": "number"
+          },
+          {
+            "name": "dust",
+            "label": "Dust",
+            "type": "number"
+          },
+          {
+            "name": "uv_index",
+            "label": "Uv index",
+            "type": "number"
+          },
+          {
+            "name": "aerosol_optical_depth",
+            "label": "Aerosol optical depth",
+            "type": "number"
+          },
+          {
+            "name": "uv_index_clear_sky",
+            "label": "Uv index clear sky",
+            "type": "number"
+          }
+        ]
+      }
+    ]
+  }
+]

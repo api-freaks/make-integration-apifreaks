@@ -2,13 +2,19 @@
   "url": "/v1.0/domain/dns/reverse",
   "method": "GET",
   "qs": {
-    "format": "{{parameters.format}}",
     "type": "{{parameters.type}}",
     "value": "{{parameters.value}}",
-    "exact": "{{parameters.exact}}",
-    "page": "{{parameters.page}}"
+    "exact": "{{parameters.exact}}"
   },
   "response": {
-    "output": "{{body}}"
+    "iterate": "{{body.reverseDnsRecords}}",
+    "output": "{{item}}",
+    "limit": "{{parameters.limit}}"
+  },
+  "pagination": {
+    "qs": {
+      "page": "{{pagination.page}}"
+    },
+    "condition": "{{body.currentPage < body.totalPages}}"
   }
 }

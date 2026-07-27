@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "name": "admin_levels",
+    "label": "Admin levels",
+    "type": "array",
+    "spec": {
+      "type": "text",
+      "label": "Admin levels"
+    }
+  }
+]

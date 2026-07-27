@@ -1,6 +1,6 @@
 {
   "name": "getAsnWhoisLive",
-  "label": "WHOIS: Get detailed ASN information, including block ranges,...",
+  "label": "Get ASN WHOIS",
   "description": "Returns WHOIS registration details for a specified ASN, with or without the 'as' prefix.",
   "connection": "apifreaks",
   "typeId": 4

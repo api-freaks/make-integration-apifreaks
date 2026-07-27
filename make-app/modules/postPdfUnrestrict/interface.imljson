@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "name": "taskId",
+    "label": "Task ID",
+    "type": "text"
+  },
+  {
+    "name": "inputIds",
+    "label": "Input IDs",
+    "type": "array",
+    "spec": {
+      "type": "text",
+      "label": "Input IDs"
+    }
+  }
+]

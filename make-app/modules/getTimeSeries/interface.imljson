@@ -1,1 +1,35 @@
-[]
+[
+  {
+    "name": "startDate",
+    "label": "Start date",
+    "type": "text"
+  },
+  {
+    "name": "endDate",
+    "label": "End date",
+    "type": "text"
+  },
+  {
+    "name": "base",
+    "label": "Base",
+    "type": "text"
+  },
+  {
+    "name": "historicalRatesList",
+    "label": "Historical rates list",
+    "type": "array",
+    "spec": [
+      {
+        "name": "date",
+        "label": "Date",
+        "type": "text"
+      },
+      {
+        "name": "rates",
+        "label": "Rates",
+        "type": "collection",
+        "spec": []
+      }
+    ]
+  }
+]

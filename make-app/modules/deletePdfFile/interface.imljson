@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "name": "fileId",
+    "label": "File ID",
+    "type": "text"
+  },
+  {
+    "name": "success",
+    "label": "Success",
+    "type": "boolean"
+  },
+  {
+    "name": "message",
+    "label": "Message",
+    "type": "text"
+  }
+]

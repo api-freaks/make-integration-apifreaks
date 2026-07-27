@@ -1,22 +1,5 @@
 [
   {
-    "name": "format",
-    "label": "Format",
-    "type": "select",
-    "required": false,
-    "help": "Format of the response.",
-    "options": [
-      {
-        "label": "json",
-        "value": "json"
-      },
-      {
-        "label": "xml",
-        "value": "xml"
-      }
-    ]
-  },
-  {
     "name": "fields",
     "label": "Fields",
     "type": "text",
@@ -32,9 +15,16 @@
   },
   {
     "name": "ips",
-    "label": "Ips",
+    "label": "IP addresses",
     "type": "array",
     "required": true,
     "help": "List of IP addresses to lookup"
+  },
+  {
+    "name": "limit",
+    "label": "Limit",
+    "type": "uinteger",
+    "default": 10,
+    "help": "Maximum number of results to return."
   }
 ]

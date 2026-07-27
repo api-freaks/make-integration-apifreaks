@@ -1,6 +1,6 @@
 {
   "name": "getPdfResourceDownload",
-  "label": "PDF: Download PDF resource",
+  "label": "Download a processed file",
   "description": "This API downloads PDF files or ZIP archives from the server using their unique resource ID.",
   "connection": "apifreaks",
   "typeId": 4

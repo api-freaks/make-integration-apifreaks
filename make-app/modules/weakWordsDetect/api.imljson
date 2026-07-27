@@ -1,9 +1,6 @@
 {
   "url": "/v1.0/readability/weak-words",
   "method": "POST",
-  "qs": {
-    "apiKey": "{{parameters.apiKey}}"
-  },
   "body": {
     "text": "{{parameters.text}}"
   },

@@ -1,7 +1,7 @@
 {
   "name": "dnsLookup",
-  "label": "DNS: Get A, AAAA, MX, NS, SOA, SPF, TXT, and CNAME DNS records...",
-  "description": "Retrieve real-time DNS records for any hostname. Supports multiple record types including A, AAAA, MX, NS, SOA, SPF, TXT, and CNAME records.\n",
+  "label": "Get DNS records",
+  "description": "Returns real-time DNS records for any hostname. Supports multiple record types including A, AAAA, MX, NS, SOA, SPF, TXT, and CNAME records.",
   "connection": "apifreaks",
   "typeId": 4
 }

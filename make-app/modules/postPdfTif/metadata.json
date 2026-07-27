@@ -1,6 +1,6 @@
 {
   "name": "postPdfTif",
-  "label": "PDF: Convert a PDF file into a sequence of TIFF images.",
+  "label": "Convert a PDF to TIFF",
   "description": "This API converts a given PDF file into a sequence of TIFF images. The output images can be saved as a single TIFF file, or as a sequence of TIFF files.",
   "connection": "apifreaks",
   "typeId": 4

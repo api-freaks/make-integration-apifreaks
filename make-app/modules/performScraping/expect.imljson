@@ -1,7 +1,7 @@
 [
   {
     "name": "url",
-    "label": "Url",
+    "label": "URL",
     "type": "text",
     "required": true,
     "help": "Target URL to scrape"
@@ -15,10 +15,10 @@
   },
   {
     "name": "jsEnabled",
-    "label": "Jsenabled",
+    "label": "JS enabled",
     "type": "boolean",
     "required": false,
-    "help": "Set `true` to enable JavaScript rendering for dynamic pages. Set `false` for static HTML pages.\n\n\n Default value is `false`."
+    "help": "Set `true` to enable JavaScript rendering for dynamic pages. Set `false` for static HTML pages. Default value is `false`."
   },
   {
     "name": "proxy",
@@ -29,30 +29,30 @@
   },
   {
     "name": "sslIgnore",
-    "label": "Sslignore",
+    "label": "SSL ignore",
     "type": "boolean",
     "required": false,
-    "help": "Ignore SSL certificate errors.\n\n\n Only works if **jsEnabled** is **true**."
+    "help": "Ignore SSL certificate errors. Only works if **jsEnabled** is **true**."
   },
   {
     "name": "windowSize",
-    "label": "Windowsize",
+    "label": "Window size",
     "type": "text",
     "required": false,
-    "help": "Specify the browser window size in the format 'width,height' (e.g., \"1920w,1080h\"). Default value is the default resolutions provided by web/browser.\n\n\n Only works if **jsEnabled** is **true**."
+    "help": "Specify the browser window size in the format 'width,height' (e.g., \"1920w,1080h\"). Default value is the default resolutions provided by web/browser. Only works if **jsEnabled** is **true**."
   },
   {
     "name": "adBlock",
-    "label": "Adblock",
+    "label": "Ad block",
     "type": "boolean",
     "required": false,
-    "help": "Set to `true` to apply ad-blocker to the specified URL else false or ignore to not apply.\n\n\n Only works if **jsEnabled** is **true**."
+    "help": "Set to `true` to apply ad-blocker to the specified URL else false or ignore to not apply. Only works if **jsEnabled** is **true**."
   },
   {
     "name": "captcha",
     "label": "Captcha",
     "type": "boolean",
     "required": false,
-    "help": "if true user can provide captcha instructions in the instructions to solve image captchas.\n\n\n  Only works if **jsEnabled** is **true**."
+    "help": "if true user can provide captcha instructions in the instructions to solve image captchas. Only works if **jsEnabled** is **true**."
   }
 ]

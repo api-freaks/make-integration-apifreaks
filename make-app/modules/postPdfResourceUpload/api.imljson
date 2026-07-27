@@ -1,12 +1,15 @@
 {
   "url": "/v1.0/pdf/resource/upload",
   "method": "POST",
-  "qs": {
-    "format": "{{parameters.format}}"
-  },
   "body": {
-    "file": "{{parameters.file}}"
+    "file": {
+      "value": "{{parameters.fileData}}",
+      "options": {
+        "filename": "{{parameters.fileName}}"
+      }
+    }
   },
+  "type": "multipart/form-data",
   "response": {
     "output": "{{body}}"
   }

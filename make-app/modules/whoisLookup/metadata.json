@@ -1,7 +1,7 @@
 {
   "name": "whoisLookup",
-  "label": "WHOIS: Retrieve the WHOIS Data for any domain",
-  "description": "Retrieve current WHOIS information for a domain name.\nThis endpoint provides detailed registration information including registrar details,\ndates, nameservers, and registrant information.\n",
+  "label": "Get domain WHOIS (legacy)",
+  "description": "Returns current WHOIS information for a domain name. This endpoint provides detailed registration information including registrar details, dates, nameservers, and registrant information.",
   "connection": "apifreaks",
   "typeId": 4
 }

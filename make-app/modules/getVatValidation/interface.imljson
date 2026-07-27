@@ -1,1 +1,66 @@
-[]
+[
+  {
+    "name": "country_code",
+    "label": "Country code",
+    "type": "text"
+  },
+  {
+    "name": "vat_number",
+    "label": "VAT number",
+    "type": "text"
+  },
+  {
+    "name": "requester_country_code",
+    "label": "Requester country code",
+    "type": "text"
+  },
+  {
+    "name": "requester_vat_number",
+    "label": "Requester VAT number",
+    "type": "text"
+  },
+  {
+    "name": "requested_at",
+    "label": "Requested at",
+    "type": "date"
+  },
+  {
+    "name": "validation",
+    "label": "Validation",
+    "type": "collection",
+    "spec": [
+      {
+        "name": "is_valid",
+        "label": "Is valid",
+        "type": "boolean"
+      },
+      {
+        "name": "consultation_number",
+        "label": "Consultation number",
+        "type": "text"
+      },
+      {
+        "name": "consultation_authority",
+        "label": "Consultation authority",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "name": "company",
+    "label": "Company",
+    "type": "collection",
+    "spec": [
+      {
+        "name": "company_name",
+        "label": "Company name",
+        "type": "text"
+      },
+      {
+        "name": "company_address",
+        "label": "Company address",
+        "type": "text"
+      }
+    ]
+  }
+]

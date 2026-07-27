@@ -2,7 +2,6 @@
   "url": "/v1.0/currency/converter/latest/prices",
   "method": "GET",
   "qs": {
-    "format": "{{parameters.format}}",
     "from": "{{parameters.from}}",
     "to": "{{parameters.to}}",
     "amount": "{{parameters.amount}}",

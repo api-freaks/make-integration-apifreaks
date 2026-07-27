@@ -1,6 +1,6 @@
 {
   "name": "getMarine",
-  "label": "Weather: Dive into detailed marine weather forecasts for coastal and...",
+  "label": "Get marine weather",
   "description": "Provides hourly forecasts of marine conditions including wave heights, wave directions, wave periods, swell info, sea surface temperatures, and ocean currents. Supports multiple geographical points and returns daily max wave statistics for up to 7 days. Ideal for maritime planning, navigation, and coastal activities.",
   "connection": "apifreaks",
   "typeId": 4

@@ -1,7 +1,7 @@
 {
   "name": "searchZipByCity",
-  "label": "ZIP Code: Search ZIP/postal codes by city",
-  "description": "Search ZIP/postal codes by city",
+  "label": "Search ZIP by city",
+  "description": "Searches ZIP/postal codes by city.",
   "connection": "apifreaks",
-  "typeId": 4
+  "typeId": 9
 }

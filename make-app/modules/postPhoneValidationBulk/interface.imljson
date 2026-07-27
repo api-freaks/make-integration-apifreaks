@@ -1,1 +1,115 @@
-[]
+[
+  {
+    "name": "raw_input",
+    "label": "Raw input",
+    "type": "collection",
+    "spec": [
+      {
+        "name": "number",
+        "label": "Number",
+        "type": "text"
+      },
+      {
+        "name": "region",
+        "label": "Region",
+        "type": "text"
+      },
+      {
+        "name": "dialer_region",
+        "label": "Dialer region",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "name": "possible",
+    "label": "Possible",
+    "type": "boolean"
+  },
+  {
+    "name": "valid",
+    "label": "Valid",
+    "type": "boolean"
+  },
+  {
+    "name": "country_prefix",
+    "label": "Country prefix",
+    "type": "number"
+  },
+  {
+    "name": "national_number",
+    "label": "National number",
+    "type": "number"
+  },
+  {
+    "name": "country_code",
+    "label": "Country code",
+    "type": "text"
+  },
+  {
+    "name": "carrier",
+    "label": "Carrier",
+    "type": "text"
+  },
+  {
+    "name": "location",
+    "label": "Location",
+    "type": "text"
+  },
+  {
+    "name": "time_zones",
+    "label": "Time zones",
+    "type": "array",
+    "spec": {
+      "type": "text",
+      "label": "Time zones"
+    }
+  },
+  {
+    "name": "line_type",
+    "label": "Line type",
+    "type": "text"
+  },
+  {
+    "name": "formats",
+    "label": "Formats",
+    "type": "collection",
+    "spec": [
+      {
+        "name": "E164",
+        "label": "E 164",
+        "type": "text"
+      },
+      {
+        "name": "International",
+        "label": "International",
+        "type": "text"
+      },
+      {
+        "name": "National",
+        "label": "National",
+        "type": "text"
+      },
+      {
+        "name": "RFC3966",
+        "label": "RFC 3966",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "name": "area_code_length",
+    "label": "Area code length",
+    "type": "number"
+  },
+  {
+    "name": "ndc_length",
+    "label": "Ndc length",
+    "type": "number"
+  },
+  {
+    "name": "can_be_internationally_dialled",
+    "label": "Can be internationally dialled",
+    "type": "boolean"
+  }
+]

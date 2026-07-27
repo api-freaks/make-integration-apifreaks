@@ -2,16 +2,22 @@
   "url": "/v1.0/zipcode/search/radius",
   "method": "GET",
   "qs": {
-    "format": "{{parameters.format}}",
     "code": "{{parameters.code}}",
     "lat": "{{parameters.lat}}",
     "long": "{{parameters.long}}",
     "country": "{{parameters.country}}",
     "radius": "{{parameters.radius}}",
-    "unit": "{{parameters.unit}}",
-    "page": "{{parameters.page}}"
+    "unit": "{{parameters.unit}}"
   },
   "response": {
-    "output": "{{body}}"
+    "iterate": "{{body.results}}",
+    "output": "{{item}}",
+    "limit": "{{parameters.limit}}"
+  },
+  "pagination": {
+    "qs": {
+      "page": "{{pagination.page}}"
+    },
+    "condition": "{{body.current_page < body.total_pages}}"
   }
 }

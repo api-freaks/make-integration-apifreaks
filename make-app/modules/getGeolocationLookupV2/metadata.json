@@ -1,7 +1,7 @@
 {
   "name": "getGeolocationLookupV2",
-  "label": "IP Geolocation: IP geolocation lookup (v2.0)",
-  "description": "Get detailed IP geolocation data for an IP address including country, city, timezone, currency, and optional threat intelligence and user-agent information - v2.0 response format.",
+  "label": "Get IP geolocation",
+  "description": "Returns detailed IP geolocation data for an IP address including country, city, timezone, currency, and optional threat intelligence and user-agent information - v2.0 response format.",
   "connection": "apifreaks",
   "typeId": 4
 }

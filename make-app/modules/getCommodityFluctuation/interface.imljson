@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "name": "success",
+    "label": "Success",
+    "type": "boolean"
+  },
+  {
+    "name": "startDate",
+    "label": "Start date",
+    "type": "text"
+  },
+  {
+    "name": "endDate",
+    "label": "End date",
+    "type": "text"
+  },
+  {
+    "name": "rates",
+    "label": "Rates",
+    "type": "collection",
+    "spec": []
+  }
+]

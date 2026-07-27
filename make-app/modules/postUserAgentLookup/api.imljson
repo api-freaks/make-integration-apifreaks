@@ -1,13 +1,14 @@
 {
   "url": "/v1.0/user-agent/lookup",
   "method": "POST",
-  "qs": {
-    "format": "{{parameters.format}}"
-  },
   "body": {
     "uaStrings": "{{parameters.uaStrings}}"
   },
   "response": {
-    "output": "{{body}}"
+    "iterate": "{{body}}",
+    "output": {
+      "value": "{{item}}"
+    },
+    "limit": "{{parameters.limit}}"
   }
 }

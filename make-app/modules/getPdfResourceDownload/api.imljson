@@ -2,9 +2,13 @@
   "url": "/v1.0/pdf/resource/download",
   "method": "GET",
   "qs": {
-    "resource_id": "{{parameters.resource_id}}"
+    "resource_id": "{{parameters.resourceId}}"
   },
   "response": {
-    "output": "{{body}}"
+    "type": "binary",
+    "output": {
+      "name": "{{parameters.resourceId}}",
+      "data": "{{body}}"
+    }
   }
 }

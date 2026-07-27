@@ -1,6 +1,6 @@
 {
   "name": "postPdfPng",
-  "label": "PDF: Convert PDF to PNG",
+  "label": "Convert a PDF to PNG",
   "description": "This API converts a given PDF file into a sequence of PNG images.",
   "connection": "apifreaks",
   "typeId": 4

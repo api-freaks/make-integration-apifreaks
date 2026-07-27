@@ -1,31 +1,14 @@
 [
   {
-    "name": "format",
-    "label": "Format",
-    "type": "select",
-    "required": false,
-    "help": "Format of the response.",
-    "options": [
-      {
-        "label": "json",
-        "value": "json"
-      },
-      {
-        "label": "xml",
-        "value": "xml"
-      }
-    ]
-  },
-  {
-    "name": "host-name",
-    "label": "Host Name",
+    "name": "hostName",
+    "label": "Host name",
     "type": "text",
     "required": false,
     "help": "Hostname or URL whose DNS records are required."
   },
   {
     "name": "ipAddress",
-    "label": "Ipaddress",
+    "label": "IP address",
     "type": "text",
     "required": false,
     "help": "The IP address for requested DNS's PTR record. 'type' parameter must be set to 'all'."

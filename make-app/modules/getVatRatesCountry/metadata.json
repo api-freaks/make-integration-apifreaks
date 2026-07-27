@@ -1,6 +1,6 @@
 {
   "name": "getVatRatesCountry",
-  "label": "Financial: Get VAT rate by country code",
+  "label": "Search VAT rates by country",
   "description": "Fetches VAT rates for a single country or state provided via query parameters.",
   "connection": "apifreaks",
   "typeId": 9

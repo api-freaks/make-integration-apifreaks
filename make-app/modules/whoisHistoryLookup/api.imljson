@@ -2,7 +2,6 @@
   "url": "/v1.0/domain/whois/history",
   "method": "GET",
   "qs": {
-    "format": "{{parameters.format}}",
     "domainName": "{{parameters.domainName}}"
   },
   "response": {

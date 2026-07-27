@@ -1,6 +1,6 @@
 {
   "name": "getVatValidation",
-  "label": "Financial: Validate EU and UK VAT number",
+  "label": "Validate a VAT number",
   "description": "Validates an EU or UK VAT number and returns registration status details.",
   "connection": "apifreaks",
   "typeId": 4

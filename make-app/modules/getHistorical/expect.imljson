@@ -15,21 +15,21 @@
   },
   {
     "name": "lat",
-    "label": "Lat",
+    "label": "Latitude",
     "type": "number",
     "required": false,
     "help": "Latitude of the location."
   },
   {
     "name": "long",
-    "label": "Long",
+    "label": "Longitude",
     "type": "number",
     "required": false,
     "help": "Longitude of the location."
   },
   {
     "name": "ip",
-    "label": "Ip",
+    "label": "IP",
     "type": "text",
     "required": false,
     "help": "IP(v4 or v6) address for location inference."

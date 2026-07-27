@@ -1,6 +1,6 @@
 {
   "name": "postPdfRestrict",
-  "label": "PDF: Apply permission restrictions on a PDF file",
+  "label": "Restrict a PDF",
   "description": "This API applies permission restrictions on a PDF file, such as disabling printing, copying, or editing. This can include password protection to enforce restrictions.",
   "connection": "apifreaks",
   "typeId": 4

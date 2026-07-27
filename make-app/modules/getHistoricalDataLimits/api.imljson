@@ -1,9 +1,6 @@
 {
   "url": "/v1.0/currency/historical/data/limits",
   "method": "GET",
-  "qs": {
-    "format": "{{parameters.format}}"
-  },
   "response": {
     "output": "{{body}}"
   }

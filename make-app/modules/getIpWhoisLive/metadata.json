@@ -1,6 +1,6 @@
 {
   "name": "getIpWhoisLive",
-  "label": "WHOIS: Access the WHOIS Data for any IP",
+  "label": "Get IP WHOIS",
   "description": "Returns WHOIS registration details for a specified IP address (IPv4 or IPv6).",
   "connection": "apifreaks",
   "typeId": 4

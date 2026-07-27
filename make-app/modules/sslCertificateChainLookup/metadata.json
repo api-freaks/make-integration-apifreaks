@@ -1,7 +1,7 @@
 {
   "name": "sslCertificateChainLookup",
-  "label": "SSL: Retrieve all certificates from the domain to the root...",
-  "description": "Retrieve the complete SSL certificate chain from root Certificate Authority (CA) to end-user certificate.\nThis endpoint provides comprehensive information about each certificate in the chain.\n",
+  "label": "Get SSL certificate chain",
+  "description": "Returns the complete SSL certificate chain from root Certificate Authority (CA) to end-user certificate. This endpoint provides comprehensive information about each certificate in the chain.",
   "connection": "apifreaks",
   "typeId": 4
 }

@@ -1,13 +1,12 @@
 {
   "url": "/v1.0/readability/score",
   "method": "POST",
-  "qs": {
-    "apiKey": "{{parameters.apiKey}}",
-    "target": "{{parameters.target}}",
-    "exclude": "{{parameters.exclude}}"
-  },
   "body": {
     "text": "{{parameters.text}}"
+  },
+  "qs": {
+    "target": "{{parameters.target}}",
+    "exclude": "{{parameters.exclude}}"
   },
   "response": {
     "output": "{{body}}"

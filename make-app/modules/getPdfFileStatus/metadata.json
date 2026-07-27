@@ -1,6 +1,6 @@
 {
   "name": "getPdfFileStatus",
-  "label": "PDF: Check file status",
+  "label": "Get PDF file status",
   "description": "This API checks the status of a PDF file using its unique file ID, providing information about its creation and potential deletion time.",
   "connection": "apifreaks",
   "typeId": 4

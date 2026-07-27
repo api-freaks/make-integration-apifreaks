@@ -1,9 +1,6 @@
 {
   "url": "/v1.0/email-validation/bulk",
   "method": "POST",
-  "qs": {
-    "format": "{{parameters.format}}"
-  },
   "body": {
     "emailData": "{{parameters.emailData}}"
   },

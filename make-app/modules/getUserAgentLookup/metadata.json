@@ -1,7 +1,7 @@
 {
   "name": "getUserAgentLookup",
-  "label": "User Agent: Obtain accurate browser, device, and operating system...",
-  "description": "Parse User Agent string to get detailed browser, device, and operating system information",
+  "label": "Look up a user agent",
+  "description": "Parses User Agent string to get detailed browser, device, and operating system information.",
   "connection": "apifreaks",
   "typeId": 4
 }

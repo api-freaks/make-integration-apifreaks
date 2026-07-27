@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "name": "countries",
+    "label": "Countries",
+    "type": "array",
+    "spec": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "iso_alpha_2",
+        "label": "Iso alpha 2",
+        "type": "text"
+      },
+      {
+        "name": "iso_alpha_3",
+        "label": "Iso alpha 3",
+        "type": "text"
+      },
+      {
+        "name": "iso_numeric",
+        "label": "Iso numeric",
+        "type": "number"
+      },
+      {
+        "name": "capital",
+        "label": "Capital",
+        "type": "text"
+      },
+      {
+        "name": "region",
+        "label": "Region",
+        "type": "text"
+      },
+      {
+        "name": "subregion",
+        "label": "Subregion",
+        "type": "text"
+      }
+    ]
+  }
+]

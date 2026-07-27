@@ -1,9 +1,6 @@
 {
-  "url": "https://api.apifreaks.com/v1.0/geolocation/lookup",
+  "url": "https://api.apifreaks.com/v1.0/credits/usage/info",
   "method": "GET",
-  "qs": {
-    "ip": "8.8.8.8"
-  },
   "headers": {
     "X-apiKey": "{{parameters.apiKey}}"
   },

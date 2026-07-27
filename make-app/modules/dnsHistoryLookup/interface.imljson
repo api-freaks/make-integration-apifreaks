@@ -1,1 +1,63 @@
-[]
+[
+  {
+    "name": "queryTime",
+    "label": "Query time",
+    "type": "text"
+  },
+  {
+    "name": "domainName",
+    "label": "Domain name",
+    "type": "text"
+  },
+  {
+    "name": "dnsTypes",
+    "label": "DNS types",
+    "type": "collection",
+    "spec": [
+      {
+        "name": "A",
+        "label": "A",
+        "type": "number"
+      },
+      {
+        "name": "AAAA",
+        "label": "AAAA",
+        "type": "number"
+      },
+      {
+        "name": "MX",
+        "label": "MX",
+        "type": "number"
+      },
+      {
+        "name": "NS",
+        "label": "NS",
+        "type": "number"
+      },
+      {
+        "name": "SOA",
+        "label": "SOA",
+        "type": "number"
+      },
+      {
+        "name": "TXT",
+        "label": "TXT",
+        "type": "number"
+      },
+      {
+        "name": "SPF",
+        "label": "SPF",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "name": "dnsRecords",
+    "label": "DNS records",
+    "type": "array",
+    "spec": {
+      "type": "text",
+      "label": "DNS records"
+    }
+  }
+]

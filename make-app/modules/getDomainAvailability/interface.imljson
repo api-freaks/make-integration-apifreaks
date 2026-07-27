@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "name": "domain",
+    "label": "Domain",
+    "type": "text"
+  },
+  {
+    "name": "domainAvailability",
+    "label": "Domain availability",
+    "type": "boolean"
+  }
+]

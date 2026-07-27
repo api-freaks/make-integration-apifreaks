@@ -2,12 +2,18 @@
   "url": "/v1.0/domain/dns/history",
   "method": "GET",
   "qs": {
-    "format": "{{parameters.format}}",
-    "host-name": "{{parameters.host-name}}",
-    "type": "{{parameters.type}}",
-    "page": "{{parameters.page}}"
+    "host-name": "{{parameters.hostName}}",
+    "type": "{{parameters.type}}"
   },
   "response": {
-    "output": "{{body}}"
+    "iterate": "{{body.historicalDnsRecords}}",
+    "output": "{{item}}",
+    "limit": "{{parameters.limit}}"
+  },
+  "pagination": {
+    "qs": {
+      "page": "{{pagination.page}}"
+    },
+    "condition": "{{body.currentPage < body.totalPages}}"
   }
 }

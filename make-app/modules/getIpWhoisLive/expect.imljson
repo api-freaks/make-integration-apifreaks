@@ -1,24 +1,7 @@
 [
   {
-    "name": "format",
-    "label": "Format",
-    "type": "select",
-    "required": false,
-    "help": "Format of the response.",
-    "options": [
-      {
-        "label": "json",
-        "value": "json"
-      },
-      {
-        "label": "xml",
-        "value": "xml"
-      }
-    ]
-  },
-  {
     "name": "ip",
-    "label": "Ip",
+    "label": "IP",
     "type": "text",
     "required": true,
     "help": "The IP address (IPv4 or IPv6) for which WHOIS data is requested."

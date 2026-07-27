@@ -1,22 +1,5 @@
 [
   {
-    "name": "format",
-    "label": "Format",
-    "type": "select",
-    "required": false,
-    "help": "Specify the desired response format. Options: 'json' (default) or 'xml'.",
-    "options": [
-      {
-        "label": "json",
-        "value": "json"
-      },
-      {
-        "label": "xml",
-        "value": "xml"
-      }
-    ]
-  },
-  {
     "name": "country",
     "label": "Country",
     "type": "text",
@@ -36,5 +19,12 @@
     "type": "text",
     "required": false,
     "help": "Gives SWIFT codes for a bank. Optionally specify the city (upper case) to narrow results to a specific city for that bank."
+  },
+  {
+    "name": "limit",
+    "label": "Limit",
+    "type": "uinteger",
+    "default": 10,
+    "help": "Maximum number of results to return."
   }
 ]

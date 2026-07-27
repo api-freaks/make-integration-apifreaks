@@ -1,8 +1,8 @@
 {
   "url": "/v1.0/user-agent/lookup",
   "method": "GET",
-  "qs": {
-    "format": "{{parameters.format}}"
+  "headers": {
+    "User-Agent": "{{parameters.UserAgent}}"
   },
   "response": {
     "output": "{{body}}"

@@ -1,7 +1,7 @@
 {
   "name": "grammarCorrect",
-  "label": "Readability: Automatically correct grammar and return corrected text.",
-  "description": "Submit text with grammatical issues and receive a clean grammar-corrected result for proofreading and content workflows.",
+  "label": "Correct grammar",
+  "description": "Submits text with grammatical issues and receive a clean grammar-corrected result for proofreading and content workflows.",
   "connection": "apifreaks",
   "typeId": 4
 }

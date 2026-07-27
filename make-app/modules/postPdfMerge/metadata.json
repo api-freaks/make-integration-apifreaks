@@ -1,7 +1,7 @@
 {
   "name": "postPdfMerge",
-  "label": "PDF: Combine multiple PDF files into one",
-  "description": "This API merges multiple PDF files into a single PDF, in the order they are provided",
+  "label": "Merge PDF files",
+  "description": "This API merges multiple PDF files into a single PDF, in the order they are provided.",
   "connection": "apifreaks",
   "typeId": 4
 }

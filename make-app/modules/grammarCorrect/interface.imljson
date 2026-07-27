@@ -1,1 +1,7 @@
-[]
+[
+  {
+    "name": "grammar_correction",
+    "label": "Grammar correction",
+    "type": "text"
+  }
+]

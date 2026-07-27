@@ -1,12 +1,5 @@
 [
   {
-    "name": "apiKey",
-    "label": "Apikey",
-    "type": "text",
-    "required": true,
-    "help": "Your API key"
-  },
-  {
     "name": "target",
     "label": "Target",
     "type": "select",

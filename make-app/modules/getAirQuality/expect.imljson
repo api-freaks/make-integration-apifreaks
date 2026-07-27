@@ -1,14 +1,14 @@
 [
   {
     "name": "startDate",
-    "label": "Startdate",
+    "label": "Start date",
     "type": "text",
     "required": false,
     "help": "Starting date for AQI forecast data in YYYY-MM-DD format. Forecast dates must be current or future dates only. Past dates are not allowed for forecast data. The difference between endDate and startDate must not exceed 5 days."
   },
   {
     "name": "endDate",
-    "label": "Enddate",
+    "label": "End date",
     "type": "text",
     "required": false,
     "help": "End date for AQI forecast data in YYYY-MM-DD format. Forecast dates must be current or future dates only. Past dates are not allowed for forecast data. The difference between endDate and startDate must not exceed 5 days."
@@ -22,21 +22,21 @@
   },
   {
     "name": "lat",
-    "label": "Lat",
+    "label": "Latitude",
     "type": "number",
     "required": false,
     "help": "Latitude of the location."
   },
   {
     "name": "long",
-    "label": "Long",
+    "label": "Longitude",
     "type": "number",
     "required": false,
     "help": "Longitude of the location."
   },
   {
     "name": "ip",
-    "label": "Ip",
+    "label": "IP",
     "type": "text",
     "required": false,
     "help": "IP(v4 or v6) address for location inference."

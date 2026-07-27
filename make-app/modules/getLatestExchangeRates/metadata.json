@@ -1,6 +1,6 @@
 {
   "name": "getLatestExchangeRates",
-  "label": "Currency: Get the latest exchange rates",
+  "label": "Get latest exchange rates",
   "description": "Returns the latest exchange rates for the requested base currency and symbols.",
   "connection": "apifreaks",
   "typeId": 4

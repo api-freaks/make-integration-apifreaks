@@ -1,19 +1,27 @@
 {
   "url": "/v1.0/pdf/unrestrict",
   "method": "POST",
+  "body": {
+    "file": {
+      "value": "{{parameters.fileData}}",
+      "options": {
+        "filename": "{{parameters.fileName}}"
+      }
+    }
+  },
+  "type": "multipart/form-data",
   "qs": {
-    "format": "{{parameters.format}}",
-    "file_id": "{{parameters.file_id}}",
+    "file_id": "{{parameters.fileId}}",
     "destroy": "{{parameters.destroy}}",
     "output": "{{parameters.output}}",
-    "file_password": "{{parameters.file_password}}",
-    "user_password": "{{parameters.user_password}}",
-    "owner_password": "{{parameters.owner_password}}",
-    "webhook_url": "{{parameters.webhook_url}}",
-    "webhook_failure_notification": "{{parameters.webhook_failure_notification}}"
+    "file_password": "{{parameters.filePassword}}",
+    "user_password": "{{parameters.userPassword}}",
+    "owner_password": "{{parameters.ownerPassword}}",
+    "webhook_url": "{{parameters.webhookUrl}}",
+    "webhook_failure_notification": "{{parameters.webhookFailureNotification}}"
   },
-  "body": {
-    "file": "{{parameters.file}}"
+  "headers": {
+    "X-Webhook-Authorization": "{{parameters.XWebhookAuthorization}}"
   },
   "response": {
     "output": "{{body}}"

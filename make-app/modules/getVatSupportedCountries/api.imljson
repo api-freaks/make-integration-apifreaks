@@ -2,7 +2,6 @@
   "url": "/v1.0/vat/supported-countries",
   "method": "GET",
   "qs": {
-    "format": "{{parameters.format}}",
     "type": "{{parameters.type}}"
   },
   "response": {

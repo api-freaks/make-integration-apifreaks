@@ -1,18 +1,479 @@
 [
-  { "name": "status", "label": "Status", "type": "boolean" },
-  { "name": "ip_address", "label": "IP Address", "type": "text" },
-  { "name": "query_time", "label": "Query Time", "type": "text" },
-  { "name": "whois_server", "label": "WHOIS Server", "type": "text" },
   {
-    "name": "organization",
-    "label": "Organization",
+    "name": "status",
+    "label": "Status",
+    "type": "boolean"
+  },
+  {
+    "name": "ip_address",
+    "label": "IP address",
+    "type": "text"
+  },
+  {
+    "name": "query_time",
+    "label": "Query time",
+    "type": "date"
+  },
+  {
+    "name": "whois_server",
+    "label": "WHOIS server",
+    "type": "text"
+  },
+  {
+    "name": "inet_nums",
+    "label": "Inet nums",
+    "type": "array",
+    "spec": {
+      "type": "text",
+      "label": "Inet nums"
+    }
+  },
+  {
+    "name": "irt",
+    "label": "Irt",
     "type": "collection",
     "spec": [
-      { "name": "handle", "label": "Handle", "type": "text" },
-      { "name": "name", "label": "Name", "type": "text" },
-      { "name": "city", "label": "City", "type": "text" },
-      { "name": "state", "label": "State", "type": "text" },
-      { "name": "zip_code", "label": "Zip Code", "type": "text" }
+      {
+        "name": "handle",
+        "label": "Handle",
+        "type": "text"
+      },
+      {
+        "name": "address",
+        "label": "Address",
+        "type": "array",
+        "spec": {
+          "type": "text",
+          "label": "Address"
+        }
+      },
+      {
+        "name": "street",
+        "label": "Street",
+        "type": "text"
+      },
+      {
+        "name": "city",
+        "label": "City",
+        "type": "text"
+      },
+      {
+        "name": "district",
+        "label": "District",
+        "type": "text"
+      },
+      {
+        "name": "state",
+        "label": "State",
+        "type": "text"
+      },
+      {
+        "name": "zip_code",
+        "label": "ZIP code",
+        "type": "text"
+      },
+      {
+        "name": "country",
+        "label": "Country",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "array",
+        "spec": {
+          "type": "text",
+          "label": "Email"
+        }
+      },
+      {
+        "name": "abuse_mailbox",
+        "label": "Abuse mailbox",
+        "type": "array",
+        "spec": {
+          "type": "text",
+          "label": "Abuse mailbox"
+        }
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "array",
+        "spec": {
+          "type": "text",
+          "label": "Phone"
+        }
+      },
+      {
+        "name": "fax_no",
+        "label": "Fax no",
+        "type": "array",
+        "spec": {
+          "type": "text",
+          "label": "Fax no"
+        }
+      },
+      {
+        "name": "organizations",
+        "label": "Organizations",
+        "type": "array",
+        "spec": {
+          "type": "text",
+          "label": "Organizations"
+        }
+      },
+      {
+        "name": "admin_contacts",
+        "label": "Admin contacts",
+        "type": "array",
+        "spec": {
+          "type": "text",
+          "label": "Admin contacts"
+        }
+      },
+      {
+        "name": "tech_contacts",
+        "label": "Tech contacts",
+        "type": "array",
+        "spec": {
+          "type": "text",
+          "label": "Tech contacts"
+        }
+      },
+      {
+        "name": "remarks",
+        "label": "Remarks",
+        "type": "array",
+        "spec": {
+          "type": "text",
+          "label": "Remarks"
+        }
+      },
+      {
+        "name": "signature",
+        "label": "Signature",
+        "type": "array",
+        "spec": {
+          "type": "text",
+          "label": "Signature"
+        }
+      },
+      {
+        "name": "encryption",
+        "label": "Encryption",
+        "type": "array",
+        "spec": {
+          "type": "text",
+          "label": "Encryption"
+        }
+      },
+      {
+        "name": "auth",
+        "label": "Auth",
+        "type": "array",
+        "spec": {
+          "type": "text",
+          "label": "Auth"
+        }
+      },
+      {
+        "name": "notify",
+        "label": "Notify",
+        "type": "array",
+        "spec": {
+          "type": "text",
+          "label": "Notify"
+        }
+      },
+      {
+        "name": "irt_nfy",
+        "label": "Irt nfy",
+        "type": "array",
+        "spec": {
+          "type": "text",
+          "label": "Irt nfy"
+        }
+      },
+      {
+        "name": "mnt_by",
+        "label": "Mnt by",
+        "type": "array",
+        "spec": {
+          "type": "text",
+          "label": "Mnt by"
+        }
+      },
+      {
+        "name": "mnt_ref",
+        "label": "Mnt ref",
+        "type": "array",
+        "spec": {
+          "type": "text",
+          "label": "Mnt ref"
+        }
+      },
+      {
+        "name": "date_created",
+        "label": "Date created",
+        "type": "date"
+      },
+      {
+        "name": "date_updated",
+        "label": "Date updated",
+        "type": "date"
+      },
+      {
+        "name": "source",
+        "label": "Source",
+        "type": "text"
+      },
+      {
+        "name": "organization",
+        "label": "Organization",
+        "type": "collection",
+        "spec": [
+          {
+            "name": "handle",
+            "label": "Handle",
+            "type": "text"
+          },
+          {
+            "name": "name",
+            "label": "Name",
+            "type": "text"
+          },
+          {
+            "name": "type",
+            "label": "Type",
+            "type": "text"
+          },
+          {
+            "name": "description",
+            "label": "Description",
+            "type": "array",
+            "spec": {
+              "type": "text",
+              "label": "Description"
+            }
+          },
+          {
+            "name": "address",
+            "label": "Address",
+            "type": "array",
+            "spec": {
+              "type": "text",
+              "label": "Address"
+            }
+          },
+          {
+            "name": "street",
+            "label": "Street",
+            "type": "text"
+          },
+          {
+            "name": "city",
+            "label": "City",
+            "type": "text"
+          },
+          {
+            "name": "district",
+            "label": "District",
+            "type": "text"
+          },
+          {
+            "name": "state",
+            "label": "State",
+            "type": "text"
+          },
+          {
+            "name": "zip_code",
+            "label": "ZIP code",
+            "type": "text"
+          },
+          {
+            "name": "country",
+            "label": "Country",
+            "type": "text"
+          },
+          {
+            "name": "latitude",
+            "label": "Latitude",
+            "type": "number"
+          },
+          {
+            "name": "longitude",
+            "label": "Longitude",
+            "type": "number"
+          },
+          {
+            "name": "email",
+            "label": "Email",
+            "type": "array",
+            "spec": {
+              "type": "text",
+              "label": "Email"
+            }
+          },
+          {
+            "name": "abuse_mailbox",
+            "label": "Abuse mailbox",
+            "type": "array",
+            "spec": {
+              "type": "text",
+              "label": "Abuse mailbox"
+            }
+          },
+          {
+            "name": "phone",
+            "label": "Phone",
+            "type": "array",
+            "spec": {
+              "type": "text",
+              "label": "Phone"
+            }
+          },
+          {
+            "name": "fax_no",
+            "label": "Fax no",
+            "type": "array",
+            "spec": {
+              "type": "text",
+              "label": "Fax no"
+            }
+          },
+          {
+            "name": "admin_contacts",
+            "label": "Admin contacts",
+            "type": "array",
+            "spec": {
+              "type": "text",
+              "label": "Admin contacts"
+            }
+          },
+          {
+            "name": "tech_contacts",
+            "label": "Tech contacts",
+            "type": "array",
+            "spec": {
+              "type": "text",
+              "label": "Tech contacts"
+            }
+          },
+          {
+            "name": "abuse_contacts",
+            "label": "Abuse contacts",
+            "type": "array",
+            "spec": {
+              "type": "text",
+              "label": "Abuse contacts"
+            }
+          },
+          {
+            "name": "remarks",
+            "label": "Remarks",
+            "type": "array",
+            "spec": {
+              "type": "text",
+              "label": "Remarks"
+            }
+          },
+          {
+            "name": "notify",
+            "label": "Notify",
+            "type": "array",
+            "spec": {
+              "type": "text",
+              "label": "Notify"
+            }
+          },
+          {
+            "name": "ref_nfy",
+            "label": "Ref nfy",
+            "type": "array",
+            "spec": {
+              "type": "text",
+              "label": "Ref nfy"
+            }
+          },
+          {
+            "name": "mnt_by",
+            "label": "Mnt by",
+            "type": "array",
+            "spec": {
+              "type": "text",
+              "label": "Mnt by"
+            }
+          },
+          {
+            "name": "mnt_ref",
+            "label": "Mnt ref",
+            "type": "array",
+            "spec": {
+              "type": "text",
+              "label": "Mnt ref"
+            }
+          },
+          {
+            "name": "date_created",
+            "label": "Date created",
+            "type": "date"
+          },
+          {
+            "name": "date_updated",
+            "label": "Date updated",
+            "type": "date"
+          },
+          {
+            "name": "source",
+            "label": "Source",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "name": "administrative_contacts",
+        "label": "Administrative contacts",
+        "type": "array",
+        "spec": {
+          "type": "text",
+          "label": "Administrative contacts"
+        }
+      },
+      {
+        "name": "technical_contacts",
+        "label": "Technical contacts",
+        "type": "array",
+        "spec": {
+          "type": "text",
+          "label": "Technical contacts"
+        }
+      },
+      {
+        "name": "abuse_contacts",
+        "label": "Abuse contacts",
+        "type": "array",
+        "spec": [
+          {
+            "name": "handle",
+            "label": "Handle",
+            "type": "text"
+          },
+          {
+            "name": "name",
+            "label": "Name",
+            "type": "text"
+          },
+          {
+            "name": "email",
+            "label": "Email",
+            "type": "array",
+            "spec": {
+              "type": "text",
+              "label": "Email"
+            }
+          }
+        ]
+      }
     ]
   }
 ]

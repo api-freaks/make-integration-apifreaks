@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "name": "VAT_Supported_Countries_And_States",
+    "label": "VAT supported countries and states",
+    "type": "array",
+    "spec": [
+      {
+        "name": "code",
+        "label": "Code",
+        "type": "text"
+      },
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "states",
+        "label": "States",
+        "type": "array",
+        "spec": {
+          "type": "text",
+          "label": "States"
+        }
+      }
+    ]
+  }
+]

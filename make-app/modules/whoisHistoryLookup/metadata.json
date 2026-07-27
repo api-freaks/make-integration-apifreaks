@@ -1,7 +1,7 @@
 {
   "name": "whoisHistoryLookup",
-  "label": "WHOIS: Get all the historical WHOIS records of a domain",
-  "description": "Retrieve historical WHOIS records for a domain name.\nThis endpoint provides a timeline of all recorded changes in domain registration information.\n",
+  "label": "Get domain WHOIS history",
+  "description": "Returns historical WHOIS records for a domain name. This endpoint provides a timeline of all recorded changes in domain registration information.",
   "connection": "apifreaks",
   "typeId": 4
 }

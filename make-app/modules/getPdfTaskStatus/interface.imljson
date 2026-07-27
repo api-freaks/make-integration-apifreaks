@@ -1,1 +1,69 @@
-[]
+[
+  {
+    "name": "taskId",
+    "label": "Task ID",
+    "type": "text"
+  },
+  {
+    "name": "status",
+    "label": "Status",
+    "type": "text"
+  },
+  {
+    "name": "createdAt",
+    "label": "Created at",
+    "type": "date"
+  },
+  {
+    "name": "zipOutputUrl",
+    "label": "ZIP output URL",
+    "type": "text"
+  },
+  {
+    "name": "zipFileId",
+    "label": "ZIP file ID",
+    "type": "text"
+  },
+  {
+    "name": "outputUrls",
+    "label": "Output URLs",
+    "type": "array",
+    "spec": {
+      "type": "text",
+      "label": "Output URLs"
+    }
+  },
+  {
+    "name": "outputIds",
+    "label": "Output IDs",
+    "type": "array",
+    "spec": {
+      "type": "text",
+      "label": "Output IDs"
+    }
+  },
+  {
+    "name": "inputIds",
+    "label": "Input IDs",
+    "type": "array",
+    "spec": {
+      "type": "text",
+      "label": "Input IDs"
+    }
+  },
+  {
+    "name": "error",
+    "label": "Error",
+    "type": "text"
+  },
+  {
+    "name": "message",
+    "label": "Message",
+    "type": "text"
+  },
+  {
+    "name": "expiresAt",
+    "label": "Expires at",
+    "type": "date"
+  }
+]

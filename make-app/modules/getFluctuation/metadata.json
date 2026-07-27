@@ -1,6 +1,6 @@
 {
   "name": "getFluctuation",
-  "label": "Currency: Get exchange rate fluctuations",
+  "label": "Get currency fluctuation",
   "description": "Returns exchange rate fluctuations between two dates for the requested symbols.",
   "connection": "apifreaks",
   "typeId": 4

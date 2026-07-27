@@ -1,22 +1,5 @@
 [
   {
-    "name": "format",
-    "label": "Format",
-    "type": "select",
-    "required": false,
-    "help": "Format of the response.",
-    "options": [
-      {
-        "label": "json",
-        "value": "json"
-      },
-      {
-        "label": "xml",
-        "value": "xml"
-      }
-    ]
-  },
-  {
     "name": "code",
     "label": "Code",
     "type": "text",
@@ -25,14 +8,14 @@
   },
   {
     "name": "lat",
-    "label": "Lat",
+    "label": "Latitude",
     "type": "number",
     "required": false,
     "help": "Latitude coordinate for the base location."
   },
   {
     "name": "long",
-    "label": "Long",
+    "label": "Longitude",
     "type": "number",
     "required": false,
     "help": "Longitude coordinate for the base location."
@@ -42,14 +25,14 @@
     "label": "Country",
     "type": "text",
     "required": false,
-    "help": "Country code in ISO 3166-1 alpha-2 format. Required only when using the code parameter.\n"
+    "help": "Country code in ISO 3166-1 alpha-2 format. Required only when using the code parameter."
   },
   {
     "name": "radius",
     "label": "Radius",
     "type": "number",
     "required": true,
-    "help": "Search radius for the query. The maximum allowed values are: - 100 km - 100 mi - 109361 yd - 100000 m - 328084 ft - 3937007.75 in\n"
+    "help": "Search radius for the query. The maximum allowed values are: - 100 km - 100 mi - 109361 yd - 100000 m - 328084 ft - 3937007.75 in"
   },
   {
     "name": "unit",
@@ -85,10 +68,10 @@
     ]
   },
   {
-    "name": "page",
-    "label": "Page",
-    "type": "number",
-    "required": false,
-    "help": "Page no. to retrieve paginated results."
+    "name": "limit",
+    "label": "Limit",
+    "type": "uinteger",
+    "default": 10,
+    "help": "Maximum number of results to return."
   }
 ]

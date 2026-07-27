@@ -1,6 +1,6 @@
 {
   "name": "getCreditsUsageInfo",
-  "label": "General: Get credits usage information",
+  "label": "Get credits usage information",
   "description": "Returns the remaining and consumed API credits for the authenticated user.",
   "connection": "apifreaks",
   "typeId": 4

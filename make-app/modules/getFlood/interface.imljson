@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "name": "location",
+    "label": "Location",
+    "type": "text"
+  },
+  {
+    "name": "forecast",
+    "label": "Forecast",
+    "type": "collection",
+    "spec": []
+  }
+]

@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "name": "name",
+    "label": "Name",
+    "type": "text"
+  },
+  {
+    "name": "admin_code",
+    "label": "Admin code",
+    "type": "text"
+  },
+  {
+    "name": "admin_iso3166_2",
+    "label": "Admin iso 3166 2",
+    "type": "text"
+  },
+  {
+    "name": "admin_level",
+    "label": "Admin level",
+    "type": "text"
+  },
+  {
+    "name": "country_iso3166_2",
+    "label": "Country iso 3166 2",
+    "type": "text"
+  },
+  {
+    "name": "country_name",
+    "label": "Country name",
+    "type": "text"
+  }
+]

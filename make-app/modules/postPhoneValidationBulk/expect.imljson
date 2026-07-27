@@ -1,22 +1,16 @@
 [
   {
-    "name": "format",
-    "label": "Format",
-    "type": "select",
-    "required": false,
-    "help": "Specifies the desired format for the API response. Choose 'json' for a JSON object. If not provided, the API defaults to JSON format.",
-    "options": [
-      {
-        "label": "json",
-        "value": "json"
-      }
-    ]
-  },
-  {
     "name": "numbers",
     "label": "Numbers",
     "type": "array",
     "required": true,
     "help": "Array of phone number objects. Maximum 100 per request."
+  },
+  {
+    "name": "limit",
+    "label": "Limit",
+    "type": "uinteger",
+    "default": 10,
+    "help": "Maximum number of results to return."
   }
 ]

@@ -1,7 +1,7 @@
 {
   "name": "getZipcodeDistance",
-  "label": "ZIP Code: Get distance between postal codes",
-  "description": "Get distance between postal codes. Maximum `100` postal codes per request.",
+  "label": "Get distance between ZIP codes",
+  "description": "Returns distance between postal codes. Maximum `100` postal codes per request.",
   "connection": "apifreaks",
   "typeId": 4
 }

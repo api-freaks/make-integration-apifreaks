@@ -1,9 +1,13 @@
 {
   "url": "/v1.0/pdf/resource/upload-binary",
   "method": "POST",
+  "body": "{{parameters.fileData}}",
+  "type": "binary",
   "qs": {
-    "format": "{{parameters.format}}",
-    "file_name": "{{parameters.file_name}}"
+    "file_name": "{{parameters.fileName}}"
+  },
+  "headers": {
+    "Content-Type": "application/octet-stream"
   },
   "response": {
     "output": "{{body}}"

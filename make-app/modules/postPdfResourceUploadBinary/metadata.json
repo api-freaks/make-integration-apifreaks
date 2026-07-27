@@ -1,6 +1,6 @@
 {
   "name": "postPdfResourceUploadBinary",
-  "label": "PDF: Upload a PDF in binary format",
+  "label": "Upload a PDF (binary)",
   "description": "This API uploads PDF files to the API Freaks server in binary format.",
   "connection": "apifreaks",
   "typeId": 4

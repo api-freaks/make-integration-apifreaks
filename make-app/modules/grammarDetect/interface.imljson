@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "name": "grammar_errors",
+    "label": "Grammar errors",
+    "type": "array",
+    "spec": [
+      {
+        "name": "word",
+        "label": "Word",
+        "type": "text"
+      },
+      {
+        "name": "offset",
+        "label": "Offset",
+        "type": "number"
+      }
+    ]
+  }
+]

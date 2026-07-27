@@ -1,7 +1,7 @@
 {
   "name": "getFlags",
-  "label": "GeoDB: Get Flag for Country",
-  "description": "Retrieve the flag for a specific country",
+  "label": "Get country flags",
+  "description": "Returns the flag for a specific country.",
   "connection": "apifreaks",
   "typeId": 4
 }

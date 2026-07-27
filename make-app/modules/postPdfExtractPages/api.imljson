@@ -1,18 +1,26 @@
 {
   "url": "/v1.0/pdf/extract-pages",
   "method": "POST",
+  "body": {
+    "file": {
+      "value": "{{parameters.fileData}}",
+      "options": {
+        "filename": "{{parameters.fileName}}"
+      }
+    }
+  },
+  "type": "multipart/form-data",
   "qs": {
-    "format": "{{parameters.format}}",
-    "file_id": "{{parameters.file_id}}",
+    "file_id": "{{parameters.fileId}}",
     "destroy": "{{parameters.destroy}}",
     "output": "{{parameters.output}}",
     "pages": "{{parameters.pages}}",
     "separated": "{{parameters.separated}}",
-    "webhook_url": "{{parameters.webhook_url}}",
-    "webhook_failure_notification": "{{parameters.webhook_failure_notification}}"
+    "webhook_url": "{{parameters.webhookUrl}}",
+    "webhook_failure_notification": "{{parameters.webhookFailureNotification}}"
   },
-  "body": {
-    "file": "{{parameters.file}}"
+  "headers": {
+    "X-Webhook-Authorization": "{{parameters.XWebhookAuthorization}}"
   },
   "response": {
     "output": "{{body}}"

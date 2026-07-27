@@ -1,7 +1,7 @@
 {
   "name": "getAirQuality",
-  "label": "Weather: Air pollution monitoring and quality forecasts",
-  "description": "Monitor and predict air quality conditions using European and US AQI standards. Track pollutant concentrations including PM10, PM2.5, carbon monoxide, nitrogen dioxide, sulfur dioxide, ozone, and dust particles. Get current readings plus hourly forecasts up to 5 days ahead, complete with UV index and aerosol measurements for comprehensive air quality assessment.",
+  "label": "Get air quality",
+  "description": "Monitors and predict air quality conditions using European and US AQI standards. Track pollutant concentrations including PM10, PM2.5, carbon monoxide, nitrogen dioxide, sulfur dioxide, ozone, and dust particles. Get current readings plus hourly forecasts up to 5 days ahead, complete with UV index and aerosol measurements for comprehensive air quality assessment.",
   "connection": "apifreaks",
   "typeId": 4
 }

@@ -2,14 +2,20 @@
   "url": "/v1.0/subdomains/lookup",
   "method": "GET",
   "qs": {
-    "format": "{{parameters.format}}",
     "domain": "{{parameters.domain}}",
     "after": "{{parameters.after}}",
     "before": "{{parameters.before}}",
-    "status": "{{parameters.status}}",
-    "page": "{{parameters.page}}"
+    "status": "{{parameters.status}}"
   },
   "response": {
-    "output": "{{body}}"
+    "iterate": "{{body.subdomains}}",
+    "output": "{{item}}",
+    "limit": "{{parameters.limit}}"
+  },
+  "pagination": {
+    "qs": {
+      "page": "{{pagination.page}}"
+    },
+    "condition": "{{body.current_page < body.total_pages}}"
   }
 }

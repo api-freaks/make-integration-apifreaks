@@ -1,1 +1,78 @@
-[]
+[
+  {
+    "name": "success",
+    "label": "Success",
+    "type": "boolean"
+  },
+  {
+    "name": "symbols",
+    "label": "Symbols",
+    "type": "array",
+    "spec": [
+      {
+        "name": "symbol",
+        "label": "Symbol",
+        "type": "text"
+      },
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "category",
+        "label": "Category",
+        "type": "text"
+      },
+      {
+        "name": "status",
+        "label": "Status",
+        "type": "text"
+      },
+      {
+        "name": "updateInterval",
+        "label": "Update interval",
+        "type": "text"
+      },
+      {
+        "name": "currency",
+        "label": "Currency",
+        "type": "collection",
+        "spec": [
+          {
+            "name": "code",
+            "label": "Code",
+            "type": "text"
+          },
+          {
+            "name": "name",
+            "label": "Name",
+            "type": "text"
+          },
+          {
+            "name": "symbol",
+            "label": "Symbol",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "name": "unit",
+        "label": "Unit",
+        "type": "collection",
+        "spec": [
+          {
+            "name": "symbol",
+            "label": "Symbol",
+            "type": "text"
+          },
+          {
+            "name": "name",
+            "label": "Name",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  }
+]

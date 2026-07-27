@@ -1,17 +1,18 @@
 {
   "url": "/v1.0/geolocation/lookup",
   "method": "POST",
+  "body": {
+    "ips": "{{parameters.ips}}"
+  },
   "qs": {
-    "format": "{{parameters.format}}",
     "lang": "{{parameters.lang}}",
     "fields": "{{parameters.fields}}",
     "excludes": "{{parameters.excludes}}",
     "include": "{{parameters.include}}"
   },
-  "body": {
-    "ips": "{{parameters.ips}}"
-  },
   "response": {
-    "output": "{{body}}"
+    "iterate": "{{body}}",
+    "output": "{{item}}",
+    "limit": "{{parameters.limit}}"
   }
 }

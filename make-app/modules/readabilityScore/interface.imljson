@@ -1,1 +1,138 @@
-[]
+[
+  {
+    "name": "readability_scores",
+    "label": "Readability scores",
+    "type": "collection",
+    "spec": [
+      {
+        "name": "flesch_reading_ease",
+        "label": "Flesch reading ease",
+        "type": "collection",
+        "spec": [
+          {
+            "name": "score",
+            "label": "Score",
+            "type": "number"
+          },
+          {
+            "name": "level",
+            "label": "Level",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "name": "flesch_kincaid_grade",
+        "label": "Flesch kincaid grade",
+        "type": "collection",
+        "spec": [
+          {
+            "name": "score",
+            "label": "Score",
+            "type": "number"
+          },
+          {
+            "name": "level",
+            "label": "Level",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "name": "gunning_fog",
+        "label": "Gunning fog",
+        "type": "collection",
+        "spec": [
+          {
+            "name": "score",
+            "label": "Score",
+            "type": "number"
+          },
+          {
+            "name": "level",
+            "label": "Level",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "name": "smog_index",
+        "label": "Smog index",
+        "type": "collection",
+        "spec": [
+          {
+            "name": "score",
+            "label": "Score",
+            "type": "number"
+          },
+          {
+            "name": "level",
+            "label": "Level",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "name": "coleman_liau_index",
+        "label": "Coleman liau index",
+        "type": "collection",
+        "spec": [
+          {
+            "name": "score",
+            "label": "Score",
+            "type": "number"
+          },
+          {
+            "name": "level",
+            "label": "Level",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "name": "automated_readability_index",
+        "label": "Automated readability index",
+        "type": "collection",
+        "spec": [
+          {
+            "name": "score",
+            "label": "Score",
+            "type": "number"
+          },
+          {
+            "name": "level",
+            "label": "Level",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "sentence_readability",
+    "label": "Sentence readability",
+    "type": "array",
+    "spec": [
+      {
+        "name": "sentence",
+        "label": "Sentence",
+        "type": "text"
+      },
+      {
+        "name": "readability_grade",
+        "label": "Readability grade",
+        "type": "number"
+      },
+      {
+        "name": "readability_level",
+        "label": "Readability level",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "name": "readability_grade",
+    "label": "Readability grade",
+    "type": "number"
+  }
+]

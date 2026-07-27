@@ -1,1 +1,90 @@
-[]
+[
+  {
+    "name": "location",
+    "label": "Location",
+    "type": "text"
+  },
+  {
+    "name": "current",
+    "label": "Current",
+    "type": "collection",
+    "spec": [
+      {
+        "name": "timestamp",
+        "label": "Timestamp",
+        "type": "date"
+      },
+      {
+        "name": "wave_height",
+        "label": "Wave height",
+        "type": "number"
+      },
+      {
+        "name": "wave_direction",
+        "label": "Wave direction",
+        "type": "number"
+      },
+      {
+        "name": "wave_period",
+        "label": "Wave period",
+        "type": "number"
+      },
+      {
+        "name": "wind_wave_height",
+        "label": "Wind wave height",
+        "type": "number"
+      },
+      {
+        "name": "wind_wave_direction",
+        "label": "Wind wave direction",
+        "type": "number"
+      },
+      {
+        "name": "wind_wave_period",
+        "label": "Wind wave period",
+        "type": "number"
+      },
+      {
+        "name": "swell_wave_height",
+        "label": "Swell wave height",
+        "type": "number"
+      },
+      {
+        "name": "swell_wave_direction",
+        "label": "Swell wave direction",
+        "type": "number"
+      },
+      {
+        "name": "swell_wave_period",
+        "label": "Swell wave period",
+        "type": "number"
+      },
+      {
+        "name": "sea_level_height_msl",
+        "label": "Sea level height msl",
+        "type": "number"
+      },
+      {
+        "name": "sea_surface_temperature",
+        "label": "Sea surface temperature",
+        "type": "number"
+      },
+      {
+        "name": "ocean_current_velocity",
+        "label": "Ocean current velocity",
+        "type": "number"
+      },
+      {
+        "name": "ocean_current_direction",
+        "label": "Ocean current direction",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "name": "forecast",
+    "label": "Forecast",
+    "type": "collection",
+    "spec": []
+  }
+]

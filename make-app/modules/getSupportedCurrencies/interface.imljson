@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "name": "supportedCurrenciesMap",
+    "label": "Supported currencies map",
+    "type": "collection",
+    "spec": []
+  }
+]

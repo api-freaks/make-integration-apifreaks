@@ -1,7 +1,7 @@
 {
   "name": "websiteScreenshot",
-  "label": "Screenshot: Build screenshots the way real users see the web — not just...",
-  "description": "Capture full-page screenshots and videos of websites with advanced options like device simulation, custom code injection, cookie banner blocking, and scrollable content recording.\nSupports multiple output formats including JSON, image, GIF, MP4, and WebM.\n",
+  "label": "Capture a website screenshot",
+  "description": "Captures full-page screenshots and videos of websites with advanced options like device simulation, custom code injection, cookie banner blocking, and scrollable content recording. Supports multiple output formats including JSON, image, GIF, MP4, and WebM.",
   "connection": "apifreaks",
   "typeId": 4
 }

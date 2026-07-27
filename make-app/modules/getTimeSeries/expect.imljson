@@ -1,31 +1,14 @@
 [
   {
-    "name": "format",
-    "label": "Format",
-    "type": "select",
-    "required": false,
-    "help": "Response format: `json` (default) or `xml`.",
-    "options": [
-      {
-        "label": "json",
-        "value": "json"
-      },
-      {
-        "label": "xml",
-        "value": "xml"
-      }
-    ]
-  },
-  {
     "name": "startDate",
-    "label": "Startdate",
+    "label": "Start date",
     "type": "text",
     "required": true,
     "help": "Start date in `YYYY-MM-DD` format."
   },
   {
     "name": "endDate",
-    "label": "Enddate",
+    "label": "End date",
     "type": "text",
     "required": false,
     "help": "End date in `YYYY-MM-DD` format. Defaults to yesterday."

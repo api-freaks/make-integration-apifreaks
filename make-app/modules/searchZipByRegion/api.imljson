@@ -2,12 +2,20 @@
   "url": "/v1.0/zipcode/search/region",
   "method": "GET",
   "qs": {
-    "format": "{{parameters.format}}",
     "country": "{{parameters.country}}",
-    "region": "{{parameters.region}}",
-    "page": "{{parameters.page}}"
+    "region": "{{parameters.region}}"
   },
   "response": {
-    "output": "{{body}}"
+    "iterate": "{{body.codes}}",
+    "output": {
+      "value": "{{item}}"
+    },
+    "limit": "{{parameters.limit}}"
+  },
+  "pagination": {
+    "qs": {
+      "page": "{{pagination.page}}"
+    },
+    "condition": "{{body.current_page < body.total_pages}}"
   }
 }

@@ -1,7 +1,7 @@
 {
   "name": "makeApiCall",
   "label": "Make an API Call",
-  "description": "Perform an arbitrary authenticated call to any APIFreaks endpoint. Covers every endpoint not exposed as a dedicated module.",
+  "description": "Performs an authenticated call to any APIFreaks endpoint using a relative path. Covers endpoints that do not yet have a dedicated module.",
   "connection": "apifreaks",
   "typeId": 4
 }

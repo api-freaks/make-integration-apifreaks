@@ -1,1 +1,63 @@
-[]
+[
+  {
+    "name": "countries",
+    "label": "Countries",
+    "type": "array",
+    "spec": [
+      {
+        "name": "country",
+        "label": "Country",
+        "type": "text"
+      },
+      {
+        "name": "state",
+        "label": "State",
+        "type": "text"
+      },
+      {
+        "name": "type",
+        "label": "Type",
+        "type": "text"
+      },
+      {
+        "name": "currency",
+        "label": "Currency",
+        "type": "text"
+      },
+      {
+        "name": "standard_rate",
+        "label": "Standard rate",
+        "type": "number"
+      },
+      {
+        "name": "reduced_rate",
+        "label": "Reduced rate",
+        "type": "array",
+        "spec": {
+          "type": "number",
+          "label": "Reduced rate"
+        }
+      },
+      {
+        "name": "super_reduced_rate",
+        "label": "Super reduced rate",
+        "type": "array",
+        "spec": {
+          "type": "number",
+          "label": "Super reduced rate"
+        }
+      },
+      {
+        "name": "parking_rate",
+        "label": "Parking rate",
+        "type": "number"
+      },
+      {
+        "name": "categories",
+        "label": "Categories",
+        "type": "collection",
+        "spec": []
+      }
+    ]
+  }
+]

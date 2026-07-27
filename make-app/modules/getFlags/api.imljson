@@ -9,6 +9,10 @@
     "type": "{{parameters.type}}"
   },
   "response": {
-    "output": "{{body}}"
+    "type": "binary",
+    "output": {
+      "name": "{{parameters.name}}",
+      "data": "{{body}}"
+    }
   }
 }

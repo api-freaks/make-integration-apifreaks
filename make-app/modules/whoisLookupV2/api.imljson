@@ -2,7 +2,6 @@
   "url": "/v2.0/domain/whois/live",
   "method": "GET",
   "qs": {
-    "format": "{{parameters.format}}",
     "domainName": "{{parameters.domainName}}"
   },
   "response": {

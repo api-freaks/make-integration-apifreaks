@@ -1,24 +1,7 @@
 [
   {
-    "name": "format",
-    "label": "Format",
-    "type": "select",
-    "required": false,
-    "help": "Format of the response",
-    "options": [
-      {
-        "label": "json",
-        "value": "json"
-      },
-      {
-        "label": "xml",
-        "value": "xml"
-      }
-    ]
-  },
-  {
     "name": "emailData",
-    "label": "Emaildata",
+    "label": "Email data",
     "type": "array",
     "required": true,
     "help": "Array of email objects for bulk validation"

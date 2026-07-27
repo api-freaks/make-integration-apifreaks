@@ -1,22 +1,5 @@
 [
   {
-    "name": "format",
-    "label": "Format",
-    "type": "select",
-    "required": false,
-    "help": "Format of the response.",
-    "options": [
-      {
-        "label": "json",
-        "value": "json"
-      },
-      {
-        "label": "xml",
-        "value": "xml"
-      }
-    ]
-  },
-  {
     "name": "country",
     "label": "Country",
     "type": "text",
@@ -24,8 +7,8 @@
     "help": "Country code in ISO 3166-1 alpha-2 format."
   },
   {
-    "name": "admin_unit",
-    "label": "Admin Unit",
+    "name": "adminUnit",
+    "label": "Admin unit",
     "type": "text",
     "required": true,
     "help": "Optional admin code to fetch details for a specific administrative unit."

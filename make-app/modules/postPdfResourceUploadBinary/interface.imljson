@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "name": "fileName",
+    "label": "File name",
+    "type": "text"
+  },
+  {
+    "name": "fileId",
+    "label": "File ID",
+    "type": "text"
+  }
+]

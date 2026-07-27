@@ -1,7 +1,7 @@
 {
   "name": "sslCertificateLookup",
-  "label": "SSL: Retrieve the SSL certificate and any hidden information...",
-  "description": "Retrieve comprehensive SSL certificate information without the certificate chain.\nThis endpoint provides detailed information about the SSL certificate including expiry dates, issuer details, and encryption methods.\n",
+  "label": "Get SSL certificate",
+  "description": "Returns comprehensive SSL certificate information without the certificate chain. This endpoint provides detailed information about the SSL certificate including expiry dates, issuer details, and encryption methods.",
   "connection": "apifreaks",
   "typeId": 4
 }

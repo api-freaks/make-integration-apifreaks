@@ -1,22 +1,5 @@
 [
   {
-    "name": "format",
-    "label": "Format",
-    "type": "select",
-    "required": false,
-    "help": "Format of the response.",
-    "options": [
-      {
-        "label": "json",
-        "value": "json"
-      },
-      {
-        "label": "xml",
-        "value": "xml"
-      }
-    ]
-  },
-  {
     "name": "codes",
     "label": "Codes",
     "type": "array",
@@ -40,8 +23,34 @@
   {
     "name": "unit",
     "label": "Unit",
-    "type": "text",
+    "type": "select",
     "required": false,
-    "help": "Supported distance units are m, km, mi, ft, yd, in."
+    "help": "Supported distance units are m, km, mi, ft, yd, in.",
+    "options": [
+      {
+        "label": "m",
+        "value": "m"
+      },
+      {
+        "label": "km",
+        "value": "km"
+      },
+      {
+        "label": "mi",
+        "value": "mi"
+      },
+      {
+        "label": "ft",
+        "value": "ft"
+      },
+      {
+        "label": "yd",
+        "value": "yd"
+      },
+      {
+        "label": "in",
+        "value": "in"
+      }
+    ]
   }
 ]

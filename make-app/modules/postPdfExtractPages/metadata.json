@@ -1,6 +1,6 @@
 {
   "name": "postPdfExtractPages",
-  "label": "PDF: Extract pages from a PDF",
+  "label": "Extract PDF pages",
   "description": "This API extracts specific pages or page ranges from a PDF file and returns them as a new PDF.",
   "connection": "apifreaks",
   "typeId": 4

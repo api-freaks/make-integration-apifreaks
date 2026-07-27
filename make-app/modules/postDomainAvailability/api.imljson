@@ -1,12 +1,11 @@
 {
   "url": "/v1.0/domain/availability",
   "method": "POST",
-  "qs": {
-    "format": "{{parameters.format}}",
-    "source": "{{parameters.source}}"
-  },
   "body": {
     "domainNames": "{{parameters.domainNames}}"
+  },
+  "qs": {
+    "source": "{{parameters.source}}"
   },
   "response": {
     "output": "{{body}}"

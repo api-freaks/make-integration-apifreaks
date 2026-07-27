@@ -1,7 +1,7 @@
 {
   "name": "getIpSecurity",
-  "label": "IP Geolocation: Retrieve security information for an IP address",
-  "description": "Get comprehensive security information for a given IP address. Detects VPNs, proxies, Tor nodes, and other security threats.",
+  "label": "Get IP security data",
+  "description": "Returns comprehensive security information for a given IP address. Detects VPNs, proxies, Tor nodes, and other security threats.",
   "connection": "apifreaks",
   "typeId": 4
 }

@@ -1,24 +1,7 @@
 [
   {
-    "name": "format",
-    "label": "Format",
-    "type": "select",
-    "required": false,
-    "help": "Format of the response.",
-    "options": [
-      {
-        "label": "json",
-        "value": "json"
-      },
-      {
-        "label": "xml",
-        "value": "xml"
-      }
-    ]
-  },
-  {
     "name": "asn",
-    "label": "Asn",
+    "label": "ASN",
     "type": "text",
     "required": true,
     "help": "The Autonomous System Number (ASN) to retrieve WHOIS data for. Can be prefixed with 'as' or not."

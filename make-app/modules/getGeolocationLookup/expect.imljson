@@ -1,31 +1,14 @@
 [
   {
-    "name": "format",
-    "label": "Format",
-    "type": "select",
-    "required": false,
-    "help": "Format of the response.",
-    "options": [
-      {
-        "label": "json",
-        "value": "json"
-      },
-      {
-        "label": "xml",
-        "value": "xml"
-      }
-    ]
-  },
-  {
     "name": "ip",
-    "label": "Ip",
+    "label": "IP",
     "type": "text",
     "required": false,
     "help": "IPv4, IPv6, or hostname for geolocation lookup"
   },
   {
     "name": "lang",
-    "label": "Lang",
+    "label": "Language",
     "type": "select",
     "required": false,
     "help": "Response language for location fields",

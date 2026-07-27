@@ -2,8 +2,7 @@
   "url": "/v1.0/pdf/file",
   "method": "DELETE",
   "qs": {
-    "format": "{{parameters.format}}",
-    "file_id": "{{parameters.file_id}}"
+    "file_id": "{{parameters.fileId}}"
   },
   "response": {
     "output": "{{body}}"

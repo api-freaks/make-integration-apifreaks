@@ -1,6 +1,6 @@
 {
   "name": "postEmailValidationSingle",
-  "label": "Email Validation: Validate a single email",
+  "label": "Validate an email address",
   "description": "Validates a single email address and returns result.",
   "connection": "apifreaks",
   "typeId": 4

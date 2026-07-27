@@ -1,1 +1,85 @@
-[]
+[
+  {
+    "name": "location",
+    "label": "Location",
+    "type": "text"
+  },
+  {
+    "name": "current",
+    "label": "Current",
+    "type": "collection",
+    "spec": [
+      {
+        "name": "timestamp",
+        "label": "Timestamp",
+        "type": "date"
+      },
+      {
+        "name": "european_aqi",
+        "label": "European aqi",
+        "type": "number"
+      },
+      {
+        "name": "us_aqi",
+        "label": "Us aqi",
+        "type": "number"
+      },
+      {
+        "name": "pm10",
+        "label": "Pm 10",
+        "type": "number"
+      },
+      {
+        "name": "pm2_5",
+        "label": "Pm 2 5",
+        "type": "number"
+      },
+      {
+        "name": "carbon_monoxide",
+        "label": "Carbon monoxide",
+        "type": "number"
+      },
+      {
+        "name": "nitrogen_dioxide",
+        "label": "Nitrogen dioxide",
+        "type": "number"
+      },
+      {
+        "name": "sulphur_dioxide",
+        "label": "Sulphur dioxide",
+        "type": "number"
+      },
+      {
+        "name": "ozone",
+        "label": "Ozone",
+        "type": "number"
+      },
+      {
+        "name": "dust",
+        "label": "Dust",
+        "type": "number"
+      },
+      {
+        "name": "uv_index",
+        "label": "Uv index",
+        "type": "number"
+      },
+      {
+        "name": "aerosol_optical_depth",
+        "label": "Aerosol optical depth",
+        "type": "number"
+      },
+      {
+        "name": "uv_index_clear_sky",
+        "label": "Uv index clear sky",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "name": "forecast",
+    "label": "Forecast",
+    "type": "collection",
+    "spec": []
+  }
+]

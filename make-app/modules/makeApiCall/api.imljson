@@ -5,6 +5,10 @@
   "headers": "{{toCollection(parameters.headers, 'key', 'value')}}",
   "body": "{{parameters.body}}",
   "response": {
-    "output": "{{body}}"
+    "output": {
+      "statusCode": "{{statusCode}}",
+      "headers": "{{headers}}",
+      "body": "{{body}}"
+    }
   }
 }

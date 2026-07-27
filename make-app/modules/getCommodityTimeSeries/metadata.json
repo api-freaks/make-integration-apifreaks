@@ -1,6 +1,6 @@
 {
   "name": "getCommodityTimeSeries",
-  "label": "Commodity: Get commodity price time series",
+  "label": "Get commodity time series",
   "description": "Returns day-by-day OHLC data for the requested commodity symbols within a date range.",
   "connection": "apifreaks",
   "typeId": 4

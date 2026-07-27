@@ -1,7 +1,7 @@
 {
   "name": "getCurrent",
-  "label": "Weather: Real-time weather conditions for any location on demand",
-  "description": "Get current weather data including temperature, humidity, precipitation, wind conditions, atmospheric pressure, and air quality for any location. Accepts city names, coordinates, or IP addresses. Also includes astronomy data and timezone-aware timestamps.",
+  "label": "Get current weather",
+  "description": "Returns current weather data including temperature, humidity, precipitation, wind conditions, atmospheric pressure, and air quality for any location. Accepts city names, coordinates, or IP addresses. Also includes astronomy data and timezone-aware timestamps.",
   "connection": "apifreaks",
   "typeId": 4
 }

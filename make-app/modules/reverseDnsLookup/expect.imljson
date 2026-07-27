@@ -1,27 +1,10 @@
 [
   {
-    "name": "format",
-    "label": "Format",
-    "type": "select",
-    "required": false,
-    "help": "Format of the response.",
-    "options": [
-      {
-        "label": "json",
-        "value": "json"
-      },
-      {
-        "label": "xml",
-        "value": "xml"
-      }
-    ]
-  },
-  {
     "name": "type",
     "label": "Type",
     "type": "select",
     "required": true,
-    "help": "The type of reverse DNS lookup to perform. Determines how the value parameter is interpreted:\n- A: IPv4 CIDR block\n- AAAA: IPv6 CIDR block\n- MX: Mail provider domain\n- NS: Name server provider hostname\n- SOA: SOA record admin domain\n- SPF/TXT: Target verification strings\n- CNAME: Target hostname\n",
+    "help": "The type of reverse DNS lookup to perform. Determines how the value parameter is interpreted: - A: IPv4 CIDR block - AAAA: IPv6 CIDR block - MX: Mail provider domain - NS: Name server provider hostname - SOA: SOA record admin domain - SPF/TXT: Target verification strings - CNAME: Target hostname",
     "options": [
       {
         "label": "A",
@@ -72,10 +55,10 @@
     "help": "Accepts 'true' or 'false'. \"true\" returns only records that exactly match the input (NS, MX, CNAME, SOA, SPF, TXT). \"false\" returns all matches (default when omitted)."
   },
   {
-    "name": "page",
-    "label": "Page",
-    "type": "number",
-    "required": false,
-    "help": "Page number to paginate through results (defaults to 1)."
+    "name": "limit",
+    "label": "Limit",
+    "type": "uinteger",
+    "default": 10,
+    "help": "Maximum number of results to return."
   }
 ]

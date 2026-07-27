@@ -1,6 +1,6 @@
 {
   "name": "postPdfBmp",
-  "label": "PDF: Convert PDF to BMP",
+  "label": "Convert a PDF to BMP",
   "description": "Converts a PDF file to a BMP image.",
   "connection": "apifreaks",
   "typeId": 4

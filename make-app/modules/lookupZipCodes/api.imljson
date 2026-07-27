@@ -2,7 +2,6 @@
   "url": "/v1.0/zipcode/lookup",
   "method": "GET",
   "qs": {
-    "format": "{{parameters.format}}",
     "code": "{{parameters.code}}",
     "country": "{{parameters.country}}"
   },

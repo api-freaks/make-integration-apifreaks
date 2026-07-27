@@ -1,1 +1,117 @@
-[]
+[
+  {
+    "name": "ip",
+    "label": "IP",
+    "type": "text"
+  },
+  {
+    "name": "security",
+    "label": "Security",
+    "type": "collection",
+    "spec": [
+      {
+        "name": "threat_score",
+        "label": "Threat score",
+        "type": "number"
+      },
+      {
+        "name": "is_tor",
+        "label": "Is tor",
+        "type": "boolean"
+      },
+      {
+        "name": "is_proxy",
+        "label": "Is proxy",
+        "type": "boolean"
+      },
+      {
+        "name": "proxy_provider_names",
+        "label": "Proxy provider names",
+        "type": "array",
+        "spec": {
+          "type": "text",
+          "label": "Proxy provider names"
+        }
+      },
+      {
+        "name": "proxy_confidence_score",
+        "label": "Proxy confidence score",
+        "type": "number"
+      },
+      {
+        "name": "proxy_last_seen",
+        "label": "Proxy last seen",
+        "type": "text"
+      },
+      {
+        "name": "is_residential_proxy",
+        "label": "Is residential proxy",
+        "type": "boolean"
+      },
+      {
+        "name": "is_vpn",
+        "label": "Is vpn",
+        "type": "boolean"
+      },
+      {
+        "name": "vpn_provider_names",
+        "label": "Vpn provider names",
+        "type": "array",
+        "spec": {
+          "type": "text",
+          "label": "Vpn provider names"
+        }
+      },
+      {
+        "name": "vpn_confidence_score",
+        "label": "Vpn confidence score",
+        "type": "number"
+      },
+      {
+        "name": "vpn_last_seen",
+        "label": "Vpn last seen",
+        "type": "text"
+      },
+      {
+        "name": "is_relay",
+        "label": "Is relay",
+        "type": "boolean"
+      },
+      {
+        "name": "relay_provider_name",
+        "label": "Relay provider name",
+        "type": "text"
+      },
+      {
+        "name": "is_anonymous",
+        "label": "Is anonymous",
+        "type": "boolean"
+      },
+      {
+        "name": "is_known_attacker",
+        "label": "Is known attacker",
+        "type": "boolean"
+      },
+      {
+        "name": "is_bot",
+        "label": "Is bot",
+        "type": "boolean"
+      },
+      {
+        "name": "is_spam",
+        "label": "Is spam",
+        "type": "boolean"
+      },
+      {
+        "name": "is_cloud_provider",
+        "label": "Is cloud provider",
+        "type": "boolean"
+      },
+      {
+        "name": "cloud_provider_name",
+        "label": "Cloud provider name",
+        "type": "text"
+      }
+    ]
+  }
+]

@@ -1,1 +1,340 @@
-[]
+[
+  {
+    "name": "ip",
+    "label": "IP",
+    "type": "text"
+  },
+  {
+    "name": "location",
+    "label": "Location",
+    "type": "collection",
+    "spec": [
+      {
+        "name": "location_string",
+        "label": "Location string",
+        "type": "text"
+      },
+      {
+        "name": "continent_code",
+        "label": "Continent code",
+        "type": "text"
+      },
+      {
+        "name": "continent_name",
+        "label": "Continent name",
+        "type": "text"
+      },
+      {
+        "name": "country_code2",
+        "label": "Country code 2",
+        "type": "text"
+      },
+      {
+        "name": "country_code3",
+        "label": "Country code 3",
+        "type": "text"
+      },
+      {
+        "name": "country_name",
+        "label": "Country name",
+        "type": "text"
+      },
+      {
+        "name": "country_name_official",
+        "label": "Country name official",
+        "type": "text"
+      },
+      {
+        "name": "is_eu",
+        "label": "Is EU",
+        "type": "boolean"
+      },
+      {
+        "name": "state_prov",
+        "label": "State prov",
+        "type": "text"
+      },
+      {
+        "name": "state_code",
+        "label": "State code",
+        "type": "text"
+      },
+      {
+        "name": "district",
+        "label": "District",
+        "type": "text"
+      },
+      {
+        "name": "city",
+        "label": "City",
+        "type": "text"
+      },
+      {
+        "name": "zipcode",
+        "label": "Zipcode",
+        "type": "text"
+      },
+      {
+        "name": "latitude",
+        "label": "Latitude",
+        "type": "text"
+      },
+      {
+        "name": "longitude",
+        "label": "Longitude",
+        "type": "text"
+      },
+      {
+        "name": "locality",
+        "label": "Locality",
+        "type": "text"
+      },
+      {
+        "name": "elevation",
+        "label": "Elevation",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "name": "astronomy",
+    "label": "Astronomy",
+    "type": "collection",
+    "spec": [
+      {
+        "name": "time_zone",
+        "label": "Time zone",
+        "type": "text"
+      },
+      {
+        "name": "date",
+        "label": "Date",
+        "type": "text"
+      },
+      {
+        "name": "current_time",
+        "label": "Current time",
+        "type": "text"
+      },
+      {
+        "name": "mid_night",
+        "label": "Mid night",
+        "type": "text"
+      },
+      {
+        "name": "night_end",
+        "label": "Night end",
+        "type": "text"
+      },
+      {
+        "name": "morning",
+        "label": "Morning",
+        "type": "collection",
+        "spec": [
+          {
+            "name": "astronomical_twilight_begin",
+            "label": "Astronomical twilight begin",
+            "type": "text"
+          },
+          {
+            "name": "astronomical_twilight_end",
+            "label": "Astronomical twilight end",
+            "type": "text"
+          },
+          {
+            "name": "nautical_twilight_begin",
+            "label": "Nautical twilight begin",
+            "type": "text"
+          },
+          {
+            "name": "nautical_twilight_end",
+            "label": "Nautical twilight end",
+            "type": "text"
+          },
+          {
+            "name": "civil_twilight_begin",
+            "label": "Civil twilight begin",
+            "type": "text"
+          },
+          {
+            "name": "civil_twilight_end",
+            "label": "Civil twilight end",
+            "type": "text"
+          },
+          {
+            "name": "blue_hour_begin",
+            "label": "Blue hour begin",
+            "type": "text"
+          },
+          {
+            "name": "blue_hour_end",
+            "label": "Blue hour end",
+            "type": "text"
+          },
+          {
+            "name": "golden_hour_begin",
+            "label": "Golden hour begin",
+            "type": "text"
+          },
+          {
+            "name": "golden_hour_end",
+            "label": "Golden hour end",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "name": "sunrise",
+        "label": "Sunrise",
+        "type": "text"
+      },
+      {
+        "name": "sunset",
+        "label": "Sunset",
+        "type": "text"
+      },
+      {
+        "name": "evening",
+        "label": "Evening",
+        "type": "collection",
+        "spec": [
+          {
+            "name": "golden_hour_begin",
+            "label": "Golden hour begin",
+            "type": "text"
+          },
+          {
+            "name": "golden_hour_end",
+            "label": "Golden hour end",
+            "type": "text"
+          },
+          {
+            "name": "blue_hour_begin",
+            "label": "Blue hour begin",
+            "type": "text"
+          },
+          {
+            "name": "blue_hour_end",
+            "label": "Blue hour end",
+            "type": "text"
+          },
+          {
+            "name": "civil_twilight_begin",
+            "label": "Civil twilight begin",
+            "type": "text"
+          },
+          {
+            "name": "civil_twilight_end",
+            "label": "Civil twilight end",
+            "type": "text"
+          },
+          {
+            "name": "nautical_twilight_begin",
+            "label": "Nautical twilight begin",
+            "type": "text"
+          },
+          {
+            "name": "nautical_twilight_end",
+            "label": "Nautical twilight end",
+            "type": "text"
+          },
+          {
+            "name": "astronomical_twilight_begin",
+            "label": "Astronomical twilight begin",
+            "type": "text"
+          },
+          {
+            "name": "astronomical_twilight_end",
+            "label": "Astronomical twilight end",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "name": "night_begin",
+        "label": "Night begin",
+        "type": "text"
+      },
+      {
+        "name": "sun_status",
+        "label": "Sun status",
+        "type": "text"
+      },
+      {
+        "name": "solar_noon",
+        "label": "Solar noon",
+        "type": "text"
+      },
+      {
+        "name": "day_length",
+        "label": "Day length",
+        "type": "text"
+      },
+      {
+        "name": "sun_altitude",
+        "label": "Sun altitude",
+        "type": "number"
+      },
+      {
+        "name": "sun_distance",
+        "label": "Sun distance",
+        "type": "number"
+      },
+      {
+        "name": "sun_azimuth",
+        "label": "Sun azimuth",
+        "type": "number"
+      },
+      {
+        "name": "moon_phase",
+        "label": "Moon phase",
+        "type": "text"
+      },
+      {
+        "name": "moonrise",
+        "label": "Moonrise",
+        "type": "text"
+      },
+      {
+        "name": "moonset",
+        "label": "Moonset",
+        "type": "text"
+      },
+      {
+        "name": "moon_status",
+        "label": "Moon status",
+        "type": "text"
+      },
+      {
+        "name": "moon_altitude",
+        "label": "Moon altitude",
+        "type": "number"
+      },
+      {
+        "name": "moon_distance",
+        "label": "Moon distance",
+        "type": "number"
+      },
+      {
+        "name": "moon_azimuth",
+        "label": "Moon azimuth",
+        "type": "number"
+      },
+      {
+        "name": "moon_parallactic_angle",
+        "label": "Moon parallactic angle",
+        "type": "number"
+      },
+      {
+        "name": "moon_illumination_percentage",
+        "label": "Moon illumination percentage",
+        "type": "text"
+      },
+      {
+        "name": "moon_angle",
+        "label": "Moon angle",
+        "type": "number"
+      }
+    ]
+  }
+]

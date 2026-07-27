@@ -1,7 +1,7 @@
 {
   "name": "getZipcodeDistanceMatch",
-  "label": "ZIP Code: Get matching ZIP/postal code pairs within a distance",
-  "description": "Get matching ZIP/postal code pairs within a specified distance. Maximum `100` postal codes per request.",
+  "label": "Match ZIP codes by distance",
+  "description": "Returns matching ZIP/postal code pairs within a specified distance. Maximum `100` postal codes per request.",
   "connection": "apifreaks",
   "typeId": 4
 }

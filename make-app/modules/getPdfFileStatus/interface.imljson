@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "name": "fileId",
+    "label": "File ID",
+    "type": "text"
+  },
+  {
+    "name": "fileName",
+    "label": "File name",
+    "type": "text"
+  },
+  {
+    "name": "fileType",
+    "label": "File type",
+    "type": "text"
+  },
+  {
+    "name": "fileCreationTime",
+    "label": "File creation time",
+    "type": "date"
+  },
+  {
+    "name": "fileDeletionTime",
+    "label": "File deletion time",
+    "type": "date"
+  }
+]

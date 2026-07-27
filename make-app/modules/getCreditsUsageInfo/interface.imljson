@@ -1,1 +1,67 @@
-[]
+[
+  {
+    "name": "apiKey",
+    "label": "API key",
+    "type": "text"
+  },
+  {
+    "name": "userStatus",
+    "label": "User status",
+    "type": "text"
+  },
+  {
+    "name": "subActive",
+    "label": "Sub active",
+    "type": "boolean"
+  },
+  {
+    "name": "subStatus",
+    "label": "Sub status",
+    "type": "text"
+  },
+  {
+    "name": "subAllowedCredits",
+    "label": "Sub allowed credits",
+    "type": "number"
+  },
+  {
+    "name": "subUsedCredits",
+    "label": "Sub used credits",
+    "type": "number"
+  },
+  {
+    "name": "subSurchargeStatus",
+    "label": "Sub surcharge status",
+    "type": "text"
+  },
+  {
+    "name": "subSurchargeAllowedCredits",
+    "label": "Sub surcharge allowed credits",
+    "type": "number"
+  },
+  {
+    "name": "subSurchargeUsedCredits",
+    "label": "Sub surcharge used credits",
+    "type": "number"
+  },
+  {
+    "name": "subSurchargeAllowed",
+    "label": "Sub surcharge allowed",
+    "type": "boolean"
+  },
+  {
+    "name": "oneOffCreditsActive",
+    "label": "One off credits active",
+    "type": "boolean"
+  },
+  {
+    "name": "oneOffAllowedCredits",
+    "label": "One off allowed credits",
+    "type": "number"
+  },
+  {
+    "name": "oneOffUsedCredits",
+    "label": "One off used credits",
+    "type": "number"
+  }
+]

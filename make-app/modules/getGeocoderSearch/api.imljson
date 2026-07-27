@@ -4,12 +4,17 @@
   "qs": {
     "query": "{{parameters.query}}",
     "limit": "{{parameters.limit}}",
-    "min_lat": "{{parameters.min_lat}}",
-    "max_lat": "{{parameters.max_lat}}",
-    "min_lon": "{{parameters.min_lon}}",
-    "max_lon": "{{parameters.max_lon}}"
+    "min_lat": "{{parameters.minLat}}",
+    "max_lat": "{{parameters.maxLat}}",
+    "min_lon": "{{parameters.minLon}}",
+    "max_lon": "{{parameters.maxLon}}"
+  },
+  "headers": {
+    "Accept-Language": "{{parameters.AcceptLanguage}}"
   },
   "response": {
-    "output": "{{body}}"
+    "iterate": "{{body}}",
+    "output": "{{item}}",
+    "limit": "{{parameters.limit}}"
   }
 }

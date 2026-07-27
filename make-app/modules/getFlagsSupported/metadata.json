@@ -1,7 +1,7 @@
 {
   "name": "getFlagsSupported",
-  "label": "GeoDB: Supported Flags",
-  "description": "Get list of all supported flags with their metadata",
+  "label": "List supported flags",
+  "description": "Returns list of all supported flags with their metadata.",
   "connection": "apifreaks",
   "typeId": 9
 }

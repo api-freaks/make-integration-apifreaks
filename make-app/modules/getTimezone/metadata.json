@@ -1,7 +1,7 @@
 {
   "name": "getTimezone",
-  "label": "Timezone: Our API delivers a wide range of date and time information,...",
-  "description": "Retrieve current time, date, and timezone-related information by specifying a timezone name, location address, location coordinates, IP address, or use the client IP address if no parameter is passed.",
+  "label": "Get timezone by IP (legacy)",
+  "description": "Returns current time, date, and timezone-related information by specifying a timezone name, location address, location coordinates, IP address, or use the client IP address if no parameter is passed.",
   "connection": "apifreaks",
   "typeId": 4
 }

@@ -1,1 +1,430 @@
-[]
+[
+  {
+    "name": "status",
+    "label": "Status",
+    "type": "text"
+  },
+  {
+    "name": "meta_data",
+    "label": "Meta data",
+    "type": "collection",
+    "spec": [
+      {
+        "name": "total_urls",
+        "label": "Total URLs",
+        "type": "number"
+      },
+      {
+        "name": "successful_urls",
+        "label": "Successful URLs",
+        "type": "number"
+      },
+      {
+        "name": "failed_urls",
+        "label": "Failed URLs",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "name": "results",
+    "label": "Results",
+    "type": "array",
+    "spec": [
+      {
+        "name": "status",
+        "label": "Status",
+        "type": "text"
+      },
+      {
+        "name": "error_message",
+        "label": "Error message",
+        "type": "text"
+      },
+      {
+        "name": "url",
+        "label": "URL",
+        "type": "collection",
+        "spec": [
+          {
+            "name": "screenshot",
+            "label": "Screenshot",
+            "type": "text"
+          },
+          {
+            "name": "extracted_html",
+            "label": "Extracted HTML",
+            "type": "text"
+          },
+          {
+            "name": "extracted_text",
+            "label": "Extracted text",
+            "type": "text"
+          },
+          {
+            "name": "url",
+            "label": "URL",
+            "type": "text"
+          },
+          {
+            "name": "created_at",
+            "label": "Created at",
+            "type": "date"
+          },
+          {
+            "name": "file_type",
+            "label": "File type",
+            "type": "text"
+          },
+          {
+            "name": "width",
+            "label": "Width",
+            "type": "text"
+          },
+          {
+            "name": "height",
+            "label": "Height",
+            "type": "text"
+          },
+          {
+            "name": "full_page",
+            "label": "Full page",
+            "type": "text"
+          },
+          {
+            "name": "fresh",
+            "label": "Fresh",
+            "type": "text"
+          },
+          {
+            "name": "no_cookie_banners",
+            "label": "No cookie banners",
+            "type": "boolean"
+          },
+          {
+            "name": "enable_caching",
+            "label": "Enable caching",
+            "type": "text"
+          },
+          {
+            "name": "block_ads",
+            "label": "Block ads",
+            "type": "boolean"
+          },
+          {
+            "name": "block_chat_widgets",
+            "label": "Block chat widgets",
+            "type": "text"
+          },
+          {
+            "name": "extract_text",
+            "label": "Extract text",
+            "type": "text"
+          },
+          {
+            "name": "extract_html",
+            "label": "Extract HTML",
+            "type": "text"
+          },
+          {
+            "name": "destroy_screenshot",
+            "label": "Destroy screenshot",
+            "type": "text"
+          },
+          {
+            "name": "lazy_load",
+            "label": "Lazy load",
+            "type": "text"
+          },
+          {
+            "name": "retina",
+            "label": "Retina",
+            "type": "text"
+          },
+          {
+            "name": "dark_mode",
+            "label": "Dark mode",
+            "type": "text"
+          },
+          {
+            "name": "block_tracking",
+            "label": "Block tracking",
+            "type": "text"
+          },
+          {
+            "name": "enable_incognito",
+            "label": "Enable incognito",
+            "type": "text"
+          },
+          {
+            "name": "omit_background",
+            "label": "Omit background",
+            "type": "text"
+          },
+          {
+            "name": "thumbnail_width",
+            "label": "Thumbnail width",
+            "type": "text"
+          },
+          {
+            "name": "adjust_top",
+            "label": "Adjust top",
+            "type": "text"
+          },
+          {
+            "name": "wait_for_event",
+            "label": "Wait for event",
+            "type": "text"
+          },
+          {
+            "name": "grayscale",
+            "label": "Grayscale",
+            "type": "text"
+          },
+          {
+            "name": "delay",
+            "label": "Delay",
+            "type": "text"
+          },
+          {
+            "name": "timeout",
+            "label": "Timeout",
+            "type": "text"
+          },
+          {
+            "name": "ttl",
+            "label": "TTL",
+            "type": "date"
+          },
+          {
+            "name": "clip",
+            "label": "Clip",
+            "type": "collection",
+            "spec": [
+              {
+                "name": "x",
+                "label": "X",
+                "type": "text"
+              },
+              {
+                "name": "y",
+                "label": "Y",
+                "type": "text"
+              },
+              {
+                "name": "width",
+                "label": "Width",
+                "type": "text"
+              },
+              {
+                "name": "height",
+                "label": "Height",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "name": "css_url",
+            "label": "CSS URL",
+            "type": "text"
+          },
+          {
+            "name": "css",
+            "label": "CSS",
+            "type": "text"
+          },
+          {
+            "name": "js_url",
+            "label": "JS URL",
+            "type": "text"
+          },
+          {
+            "name": "js",
+            "label": "JS",
+            "type": "text"
+          },
+          {
+            "name": "block_js",
+            "label": "Block JS",
+            "type": "text"
+          },
+          {
+            "name": "block_stylesheets",
+            "label": "Block stylesheets",
+            "type": "text"
+          },
+          {
+            "name": "block_images",
+            "label": "Block images",
+            "type": "text"
+          },
+          {
+            "name": "block_media",
+            "label": "Block media",
+            "type": "text"
+          },
+          {
+            "name": "block_font",
+            "label": "Block font",
+            "type": "text"
+          },
+          {
+            "name": "block_text_track",
+            "label": "Block text track",
+            "type": "text"
+          },
+          {
+            "name": "block_xhr",
+            "label": "Block xhr",
+            "type": "text"
+          },
+          {
+            "name": "block_fetch",
+            "label": "Block fetch",
+            "type": "text"
+          },
+          {
+            "name": "block_event_source",
+            "label": "Block event source",
+            "type": "text"
+          },
+          {
+            "name": "block_web_socket",
+            "label": "Block web socket",
+            "type": "text"
+          },
+          {
+            "name": "block_manifest",
+            "label": "Block manifest",
+            "type": "text"
+          },
+          {
+            "name": "blur_selector",
+            "label": "Blur selector",
+            "type": "text"
+          },
+          {
+            "name": "remove_selector",
+            "label": "Remove selector",
+            "type": "text"
+          },
+          {
+            "name": "result_file_name",
+            "label": "Result file name",
+            "type": "text"
+          },
+          {
+            "name": "format",
+            "label": "Format",
+            "type": "text"
+          },
+          {
+            "name": "sizes",
+            "label": "Sizes",
+            "type": "text"
+          },
+          {
+            "name": "fail_on_error",
+            "label": "Fail on error",
+            "type": "boolean"
+          },
+          {
+            "name": "longitude",
+            "label": "Longitude",
+            "type": "number"
+          },
+          {
+            "name": "latitude",
+            "label": "Latitude",
+            "type": "number"
+          },
+          {
+            "name": "proxy",
+            "label": "Proxy",
+            "type": "text"
+          },
+          {
+            "name": "headers",
+            "label": "Headers",
+            "type": "text"
+          },
+          {
+            "name": "cookies",
+            "label": "Cookies",
+            "type": "text"
+          },
+          {
+            "name": "scroll_to_element",
+            "label": "Scroll to element",
+            "type": "text"
+          },
+          {
+            "name": "selector",
+            "label": "Selector",
+            "type": "text"
+          },
+          {
+            "name": "selector_to_click",
+            "label": "Selector to click",
+            "type": "text"
+          },
+          {
+            "name": "click_recursion",
+            "label": "Click recursion",
+            "type": "number"
+          },
+          {
+            "name": "user_agent",
+            "label": "User agent",
+            "type": "text"
+          },
+          {
+            "name": "accept_languages",
+            "label": "Accept languages",
+            "type": "text"
+          },
+          {
+            "name": "scroll_delay",
+            "label": "Scroll delay",
+            "type": "number"
+          },
+          {
+            "name": "custom_html",
+            "label": "Custom HTML",
+            "type": "text"
+          },
+          {
+            "name": "image_quality",
+            "label": "Image quality",
+            "type": "number"
+          },
+          {
+            "name": "extract_markdown",
+            "label": "Extract markdown",
+            "type": "boolean"
+          },
+          {
+            "name": "get_image_urls",
+            "label": "Get image URLs",
+            "type": "boolean"
+          },
+          {
+            "name": "video",
+            "label": "Video",
+            "type": "boolean"
+          },
+          {
+            "name": "multiple_scrolling",
+            "label": "Multiple scrolling",
+            "type": "text"
+          },
+          {
+            "name": "scrolling_screenshot",
+            "label": "Scrolling screenshot",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  }
+]

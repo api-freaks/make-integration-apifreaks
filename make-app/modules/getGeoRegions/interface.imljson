@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "name": "regions",
+    "label": "Regions",
+    "type": "array",
+    "spec": {
+      "type": "text",
+      "label": "Regions"
+    }
+  }
+]

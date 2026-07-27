@@ -1,6 +1,6 @@
 {
   "name": "postPdfRotate",
-  "label": "PDF: Rotate pages in a PDF",
+  "label": "Rotate PDF pages",
   "description": "This API rotates pages of a PDF by a specified angle (in multiples of 90 degrees).",
   "connection": "apifreaks",
   "typeId": 4

@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "name": "swiftCode",
+    "label": "SWIFT code",
+    "type": "text"
+  },
+  {
+    "name": "countryCode",
+    "label": "Country code",
+    "type": "text"
+  },
+  {
+    "name": "bankAddress",
+    "label": "Bank address",
+    "type": "text"
+  },
+  {
+    "name": "bankCode",
+    "label": "Bank code",
+    "type": "text"
+  },
+  {
+    "name": "bankName",
+    "label": "Bank name",
+    "type": "text"
+  },
+  {
+    "name": "city",
+    "label": "City",
+    "type": "text"
+  },
+  {
+    "name": "country",
+    "label": "Country",
+    "type": "text"
+  }
+]

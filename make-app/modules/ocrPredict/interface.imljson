@@ -1,1 +1,7 @@
-[]
+[
+  {
+    "name": "OCRText",
+    "label": "OCR text",
+    "type": "text"
+  }
+]

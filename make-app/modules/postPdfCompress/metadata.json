@@ -1,6 +1,6 @@
 {
   "name": "postPdfCompress",
-  "label": "PDF: Compress a PDF file",
+  "label": "Compress a PDF",
   "description": "This API compresses a given PDF file to reduce its file size.",
   "connection": "apifreaks",
   "typeId": 4

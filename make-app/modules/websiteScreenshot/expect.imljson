@@ -17,8 +17,8 @@
     ]
   },
   {
-    "name": "file_type",
-    "label": "File Type",
+    "name": "fileType",
+    "label": "File type",
     "type": "select",
     "required": false,
     "help": "File type for screenshot output",
@@ -55,7 +55,7 @@
   },
   {
     "name": "url",
-    "label": "Url",
+    "label": "URL",
     "type": "text",
     "required": true,
     "help": "URLs to capture screenshots of"
@@ -75,8 +75,8 @@
     "help": "Browser viewport height in pixels"
   },
   {
-    "name": "full_page",
-    "label": "Full Page",
+    "name": "fullPage",
+    "label": "Full page",
     "type": "boolean",
     "required": false,
     "help": "Capture a full-page screenshot"
@@ -89,57 +89,57 @@
     "help": "Bypass cache and take a fresh screenshot"
   },
   {
-    "name": "no_cookie_banners",
-    "label": "No Cookie Banners",
+    "name": "noCookieBanners",
+    "label": "No cookie banners",
     "type": "boolean",
     "required": false,
     "help": "Remove cookie banners from the screenshot"
   },
   {
-    "name": "enable_caching",
-    "label": "Enable Caching",
+    "name": "enableCaching",
+    "label": "Enable caching",
     "type": "boolean",
     "required": false,
     "help": "Enable caching for repeated requests"
   },
   {
-    "name": "block_ads",
-    "label": "Block Ads",
+    "name": "blockAds",
+    "label": "Block ads",
     "type": "boolean",
     "required": false,
     "help": "Block advertisements on the page"
   },
   {
-    "name": "block_chat_widgets",
-    "label": "Block Chat Widgets",
+    "name": "blockChatWidgets",
+    "label": "Block chat widgets",
     "type": "boolean",
     "required": false,
     "help": "Block chat widget scripts from loading"
   },
   {
-    "name": "extract_text",
-    "label": "Extract Text",
+    "name": "extractText",
+    "label": "Extract text",
     "type": "boolean",
     "required": false,
     "help": "Extract visible text from the page"
   },
   {
-    "name": "extract_html",
-    "label": "Extract Html",
+    "name": "extractHtml",
+    "label": "Extract HTML",
     "type": "boolean",
     "required": false,
     "help": "Extract HTML content of the page"
   },
   {
-    "name": "destroy_screenshot",
-    "label": "Destroy Screenshot",
+    "name": "destroyScreenshot",
+    "label": "Destroy screenshot",
     "type": "boolean",
     "required": false,
     "help": "Auto-destroy screenshot after fetch"
   },
   {
-    "name": "lazy_load",
-    "label": "Lazy Load",
+    "name": "lazyLoad",
+    "label": "Lazy load",
     "type": "boolean",
     "required": false,
     "help": "Enable lazy-loading content before screenshot"
@@ -152,50 +152,50 @@
     "help": "Capture screenshot in high-DPI (Retina) mode"
   },
   {
-    "name": "dark_mode",
-    "label": "Dark Mode",
+    "name": "darkMode",
+    "label": "Dark mode",
     "type": "boolean",
     "required": false,
     "help": "Render page in dark mode"
   },
   {
-    "name": "block_tracking",
-    "label": "Block Tracking",
+    "name": "blockTracking",
+    "label": "Block tracking",
     "type": "boolean",
     "required": false,
     "help": "Block common user-tracking scripts"
   },
   {
-    "name": "enable_incognito",
-    "label": "Enable Incognito",
+    "name": "enableIncognito",
+    "label": "Enable incognito",
     "type": "boolean",
     "required": false,
     "help": "Enable private/incognito mode for browser session"
   },
   {
-    "name": "omit_background",
-    "label": "Omit Background",
+    "name": "omitBackground",
+    "label": "Omit background",
     "type": "boolean",
     "required": false,
     "help": "Omit background color (transparent background)"
   },
   {
-    "name": "thumbnail_width",
-    "label": "Thumbnail Width",
+    "name": "thumbnailWidth",
+    "label": "Thumbnail width",
     "type": "number",
     "required": false,
     "help": "Thumbnail width in pixels"
   },
   {
-    "name": "adjust_top",
-    "label": "Adjust Top",
+    "name": "adjustTop",
+    "label": "Adjust top",
     "type": "number",
     "required": false,
     "help": "Adjust top in pixels"
   },
   {
-    "name": "wait_for_event",
-    "label": "Wait For Event",
+    "name": "waitForEvent",
+    "label": "Wait for event",
     "type": "select",
     "required": false,
     "help": "Wait for a specific load event before capturing the screenshot.",
@@ -237,182 +237,182 @@
   },
   {
     "name": "ttl",
-    "label": "Ttl",
+    "label": "TTL",
     "type": "number",
     "required": false,
     "help": "Number of seconds the screenshot should be cached"
   },
   {
-    "name": "clip[x]",
-    "label": "Clip[X]",
+    "name": "clipX",
+    "label": "Clip x",
     "type": "number",
     "required": false,
     "help": "X position of the clipping rectangle in pixels"
   },
   {
-    "name": "clip[y]",
-    "label": "Clip[Y]",
+    "name": "clipY",
+    "label": "Clip y",
     "type": "number",
     "required": false,
     "help": "Y position of the clipping rectangle in pixels"
   },
   {
-    "name": "clip[width]",
-    "label": "Clip[Width]",
+    "name": "clipWidth",
+    "label": "Clip width",
     "type": "number",
     "required": false,
     "help": "Width of the clipping rectangle in pixels"
   },
   {
-    "name": "clip[height]",
-    "label": "Clip[Height]",
+    "name": "clipHeight",
+    "label": "Clip height",
     "type": "number",
     "required": false,
     "help": "Height of the clipping rectangle in pixels"
   },
   {
-    "name": "css_url",
-    "label": "Css Url",
+    "name": "cssUrl",
+    "label": "CSS URL",
     "type": "text",
     "required": false,
     "help": "URL to CSS file"
   },
   {
     "name": "css",
-    "label": "Css",
+    "label": "CSS",
     "type": "text",
     "required": false,
     "help": "Your custom CSS code"
   },
   {
-    "name": "js_url",
-    "label": "Js Url",
+    "name": "jsUrl",
+    "label": "JS URL",
     "type": "text",
     "required": false,
     "help": "URL to JS file"
   },
   {
     "name": "js",
-    "label": "Js",
+    "label": "JS",
     "type": "text",
     "required": false,
     "help": "Your JS code"
   },
   {
-    "name": "block_js",
-    "label": "Block Js",
+    "name": "blockJs",
+    "label": "Block JS",
     "type": "boolean",
     "required": false,
     "help": "Block Scripts"
   },
   {
-    "name": "block_stylesheets",
-    "label": "Block Stylesheets",
+    "name": "blockStylesheets",
+    "label": "Block stylesheets",
     "type": "boolean",
     "required": false,
     "help": "Block Stylesheets"
   },
   {
-    "name": "block_images",
-    "label": "Block Images",
+    "name": "blockImages",
+    "label": "Block images",
     "type": "boolean",
     "required": false,
     "help": "Block Images"
   },
   {
-    "name": "block_media",
-    "label": "Block Media",
+    "name": "blockMedia",
+    "label": "Block media",
     "type": "boolean",
     "required": false,
     "help": "Block Media"
   },
   {
-    "name": "block_font",
-    "label": "Block Font",
+    "name": "blockFont",
+    "label": "Block font",
     "type": "boolean",
     "required": false,
     "help": "Block Fonts"
   },
   {
-    "name": "block_text_track",
-    "label": "Block Text Track",
+    "name": "blockTextTrack",
+    "label": "Block text track",
     "type": "boolean",
     "required": false,
     "help": "Block Text Tracks"
   },
   {
-    "name": "block_xhr",
-    "label": "Block Xhr",
+    "name": "blockXhr",
+    "label": "Block xhr",
     "type": "boolean",
     "required": false,
     "help": "Block XHR Requests"
   },
   {
-    "name": "block_fetch",
-    "label": "Block Fetch",
+    "name": "blockFetch",
+    "label": "Block fetch",
     "type": "boolean",
     "required": false,
     "help": "Block Fetch Requests"
   },
   {
-    "name": "block_event_source",
-    "label": "Block Event Source",
+    "name": "blockEventSource",
+    "label": "Block event source",
     "type": "boolean",
     "required": false,
     "help": "Block Event Source"
   },
   {
-    "name": "block_web_socket",
-    "label": "Block Web Socket",
+    "name": "blockWebSocket",
+    "label": "Block web socket",
     "type": "boolean",
     "required": false,
     "help": "Block Web Sockets"
   },
   {
-    "name": "block_manifest",
-    "label": "Block Manifest",
+    "name": "blockManifest",
+    "label": "Block manifest",
     "type": "boolean",
     "required": false,
     "help": "Block Manifest"
   },
   {
-    "name": "block_specific_requests",
-    "label": "Block Specific Requests",
+    "name": "blockSpecificRequests",
+    "label": "Block specific requests",
     "type": "text",
     "required": false,
-    "help": "Comma- or newline-separated list of specific requests to block. Each line and comma are treated as separate requests for processing. Example: https://example.com, https://example.js\n"
+    "help": "Comma- or newline-separated list of specific requests to block. Each line and comma are treated as separate requests for processing. Example: https://example.com, https://example.js"
   },
   {
-    "name": "blur_selector",
-    "label": "Blur Selector",
+    "name": "blurSelector",
+    "label": "Blur selector",
     "type": "array",
     "required": false,
-    "help": "Comma-separated list of indexed CSS selectors to blur.\nFormat: `index:<selector>`, e.g., `0:.banner,1:#ads`.\n"
+    "help": "Comma-separated list of indexed CSS selectors to blur. Format: `index:<selector>`, e.g., `0:.banner,1:#ads`."
   },
   {
-    "name": "remove_selector",
-    "label": "Remove Selector",
+    "name": "removeSelector",
+    "label": "Remove selector",
     "type": "array",
     "required": false,
-    "help": "Comma-separated list of indexed CSS selectors to remove.\nFormat: `index:<selector>`, e.g., `0:.banner,1:#ads`.\n"
+    "help": "Comma-separated list of indexed CSS selectors to remove. Format: `index:<selector>`, e.g., `0:.banner,1:#ads`."
   },
   {
-    "name": "result_file_name",
-    "label": "Result File Name",
+    "name": "resultFileName",
+    "label": "Result file name",
     "type": "text",
     "required": false,
-    "help": "Specify a meaningful & unique file name to easily identify the screenshot result.\nAvoid using spaces or special characters; use hyphens or underscores to separate words.\n"
+    "help": "Specify a meaningful & unique file name to easily identify the screenshot result. Avoid using spaces or special characters; use hyphens or underscores to separate words."
   },
   {
-    "name": "scrolling_screenshot",
-    "label": "Scrolling Screenshot",
+    "name": "scrollingScreenshot",
+    "label": "Scrolling screenshot",
     "type": "boolean",
     "required": false,
     "help": "**`Scrolling Screenshot`**: Capture a long scrolling screenshot. When true, disable `fullPage` and `freshScreenshot`."
   },
   {
-    "name": "scroll_speed",
-    "label": "Scroll Speed",
+    "name": "scrollSpeed",
+    "label": "Scroll speed",
     "type": "select",
     "required": false,
     "help": "Speed of scrolling during the screenshot.",
@@ -432,22 +432,22 @@
     ]
   },
   {
-    "name": "scroll_back",
-    "label": "Scroll Back",
+    "name": "scrollBack",
+    "label": "Scroll back",
     "type": "boolean",
     "required": false,
     "help": "If true, the scroll will reverse back to the top after reaching the bottom."
   },
   {
-    "name": "start_immediately",
-    "label": "Start Immediately",
+    "name": "startImmediately",
+    "label": "Start immediately",
     "type": "boolean",
     "required": false,
     "help": "If true, the scrolling capture will start immediately upon page load."
   },
   {
-    "name": "multiple_scrolling",
-    "label": "Multiple Scrolling",
+    "name": "multipleScrolling",
+    "label": "Multiple scrolling",
     "type": "boolean",
     "required": false,
     "help": "If true, multiple scrolling screenshots will be taken at different viewport sizes."
@@ -457,18 +457,18 @@
     "label": "Sizes",
     "type": "array",
     "required": false,
-    "help": "Comma-separated list of viewport sizes in the format index:XXw:YYh. Example: sizes=0:120w:300h,1:240w:500h\n"
+    "help": "Comma-separated list of viewport sizes in the format index:XXw:YYh. Example: sizes=0:120w:300h,1:240w:500h"
   },
   {
     "name": "duration",
     "label": "Duration",
     "type": "number",
     "required": false,
-    "help": "Duration in seconds for the scrolling capture. Acceptable range: 0 to 60 seconds.\n"
+    "help": "Duration in seconds for the scrolling capture. Acceptable range: 0 to 60 seconds."
   },
   {
-    "name": "fail_on_error",
-    "label": "Fail On Error",
+    "name": "failOnError",
+    "label": "Fail on error",
     "type": "boolean",
     "required": false,
     "help": "If true, returns an error when the target page responds with 4xx or 5xx status."
@@ -509,8 +509,8 @@
     "help": "Cookies to include in the request before rendering. Supports single or multiple cookies. Example: cookie=value; otherCookie=otherValue;"
   },
   {
-    "name": "scroll_to_element",
-    "label": "Scroll To Element",
+    "name": "scrollToElement",
+    "label": "Scroll to element",
     "type": "text",
     "required": false,
     "help": "Scrolls the page to bring the specified CSS selector into view before capture."
@@ -523,64 +523,64 @@
     "help": "CSS selector to capture a specific element. Only that element is rendered."
   },
   {
-    "name": "selector_to_click",
-    "label": "Selector To Click",
+    "name": "selectorToClick",
+    "label": "Selector to click",
     "type": "text",
     "required": false,
     "help": "CSS selector for an element to click before capturing the screenshot."
   },
   {
-    "name": "click_recursion",
-    "label": "Click Recursion",
+    "name": "clickRecursion",
+    "label": "Click recursion",
     "type": "number",
     "required": false,
     "help": "Number of times to click the selector (when set via selector_to_click). Default: 1."
   },
   {
-    "name": "user_agent",
-    "label": "User Agent",
+    "name": "userAgent",
+    "label": "User agent",
     "type": "text",
     "required": false,
     "help": "Custom User-Agent string sent in the request headers."
   },
   {
-    "name": "accept_languages",
-    "label": "Accept Languages",
+    "name": "acceptLanguages",
+    "label": "Accept languages",
     "type": "text",
     "required": false,
     "help": "Sets the accepted languages for the HTTP request. Sent as the Accept-Language header."
   },
   {
-    "name": "scroll_delay",
-    "label": "Scroll Delay",
+    "name": "scrollDelay",
+    "label": "Scroll delay",
     "type": "number",
     "required": false,
     "help": "Delay in milliseconds between scroll steps when lazy_load is enabled."
   },
   {
-    "name": "custom_html",
-    "label": "Custom Html",
+    "name": "customHtml",
+    "label": "Custom HTML",
     "type": "text",
     "required": false,
     "help": "Custom HTML to render instead of loading a URL. Overrides the url option."
   },
   {
-    "name": "image_quality",
-    "label": "Image Quality",
+    "name": "imageQuality",
+    "label": "Image quality",
     "type": "number",
     "required": false,
     "help": "Compression level for JPEG output (0–100). Lower = smaller file, higher = better quality. Only applies to JPEG."
   },
   {
-    "name": "extract_markdown",
-    "label": "Extract Markdown",
+    "name": "extractMarkdown",
+    "label": "Extract markdown",
     "type": "boolean",
     "required": false,
     "help": "Extracts rendered page content as a structured .md (Markdown) file."
   },
   {
-    "name": "get_image_urls",
-    "label": "Get Image Urls",
+    "name": "getImageUrls",
+    "label": "Get image URLs",
     "type": "boolean",
     "required": false,
     "help": "Extracts all image URLs from the rendered DOM and returns them in structured format."

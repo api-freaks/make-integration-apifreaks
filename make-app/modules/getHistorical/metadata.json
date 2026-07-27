@@ -1,7 +1,7 @@
 {
   "name": "getHistorical",
-  "label": "Weather: Retrieve past weather data for a specific date and...",
-  "description": "Access past weather conditions for specific dates with records going back to 1940. Retrieve comprehensive historical data with both daily and hourly precision options.",
+  "label": "Get historical weather",
+  "description": "Accesses past weather conditions for specific dates with records going back to 1940. Retrieve comprehensive historical data with both daily and hourly precision options.",
   "connection": "apifreaks",
   "typeId": 4
 }

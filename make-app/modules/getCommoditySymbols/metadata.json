@@ -1,6 +1,6 @@
 {
   "name": "getCommoditySymbols",
-  "label": "Commodity: Get all supported commodity symbols",
+  "label": "List commodity symbols",
   "description": "Returns the list of supported commodity symbols with metadata.",
   "connection": "apifreaks",
   "typeId": 4

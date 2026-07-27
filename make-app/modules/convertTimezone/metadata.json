@@ -1,6 +1,6 @@
 {
   "name": "convertTimezone",
-  "label": "Timezone: Convert any timestamp from one timezone to another using...",
+  "label": "Convert time between timezones",
   "description": "Converts a given time from one timezone to another using various input types like timezone name, coordinates, location, or codes.",
   "connection": "apifreaks",
   "typeId": 4

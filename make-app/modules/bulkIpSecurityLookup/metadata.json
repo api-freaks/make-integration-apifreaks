@@ -1,6 +1,6 @@
 {
   "name": "bulkIpSecurityLookup",
-  "label": "IP Geolocation: Retrieve security details for multiple IP addresses in a...",
+  "label": "Bulk IP security lookup",
   "description": "The Bulk IP Security Lookup API allows you to retrieve security details for up to `50,000` IP-addresses in a single request.",
   "connection": "apifreaks",
   "typeId": 9

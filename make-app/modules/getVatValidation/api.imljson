@@ -2,7 +2,6 @@
   "url": "/v1.0/vat/validation",
   "method": "GET",
   "qs": {
-    "format": "{{parameters.format}}",
     "vatNumber": "{{parameters.vatNumber}}",
     "requesterVatNumber": "{{parameters.requesterVatNumber}}"
   },

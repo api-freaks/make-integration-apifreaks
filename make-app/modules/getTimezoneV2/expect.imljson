@@ -1,24 +1,7 @@
 [
   {
-    "name": "format",
-    "label": "Format",
-    "type": "select",
-    "required": false,
-    "help": "Format of the response",
-    "options": [
-      {
-        "label": "json",
-        "value": "json"
-      },
-      {
-        "label": "xml",
-        "value": "xml"
-      }
-    ]
-  },
-  {
     "name": "ip",
-    "label": "Ip",
+    "label": "IP",
     "type": "text",
     "required": false,
     "help": "IPv4 or IPv6 address to extract timezone information."
@@ -39,21 +22,21 @@
   },
   {
     "name": "lat",
-    "label": "Lat",
+    "label": "Latitude",
     "type": "number",
     "required": false,
     "help": "Latitude for geolocation lookup."
   },
   {
     "name": "long",
-    "label": "Long",
+    "label": "Longitude",
     "type": "number",
     "required": false,
     "help": "Longitude for geolocation lookup."
   },
   {
     "name": "lang",
-    "label": "Lang",
+    "label": "Language",
     "type": "select",
     "required": false,
     "help": "Language code for response localization (default is \"en\").",
@@ -109,22 +92,22 @@
     ]
   },
   {
-    "name": "iata_code",
-    "label": "Iata Code",
+    "name": "iataCode",
+    "label": "Iata code",
     "type": "text",
     "required": false,
     "help": "3-letter IATA airport code (e.g., JFK)."
   },
   {
-    "name": "icao_code",
-    "label": "Icao Code",
+    "name": "icaoCode",
+    "label": "Icao code",
     "type": "text",
     "required": false,
     "help": "4-letter ICAO airport code (e.g., KJFK)."
   },
   {
-    "name": "lo_code",
-    "label": "Lo Code",
+    "name": "loCode",
+    "label": "Lo code",
     "type": "text",
     "required": false,
     "help": "5-letter UN/LO city code."

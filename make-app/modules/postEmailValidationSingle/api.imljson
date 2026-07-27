@@ -1,9 +1,6 @@
 {
   "url": "/v1.0/email-validation/single",
   "method": "POST",
-  "qs": {
-    "format": "{{parameters.format}}"
-  },
   "body": {
     "email": "{{parameters.email}}",
     "name": "{{parameters.name}}",

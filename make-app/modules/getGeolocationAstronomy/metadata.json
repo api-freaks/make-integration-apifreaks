@@ -1,7 +1,7 @@
 {
   "name": "getGeolocationAstronomy",
-  "label": "Other: Returns sunrise, sunset, moon phase, and celestial...",
-  "description": "Retrieve sunrise and sunset times, current position of the moon, and other related information by specifying a location address, location coordinates, IP address, or using the client IP address if no parameter is passed.",
+  "label": "Get astronomy data (legacy)",
+  "description": "Returns sunrise and sunset times, current position of the moon, and other related information by specifying a location address, location coordinates, IP address, or using the client IP address if no parameter is passed.",
   "connection": "apifreaks",
   "typeId": 4
 }

@@ -1,6 +1,6 @@
 {
   "name": "postPdfDecrypt",
-  "label": "PDF: Remove all encryption from a PDF",
+  "label": "Decrypt a PDF",
   "description": "This API decrypts PDF files, removing all encryption, including open passwords and permission restrictions.",
   "connection": "apifreaks",
   "typeId": 4

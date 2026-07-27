@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "name": "subdomain",
+    "label": "Subdomain",
+    "type": "text"
+  },
+  {
+    "name": "first_seen",
+    "label": "First seen",
+    "type": "text"
+  },
+  {
+    "name": "last_seen",
+    "label": "Last seen",
+    "type": "text"
+  },
+  {
+    "name": "inactive_from",
+    "label": "Inactive from",
+    "type": "text"
+  }
+]

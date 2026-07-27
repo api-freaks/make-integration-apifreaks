@@ -2,7 +2,6 @@
   "url": "/v1.0/currency/converter/ip-to-currency",
   "method": "GET",
   "qs": {
-    "format": "{{parameters.format}}",
     "from": "{{parameters.from}}",
     "ip": "{{parameters.ip}}",
     "amount": "{{parameters.amount}}",

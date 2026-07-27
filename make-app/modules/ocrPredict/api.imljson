@@ -1,19 +1,21 @@
 {
   "url": "/v1.0/ocr/predict",
   "method": "POST",
+  "body": {
+    "file": {
+      "value": "{{parameters.fileData}}",
+      "options": {
+        "filename": "{{parameters.fileName}}"
+      }
+    }
+  },
+  "type": "multipart/form-data",
   "qs": {
     "url": "{{parameters.url}}",
     "model": "{{parameters.model}}",
-    "page_range": "{{parameters.page_range}}",
+    "page_range": "{{parameters.pageRange}}",
     "zone": "{{parameters.zone}}",
-    "new_line": "{{parameters.new_line}}"
-  },
-  "body": {
-    "url": "{{parameters.url}}",
-    "model": "{{parameters.model}}",
-    "page_range": "{{parameters.page_range}}",
-    "zone": "{{parameters.zone}}",
-    "new_line": "{{parameters.new_line}}"
+    "new_line": "{{parameters.newLine}}"
   },
   "response": {
     "output": "{{body}}"

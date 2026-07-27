@@ -1,1 +1,90 @@
-[]
+[
+  {
+    "name": "bulk_dns_info",
+    "label": "Bulk DNS info",
+    "type": "array",
+    "spec": [
+      {
+        "name": "status",
+        "label": "Status",
+        "type": "boolean"
+      },
+      {
+        "name": "queryTime",
+        "label": "Query time",
+        "type": "text"
+      },
+      {
+        "name": "domainName",
+        "label": "Domain name",
+        "type": "text"
+      },
+      {
+        "name": "domainRegistered",
+        "label": "Domain registered",
+        "type": "boolean"
+      },
+      {
+        "name": "ipAddress",
+        "label": "IP address",
+        "type": "text"
+      },
+      {
+        "name": "dnsTypes",
+        "label": "DNS types",
+        "type": "collection",
+        "spec": [
+          {
+            "name": "A",
+            "label": "A",
+            "type": "number"
+          },
+          {
+            "name": "AAAA",
+            "label": "AAAA",
+            "type": "number"
+          },
+          {
+            "name": "MX",
+            "label": "MX",
+            "type": "number"
+          },
+          {
+            "name": "NS",
+            "label": "NS",
+            "type": "number"
+          },
+          {
+            "name": "SOA",
+            "label": "SOA",
+            "type": "number"
+          },
+          {
+            "name": "TXT",
+            "label": "TXT",
+            "type": "number"
+          },
+          {
+            "name": "SPF",
+            "label": "SPF",
+            "type": "number"
+          },
+          {
+            "name": "PTR",
+            "label": "PTR",
+            "type": "number"
+          }
+        ]
+      },
+      {
+        "name": "dnsRecords",
+        "label": "DNS records",
+        "type": "array",
+        "spec": {
+          "type": "text",
+          "label": "DNS records"
+        }
+      }
+    ]
+  }
+]

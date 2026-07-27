@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "name": "availabilityPeriod",
+    "label": "Availability period",
+    "type": "collection",
+    "spec": []
+  }
+]

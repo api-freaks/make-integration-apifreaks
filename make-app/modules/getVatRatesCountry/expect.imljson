@@ -1,22 +1,5 @@
 [
   {
-    "name": "format",
-    "label": "Format",
-    "type": "select",
-    "required": false,
-    "help": "Specify the desired response format. Options: 'json' (default) or 'xml'.",
-    "options": [
-      {
-        "label": "json",
-        "value": "json"
-      },
-      {
-        "label": "xml",
-        "value": "xml"
-      }
-    ]
-  },
-  {
     "name": "country",
     "label": "Country",
     "type": "text",
@@ -29,5 +12,12 @@
     "type": "text",
     "required": false,
     "help": "Optional state or region in Alpha-2 (NY) or full name (New_York). Use with \"country\" for state-level VAT; values are case-insensitive and may use underscores."
+  },
+  {
+    "name": "limit",
+    "label": "Limit",
+    "type": "uinteger",
+    "default": 10,
+    "help": "Maximum number of results to return."
   }
 ]

@@ -1,7 +1,7 @@
 {
   "name": "lookupZipCodes",
-  "label": "ZIP Code: Lookup ZIP/postal codes",
-  "description": "Lookup ZIP/postal codes",
+  "label": "Look up ZIP codes",
+  "description": "Returns ZIP/postal code details for the supplied query.",
   "connection": "apifreaks",
   "typeId": 4
 }

@@ -1,1 +1,365 @@
-[]
+[
+  {
+    "name": "ip",
+    "label": "IP",
+    "type": "text"
+  },
+  {
+    "name": "time_zone",
+    "label": "Time zone",
+    "type": "collection",
+    "spec": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "offset",
+        "label": "Offset",
+        "type": "number"
+      },
+      {
+        "name": "offset_with_dst",
+        "label": "Offset with dst",
+        "type": "number"
+      },
+      {
+        "name": "date",
+        "label": "Date",
+        "type": "date"
+      },
+      {
+        "name": "date_time",
+        "label": "Date time",
+        "type": "date"
+      },
+      {
+        "name": "date_time_txt",
+        "label": "Date time TXT",
+        "type": "text"
+      },
+      {
+        "name": "date_time_wti",
+        "label": "Date time wti",
+        "type": "text"
+      },
+      {
+        "name": "date_time_ymd",
+        "label": "Date time ymd",
+        "type": "text"
+      },
+      {
+        "name": "date_time_unix",
+        "label": "Date time unix",
+        "type": "number"
+      },
+      {
+        "name": "time_24",
+        "label": "Time 24",
+        "type": "text"
+      },
+      {
+        "name": "time_12",
+        "label": "Time 12",
+        "type": "text"
+      },
+      {
+        "name": "week",
+        "label": "Week",
+        "type": "number"
+      },
+      {
+        "name": "month",
+        "label": "Month",
+        "type": "number"
+      },
+      {
+        "name": "year",
+        "label": "Year",
+        "type": "number"
+      },
+      {
+        "name": "year_abbr",
+        "label": "Year abbr",
+        "type": "text"
+      },
+      {
+        "name": "is_dst",
+        "label": "Is dst",
+        "type": "boolean"
+      },
+      {
+        "name": "dst_savings",
+        "label": "Dst savings",
+        "type": "number"
+      },
+      {
+        "name": "dst_exists",
+        "label": "Dst exists",
+        "type": "boolean"
+      },
+      {
+        "name": "dst_start.utc_time",
+        "label": "Dst start UTC time",
+        "type": "text"
+      },
+      {
+        "name": "dst_start.duration",
+        "label": "Dst start duration",
+        "type": "text"
+      },
+      {
+        "name": "dst_start.gap",
+        "label": "Dst start gap",
+        "type": "boolean"
+      },
+      {
+        "name": "dst_start.date_time_after",
+        "label": "Dst start date time after",
+        "type": "text"
+      },
+      {
+        "name": "dst_start.date_time_before",
+        "label": "Dst start date time before",
+        "type": "text"
+      },
+      {
+        "name": "dst_start.overlap",
+        "label": "Dst start overlap",
+        "type": "boolean"
+      },
+      {
+        "name": "dst_end.utc_time",
+        "label": "Dst end UTC time",
+        "type": "text"
+      },
+      {
+        "name": "dst_end.duration",
+        "label": "Dst end duration",
+        "type": "text"
+      },
+      {
+        "name": "dst_end.gap",
+        "label": "Dst end gap",
+        "type": "boolean"
+      },
+      {
+        "name": "dst_end.date_time_after",
+        "label": "Dst end date time after",
+        "type": "text"
+      },
+      {
+        "name": "dst_end.date_time_before",
+        "label": "Dst end date time before",
+        "type": "text"
+      },
+      {
+        "name": "dst_end.overlap",
+        "label": "Dst end overlap",
+        "type": "boolean"
+      }
+    ]
+  },
+  {
+    "name": "location",
+    "label": "Location",
+    "type": "collection",
+    "spec": [
+      {
+        "name": "location_string",
+        "label": "Location string",
+        "type": "text"
+      },
+      {
+        "name": "continent_code",
+        "label": "Continent code",
+        "type": "text"
+      },
+      {
+        "name": "continent_name",
+        "label": "Continent name",
+        "type": "text"
+      },
+      {
+        "name": "country_code2",
+        "label": "Country code 2",
+        "type": "text"
+      },
+      {
+        "name": "country_code3",
+        "label": "Country code 3",
+        "type": "text"
+      },
+      {
+        "name": "country_name",
+        "label": "Country name",
+        "type": "text"
+      },
+      {
+        "name": "country_name_official",
+        "label": "Country name official",
+        "type": "text"
+      },
+      {
+        "name": "is_eu",
+        "label": "Is EU",
+        "type": "boolean"
+      },
+      {
+        "name": "state_prov",
+        "label": "State prov",
+        "type": "text"
+      },
+      {
+        "name": "state_code",
+        "label": "State code",
+        "type": "text"
+      },
+      {
+        "name": "district",
+        "label": "District",
+        "type": "text"
+      },
+      {
+        "name": "city",
+        "label": "City",
+        "type": "text"
+      },
+      {
+        "name": "locality",
+        "label": "Locality",
+        "type": "text"
+      },
+      {
+        "name": "zipcode",
+        "label": "Zipcode",
+        "type": "text"
+      },
+      {
+        "name": "latitude",
+        "label": "Latitude",
+        "type": "text"
+      },
+      {
+        "name": "longitude",
+        "label": "Longitude",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "name": "airport_detail",
+    "label": "Airport detail",
+    "type": "collection",
+    "spec": [
+      {
+        "name": "type",
+        "label": "Type",
+        "type": "text"
+      },
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "latitude",
+        "label": "Latitude",
+        "type": "number"
+      },
+      {
+        "name": "longitude",
+        "label": "Longitude",
+        "type": "number"
+      },
+      {
+        "name": "elevation_ft",
+        "label": "Elevation ft",
+        "type": "number"
+      },
+      {
+        "name": "continent_code",
+        "label": "Continent code",
+        "type": "text"
+      },
+      {
+        "name": "country_code",
+        "label": "Country code",
+        "type": "text"
+      },
+      {
+        "name": "state_code",
+        "label": "State code",
+        "type": "text"
+      },
+      {
+        "name": "city",
+        "label": "City",
+        "type": "text"
+      },
+      {
+        "name": "iata_code",
+        "label": "Iata code",
+        "type": "text"
+      },
+      {
+        "name": "icao_code",
+        "label": "Icao code",
+        "type": "text"
+      },
+      {
+        "name": "faa_code",
+        "label": "Faa code",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "name": "lo_code_details",
+    "label": "Lo code details",
+    "type": "collection",
+    "spec": [
+      {
+        "name": "lo_code",
+        "label": "Lo code",
+        "type": "text"
+      },
+      {
+        "name": "city",
+        "label": "City",
+        "type": "text"
+      },
+      {
+        "name": "state_code",
+        "label": "State code",
+        "type": "text"
+      },
+      {
+        "name": "country_code",
+        "label": "Country code",
+        "type": "text"
+      },
+      {
+        "name": "country_name",
+        "label": "Country name",
+        "type": "text"
+      },
+      {
+        "name": "location_type",
+        "label": "Location type",
+        "type": "text"
+      },
+      {
+        "name": "latitude",
+        "label": "Latitude",
+        "type": "number"
+      },
+      {
+        "name": "longitude",
+        "label": "Longitude",
+        "type": "number"
+      }
+    ]
+  }
+]

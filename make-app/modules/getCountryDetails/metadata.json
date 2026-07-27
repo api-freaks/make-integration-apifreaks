@@ -1,7 +1,7 @@
 {
   "name": "getCountryDetails",
-  "label": "GeoDB: Get GeoDB Country Details",
-  "description": "Get GeoDB Country Details",
+  "label": "Get country details",
+  "description": "Returns detailed information about a country in the GeoDB dataset.",
   "connection": "apifreaks",
   "typeId": 4
 }

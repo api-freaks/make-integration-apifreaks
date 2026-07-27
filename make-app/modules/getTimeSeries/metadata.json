@@ -1,6 +1,6 @@
 {
   "name": "getTimeSeries",
-  "label": "Currency: Get time series of exchange rates",
+  "label": "Get currency time series",
   "description": "Returns day-by-day historical exchange rates for a custom date range.",
   "connection": "apifreaks",
   "typeId": 4

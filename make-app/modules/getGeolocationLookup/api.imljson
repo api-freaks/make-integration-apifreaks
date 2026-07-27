@@ -2,7 +2,6 @@
   "url": "/v1.0/geolocation/lookup",
   "method": "GET",
   "qs": {
-    "format": "{{parameters.format}}",
     "ip": "{{parameters.ip}}",
     "lang": "{{parameters.lang}}",
     "fields": "{{parameters.fields}}",

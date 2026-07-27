@@ -2,9 +2,8 @@
   "url": "/v1.0/geo/cities",
   "method": "GET",
   "qs": {
-    "format": "{{parameters.format}}",
     "country": "{{parameters.country}}",
-    "admin_unit": "{{parameters.admin_unit}}"
+    "admin_unit": "{{parameters.adminUnit}}"
   },
   "response": {
     "output": "{{body}}"

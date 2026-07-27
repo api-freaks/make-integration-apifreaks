@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "name": "domain_available_response",
+    "label": "Domain available response",
+    "type": "array",
+    "spec": [
+      {
+        "name": "domain",
+        "label": "Domain",
+        "type": "text"
+      },
+      {
+        "name": "domainAvailability",
+        "label": "Domain availability",
+        "type": "boolean"
+      }
+    ]
+  }
+]

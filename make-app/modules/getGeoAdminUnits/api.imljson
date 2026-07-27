@@ -2,7 +2,6 @@
   "url": "/v1.0/geo/admin-units",
   "method": "GET",
   "qs": {
-    "format": "{{parameters.format}}",
     "country": "{{parameters.country}}",
     "adminLevels": "{{parameters.adminLevels}}"
   },

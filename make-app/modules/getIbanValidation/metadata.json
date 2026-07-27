@@ -1,6 +1,6 @@
 {
   "name": "getIbanValidation",
-  "label": "Financial: Validate IBAN",
+  "label": "Validate an IBAN",
   "description": "Checks an IBAN for structural validity, checksum accuracy, and bank metadata.",
   "connection": "apifreaks",
   "typeId": 4

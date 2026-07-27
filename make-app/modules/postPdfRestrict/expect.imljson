@@ -1,24 +1,7 @@
 [
   {
-    "name": "format",
-    "label": "Format",
-    "type": "select",
-    "required": false,
-    "help": "Specifies the desired format for the API response. Choose 'json' for a JSON object or 'xml' for an XML structure.",
-    "options": [
-      {
-        "label": "json",
-        "value": "json"
-      },
-      {
-        "label": "xml",
-        "value": "xml"
-      }
-    ]
-  },
-  {
-    "name": "file_id",
-    "label": "File Id",
+    "name": "fileId",
+    "label": "File ID",
     "type": "text",
     "required": false,
     "help": "The unique ID of a PDF file already uploaded to the API Freaks server. Use this as an alternative to uploading a new file directly."
@@ -38,22 +21,22 @@
     "help": "The desired name for the output restricted PDF file. If not provided, a default name will be assigned."
   },
   {
-    "name": "file_password",
-    "label": "File Password",
+    "name": "filePassword",
+    "label": "File password",
     "type": "text",
     "required": false,
     "help": "The password to unlock the input file if it is already secured. Provide the owner password if available; otherwise, the user password. The owner password takes precedence. Password Length should be between 6 and 128 characters."
   },
   {
-    "name": "user_password",
-    "label": "User Password",
+    "name": "userPassword",
+    "label": "User password",
     "type": "text",
     "required": true,
     "help": "Sets the password users will use to open the PDF. If this is not set, only the owner password will be configured, and anyone can open the PDF file with the provided restrictions enabled. Password Length should be between 6 and 128 characters."
   },
   {
-    "name": "owner_password",
-    "label": "Owner Password",
+    "name": "ownerPassword",
+    "label": "Owner password",
     "type": "text",
     "required": false,
     "help": "Sets the password that allows full access to the PDF (e.g., removing restrictions). If not provided, the `user_password` (if set) will also be used as the owner password. Password Length should be between 6 and 128 characters."
@@ -63,34 +46,43 @@
     "label": "Restrictions",
     "type": "text",
     "required": true,
-    "help": "A comma-separated list of restrictions to apply to the PDF. These define what the end-user is *not* allowed to do with the PDF. Available options are:\n\n\n* **print_high** – Disables high-quality printing.\n* **print_low** – Disables low-resolution printing.\n* **edit_document_assembly** – Prevents reordering or inserting pages.\n* **fill_form_fields** – Disallows filling in PDF form fields.\n* **edit_annotations** – Disables adding or modifying annotations or comments.\n* **modify_content** – Prevents modifying existing content in the PDF.\n* **copy_and_extract_content** – Disables copying text or images from the PDF.\n* **use_accessibility** – Prevents screen readers or accessibility tools from accessing content."
+    "help": "A comma-separated list of restrictions to apply to the PDF. These define what the end-user is *not* allowed to do with the PDF. Available options are: * **print_high** – Disables high-quality printing. * **print_low** – Disables low-resolution printing. * **edit_document_assembly** – Prevents reordering or inserting pages. * **fill_form_fields** – Disallows filling in PDF form fields. * **edit_annotations** – Disables adding or modifying annotations or comments. * **modify_content** – Prevents modifying existing content in the PDF. * **copy_and_extract_content** – Disables copying text or images from the PDF. * **use_accessibility** – Prevents screen readers or accessibility tools from accessing content."
   },
   {
-    "name": "webhook_url",
-    "label": "Webhook Url",
+    "name": "webhookUrl",
+    "label": "Webhook URL",
     "type": "text",
     "required": false,
     "help": "The URL to which the webhook notification will be sent after the task is completed."
   },
   {
-    "name": "webhook_failure_notification",
-    "label": "Webhook Failure Notification",
+    "name": "webhookFailureNotification",
+    "label": "Webhook failure notification",
     "type": "boolean",
     "required": false,
-    "help": "If true, a notification will also be sent by email in case the webhook request fails all the retries.  The email notification will be sent to the requesting user or their organization’s admin if part of one."
+    "help": "If true, a notification will also be sent by email in case the webhook request fails all the retries. The email notification will be sent to the requesting user or their organization’s admin if part of one."
   },
   {
-    "name": "X-Webhook-Authorization",
-    "label": "X Webhook Authorization",
+    "name": "XWebhookAuthorization",
+    "label": "X webhook authorization",
     "type": "text",
     "required": false,
     "help": "Optional custom header for webhook requests. Format: `Key:Value` (e.g., `Authorization:Bearer token123`). This will be sent as an HTTP header in the webhook call."
   },
   {
-    "name": "file",
-    "label": "File",
-    "type": "text",
+    "name": "fileName",
+    "label": "File name",
+    "type": "filename",
     "required": false,
-    "help": "The PDF file to be processed. If this parameter is not provided, you must specify `file_id` to use a previously uploaded file."
+    "semantic": "file:name",
+    "help": "Name of the file being uploaded."
+  },
+  {
+    "name": "fileData",
+    "label": "File",
+    "type": "buffer",
+    "required": false,
+    "semantic": "file:data",
+    "help": "The file to process. Leave empty to use a previously uploaded file referenced by File ID."
   }
 ]

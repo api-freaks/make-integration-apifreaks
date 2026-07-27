@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "name": "currencySymbols",
+    "label": "Currency symbols",
+    "type": "collection",
+    "spec": []
+  }
+]

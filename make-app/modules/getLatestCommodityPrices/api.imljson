@@ -2,7 +2,6 @@
   "url": "/v1.0/commodity/rates/latest",
   "method": "GET",
   "qs": {
-    "format": "{{parameters.format}}",
     "symbols": "{{parameters.symbols}}",
     "updates": "{{parameters.updates}}",
     "quote": "{{parameters.quote}}"

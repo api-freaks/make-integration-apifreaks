@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "name": "date",
+    "label": "Date",
+    "type": "text"
+  },
+  {
+    "name": "from",
+    "label": "From",
+    "type": "text"
+  },
+  {
+    "name": "to",
+    "label": "To",
+    "type": "text"
+  },
+  {
+    "name": "rate",
+    "label": "Rate",
+    "type": "text"
+  },
+  {
+    "name": "ipAddress",
+    "label": "IP address",
+    "type": "text"
+  },
+  {
+    "name": "givenAmount",
+    "label": "Given amount",
+    "type": "text"
+  },
+  {
+    "name": "convertedAmount",
+    "label": "Converted amount",
+    "type": "text"
+  }
+]

@@ -1,7 +1,7 @@
 {
   "name": "getGeoRegions",
-  "label": "GeoDB: Get GeoDB Regions",
-  "description": "Get GeoDB Regions",
+  "label": "List regions",
+  "description": "Returns the list of regions available in the GeoDB dataset.",
   "connection": "apifreaks",
   "typeId": 4
 }

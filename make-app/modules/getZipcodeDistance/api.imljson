@@ -1,9 +1,6 @@
 {
   "url": "/v1.0/zipcode/distance",
   "method": "POST",
-  "qs": {
-    "format": "{{parameters.format}}"
-  },
   "body": {
     "compare": "{{parameters.compare}}",
     "code": "{{parameters.code}}",

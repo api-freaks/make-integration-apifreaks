@@ -1,7 +1,7 @@
 {
   "name": "searchZipByRegion",
-  "label": "ZIP Code: Search ZIP codes by region",
-  "description": "Search ZIP codes by region",
+  "label": "Search ZIP by region",
+  "description": "Searches ZIP codes by region.",
   "connection": "apifreaks",
-  "typeId": 4
+  "typeId": 9
 }

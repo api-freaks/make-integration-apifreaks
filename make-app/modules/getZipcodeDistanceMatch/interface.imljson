@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "name": "result_count",
+    "label": "Result count",
+    "type": "number"
+  },
+  {
+    "name": "results",
+    "label": "Results",
+    "type": "array",
+    "spec": [
+      {
+        "name": "code_1",
+        "label": "Code 1",
+        "type": "text"
+      },
+      {
+        "name": "code_2",
+        "label": "Code 2",
+        "type": "text"
+      },
+      {
+        "name": "distance",
+        "label": "Distance",
+        "type": "number"
+      }
+    ]
+  }
+]

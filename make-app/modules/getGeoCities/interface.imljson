@@ -1,1 +1,51 @@
-[]
+[
+  {
+    "name": "cities",
+    "label": "Cities",
+    "type": "array",
+    "spec": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "latitude",
+        "label": "Latitude",
+        "type": "number"
+      },
+      {
+        "name": "longitude",
+        "label": "Longitude",
+        "type": "number"
+      },
+      {
+        "name": "admin_unit",
+        "label": "Admin unit",
+        "type": "collection",
+        "spec": [
+          {
+            "name": "name",
+            "label": "Name",
+            "type": "text"
+          },
+          {
+            "name": "admin_code",
+            "label": "Admin code",
+            "type": "text"
+          },
+          {
+            "name": "admin_level",
+            "label": "Admin level",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "name": "iso_alpha_2",
+        "label": "Iso alpha 2",
+        "type": "text"
+      }
+    ]
+  }
+]

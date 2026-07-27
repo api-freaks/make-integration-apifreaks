@@ -1,7 +1,7 @@
 {
   "name": "bulkIpLookupV2",
-  "label": "IP Geolocation: Bulk IP geolocation lookup (v2.0)",
-  "description": "Retrieve detailed geolocation data for multiple IP addresses in a single request.\nSupports up to `50,000` IP-addresses/host-names per request. - v2.0 response format.",
+  "label": "Bulk IP geolocation lookup",
+  "description": "Returns detailed geolocation data for multiple IP addresses in a single request. Supports up to `50,000` IP-addresses/host-names per request. - v2.0 response format.",
   "connection": "apifreaks",
   "typeId": 9
 }

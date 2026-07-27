@@ -1,7 +1,7 @@
 {
   "name": "getSubregionsByRegion",
-  "label": "GeoDB: Get Subregions by Region",
-  "description": "Get Subregions by Region",
+  "label": "List subregions by region",
+  "description": "Returns the subregions that belong to a given region.",
   "connection": "apifreaks",
   "typeId": 4
 }

@@ -1,12 +1,5 @@
 [
   {
-    "name": "format",
-    "label": "Format",
-    "type": "text",
-    "required": false,
-    "help": "Response format. Currently only `json` is supported."
-  },
-  {
     "name": "symbols",
     "label": "Symbols",
     "type": "text",
@@ -15,14 +8,14 @@
   },
   {
     "name": "startDate",
-    "label": "Startdate",
+    "label": "Start date",
     "type": "text",
     "required": true,
     "help": "Start date in `YYYY-MM-DD` format."
   },
   {
     "name": "endDate",
-    "label": "Enddate",
+    "label": "End date",
     "type": "text",
     "required": true,
     "help": "End date in `YYYY-MM-DD` format."

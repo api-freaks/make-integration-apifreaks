@@ -1,0 +1,7 @@
+{
+  "name": "getWeatherTimeSeries",
+  "label": "Get weather time series",
+  "description": "Pulls historical weather information for date ranges up to 90 days (daily data) or 7 days (hourly data). Get consistent formatting across your specified date range with reliable historical weather patterns.",
+  "connection": "apifreaks",
+  "typeId": 4
+}

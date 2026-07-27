@@ -1,1 +1,521 @@
-[]
+[
+  {
+    "name": "status",
+    "label": "Status",
+    "type": "boolean"
+  },
+  {
+    "name": "whois",
+    "label": "WHOIS",
+    "type": "text"
+  },
+  {
+    "name": "total_records",
+    "label": "Total records",
+    "type": "text"
+  },
+  {
+    "name": "whois_domains_historical",
+    "label": "WHOIS domains historical",
+    "type": "array",
+    "spec": [
+      {
+        "name": "num",
+        "label": "Num",
+        "type": "number"
+      },
+      {
+        "name": "status",
+        "label": "Status",
+        "type": "boolean"
+      },
+      {
+        "name": "domain_name",
+        "label": "Domain name",
+        "type": "text"
+      },
+      {
+        "name": "query_time",
+        "label": "Query time",
+        "type": "date"
+      },
+      {
+        "name": "whois_server",
+        "label": "WHOIS server",
+        "type": "text"
+      },
+      {
+        "name": "domain_registered",
+        "label": "Domain registered",
+        "type": "text"
+      },
+      {
+        "name": "create_date",
+        "label": "Create date",
+        "type": "date"
+      },
+      {
+        "name": "update_date",
+        "label": "Update date",
+        "type": "date"
+      },
+      {
+        "name": "expiry_date",
+        "label": "Expiry date",
+        "type": "date"
+      },
+      {
+        "name": "domain_registrar",
+        "label": "Domain registrar",
+        "type": "collection",
+        "spec": [
+          {
+            "name": "iana_id",
+            "label": "Iana ID",
+            "type": "text"
+          },
+          {
+            "name": "registrar_name",
+            "label": "Registrar name",
+            "type": "text"
+          },
+          {
+            "name": "whois_server",
+            "label": "WHOIS server",
+            "type": "text"
+          },
+          {
+            "name": "website_url",
+            "label": "Website URL",
+            "type": "text"
+          },
+          {
+            "name": "email_address",
+            "label": "Email address",
+            "type": "text"
+          },
+          {
+            "name": "phone_number",
+            "label": "Phone number",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "name": "reseller_contact",
+        "label": "Reseller contact",
+        "type": "collection",
+        "spec": [
+          {
+            "name": "name",
+            "label": "Name",
+            "type": "text"
+          },
+          {
+            "name": "email_address",
+            "label": "Email address",
+            "type": "text"
+          },
+          {
+            "name": "phone",
+            "label": "Phone",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "name": "registrant_contact",
+        "label": "Registrant contact",
+        "type": "collection",
+        "spec": [
+          {
+            "name": "name",
+            "label": "Name",
+            "type": "text"
+          },
+          {
+            "name": "company",
+            "label": "Company",
+            "type": "text"
+          },
+          {
+            "name": "street",
+            "label": "Street",
+            "type": "text"
+          },
+          {
+            "name": "city",
+            "label": "City",
+            "type": "text"
+          },
+          {
+            "name": "state",
+            "label": "State",
+            "type": "text"
+          },
+          {
+            "name": "zip_code",
+            "label": "ZIP code",
+            "type": "text"
+          },
+          {
+            "name": "country_name",
+            "label": "Country name",
+            "type": "text"
+          },
+          {
+            "name": "country_code",
+            "label": "Country code",
+            "type": "text"
+          },
+          {
+            "name": "email_address",
+            "label": "Email address",
+            "type": "text"
+          },
+          {
+            "name": "phone",
+            "label": "Phone",
+            "type": "text"
+          },
+          {
+            "name": "fax",
+            "label": "Fax",
+            "type": "text"
+          },
+          {
+            "name": "mailing_address",
+            "label": "Mailing address",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "name": "administrative_contact",
+        "label": "Administrative contact",
+        "type": "collection",
+        "spec": [
+          {
+            "name": "name",
+            "label": "Name",
+            "type": "text"
+          },
+          {
+            "name": "company",
+            "label": "Company",
+            "type": "text"
+          },
+          {
+            "name": "street",
+            "label": "Street",
+            "type": "text"
+          },
+          {
+            "name": "city",
+            "label": "City",
+            "type": "text"
+          },
+          {
+            "name": "state",
+            "label": "State",
+            "type": "text"
+          },
+          {
+            "name": "zip_code",
+            "label": "ZIP code",
+            "type": "text"
+          },
+          {
+            "name": "country_name",
+            "label": "Country name",
+            "type": "text"
+          },
+          {
+            "name": "country_code",
+            "label": "Country code",
+            "type": "text"
+          },
+          {
+            "name": "email_address",
+            "label": "Email address",
+            "type": "text"
+          },
+          {
+            "name": "phone",
+            "label": "Phone",
+            "type": "text"
+          },
+          {
+            "name": "fax",
+            "label": "Fax",
+            "type": "text"
+          },
+          {
+            "name": "mailing_address",
+            "label": "Mailing address",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "name": "technical_contact",
+        "label": "Technical contact",
+        "type": "collection",
+        "spec": [
+          {
+            "name": "name",
+            "label": "Name",
+            "type": "text"
+          },
+          {
+            "name": "company",
+            "label": "Company",
+            "type": "text"
+          },
+          {
+            "name": "street",
+            "label": "Street",
+            "type": "text"
+          },
+          {
+            "name": "city",
+            "label": "City",
+            "type": "text"
+          },
+          {
+            "name": "state",
+            "label": "State",
+            "type": "text"
+          },
+          {
+            "name": "zip_code",
+            "label": "ZIP code",
+            "type": "text"
+          },
+          {
+            "name": "country_name",
+            "label": "Country name",
+            "type": "text"
+          },
+          {
+            "name": "country_code",
+            "label": "Country code",
+            "type": "text"
+          },
+          {
+            "name": "email_address",
+            "label": "Email address",
+            "type": "text"
+          },
+          {
+            "name": "phone",
+            "label": "Phone",
+            "type": "text"
+          },
+          {
+            "name": "fax",
+            "label": "Fax",
+            "type": "text"
+          },
+          {
+            "name": "mailing_address",
+            "label": "Mailing address",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "name": "billing_contact",
+        "label": "Billing contact",
+        "type": "collection",
+        "spec": [
+          {
+            "name": "name",
+            "label": "Name",
+            "type": "text"
+          },
+          {
+            "name": "company",
+            "label": "Company",
+            "type": "text"
+          },
+          {
+            "name": "street",
+            "label": "Street",
+            "type": "text"
+          },
+          {
+            "name": "city",
+            "label": "City",
+            "type": "text"
+          },
+          {
+            "name": "state",
+            "label": "State",
+            "type": "text"
+          },
+          {
+            "name": "zip_code",
+            "label": "ZIP code",
+            "type": "text"
+          },
+          {
+            "name": "country_name",
+            "label": "Country name",
+            "type": "text"
+          },
+          {
+            "name": "country_code",
+            "label": "Country code",
+            "type": "text"
+          },
+          {
+            "name": "email_address",
+            "label": "Email address",
+            "type": "text"
+          },
+          {
+            "name": "phone",
+            "label": "Phone",
+            "type": "text"
+          },
+          {
+            "name": "fax",
+            "label": "Fax",
+            "type": "text"
+          },
+          {
+            "name": "mailing_address",
+            "label": "Mailing address",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "name": "name_servers",
+        "label": "Name servers",
+        "type": "array",
+        "spec": {
+          "type": "text",
+          "label": "Name servers"
+        }
+      },
+      {
+        "name": "domain_status",
+        "label": "Domain status",
+        "type": "array",
+        "spec": {
+          "type": "text",
+          "label": "Domain status"
+        }
+      },
+      {
+        "name": "whois_raw_domain",
+        "label": "WHOIS raw domain",
+        "type": "text"
+      },
+      {
+        "name": "registry_data",
+        "label": "Registry data",
+        "type": "collection",
+        "spec": [
+          {
+            "name": "domain_name",
+            "label": "Domain name",
+            "type": "text"
+          },
+          {
+            "name": "query_time",
+            "label": "Query time",
+            "type": "date"
+          },
+          {
+            "name": "whois_server",
+            "label": "WHOIS server",
+            "type": "text"
+          },
+          {
+            "name": "domain_registered",
+            "label": "Domain registered",
+            "type": "text"
+          },
+          {
+            "name": "create_date",
+            "label": "Create date",
+            "type": "date"
+          },
+          {
+            "name": "update_date",
+            "label": "Update date",
+            "type": "date"
+          },
+          {
+            "name": "expiry_date",
+            "label": "Expiry date",
+            "type": "date"
+          },
+          {
+            "name": "name_servers",
+            "label": "Name servers",
+            "type": "array",
+            "spec": {
+              "type": "text",
+              "label": "Name servers"
+            }
+          },
+          {
+            "name": "domain_status",
+            "label": "Domain status",
+            "type": "array",
+            "spec": {
+              "type": "text",
+              "label": "Domain status"
+            }
+          },
+          {
+            "name": "whois_raw_registry",
+            "label": "WHOIS raw registry",
+            "type": "text"
+          },
+          {
+            "name": "domain_registrar",
+            "label": "Domain registrar",
+            "type": "collection",
+            "spec": [
+              {
+                "name": "iana_id",
+                "label": "Iana ID",
+                "type": "text"
+              },
+              {
+                "name": "registrar_name",
+                "label": "Registrar name",
+                "type": "text"
+              },
+              {
+                "name": "whois_server",
+                "label": "WHOIS server",
+                "type": "text"
+              },
+              {
+                "name": "website_url",
+                "label": "Website URL",
+                "type": "text"
+              },
+              {
+                "name": "email_address",
+                "label": "Email address",
+                "type": "text"
+              },
+              {
+                "name": "phone_number",
+                "label": "Phone number",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,1 +1,118 @@
-[]
+[
+  {
+    "name": "user_agent_string",
+    "label": "User agent string",
+    "type": "text"
+  },
+  {
+    "name": "name",
+    "label": "Name",
+    "type": "text"
+  },
+  {
+    "name": "type",
+    "label": "Type",
+    "type": "text"
+  },
+  {
+    "name": "version",
+    "label": "Version",
+    "type": "text"
+  },
+  {
+    "name": "versionMajor",
+    "label": "Version major",
+    "type": "text"
+  },
+  {
+    "name": "device",
+    "label": "Device",
+    "type": "collection",
+    "spec": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "type",
+        "label": "Type",
+        "type": "text"
+      },
+      {
+        "name": "brand",
+        "label": "Brand",
+        "type": "text"
+      },
+      {
+        "name": "CPU",
+        "label": "CPU",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "name": "engine",
+    "label": "Engine",
+    "type": "collection",
+    "spec": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "type",
+        "label": "Type",
+        "type": "text"
+      },
+      {
+        "name": "version",
+        "label": "Version",
+        "type": "text"
+      },
+      {
+        "name": "versionMajor",
+        "label": "Version major",
+        "type": "text"
+      },
+      {
+        "name": "build",
+        "label": "Build",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "name": "operatingSystem",
+    "label": "Operating system",
+    "type": "collection",
+    "spec": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "type",
+        "label": "Type",
+        "type": "text"
+      },
+      {
+        "name": "version",
+        "label": "Version",
+        "type": "text"
+      },
+      {
+        "name": "versionMajor",
+        "label": "Version major",
+        "type": "text"
+      },
+      {
+        "name": "build",
+        "label": "Build",
+        "type": "text"
+      }
+    ]
+  }
+]

@@ -1,7 +1,7 @@
 {
   "name": "grammarDetect",
-  "label": "Readability: Detect grammar errors and return flagged words with...",
-  "description": "Analyze text for grammar errors and return the exact words flagged as grammatically incorrect with zero-based word positions.",
+  "label": "Detect grammar errors",
+  "description": "Analyzes text for grammar errors and return the exact words flagged as grammatically incorrect with zero-based word positions.",
   "connection": "apifreaks",
   "typeId": 4
 }

@@ -1,6 +1,6 @@
 {
   "name": "getSwiftCodeLookup",
-  "label": "Financial: Lookup SWIFT code details",
+  "label": "Get SWIFT code details",
   "description": "Fetches detailed information about a SWIFT code.",
   "connection": "apifreaks",
   "typeId": 4

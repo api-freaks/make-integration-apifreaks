@@ -2,6 +2,8 @@
   "url": "/v1.0/flags/supported",
   "method": "GET",
   "response": {
-    "output": "{{body}}"
+    "iterate": "{{body}}",
+    "output": "{{item}}",
+    "limit": "{{parameters.limit}}"
   }
 }

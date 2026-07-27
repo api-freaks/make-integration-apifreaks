@@ -1,12 +1,5 @@
 [
   {
-    "name": "format",
-    "label": "Format",
-    "type": "text",
-    "required": false,
-    "help": "Response format. Currently only `json` is supported."
-  },
-  {
     "name": "symbols",
     "label": "Symbols",
     "type": "text",

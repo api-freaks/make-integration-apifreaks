@@ -2,7 +2,6 @@
   "url": "/v1.0/ip/whois/live",
   "method": "GET",
   "qs": {
-    "format": "{{parameters.format}}",
     "ip": "{{parameters.ip}}"
   },
   "response": {

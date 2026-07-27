@@ -1,7 +1,7 @@
 {
   "name": "getForecast",
-  "label": "Weather: Weather predictions from 1 to 16 days with flexible detail...",
-  "description": "Access comprehensive weather forecasts with customizable precision - choose from daily overviews, hourly breakdowns, or even minute-by-minute data. Configure your date ranges or use the default 7-day forecast for standard weather planning.",
+  "label": "Get weather forecast",
+  "description": "Accesses comprehensive weather forecasts with customizable precision - choose from daily overviews, hourly breakdowns, or even minute-by-minute data. Configure your date ranges or use the default 7-day forecast for standard weather planning.",
   "connection": "apifreaks",
   "typeId": 4
 }

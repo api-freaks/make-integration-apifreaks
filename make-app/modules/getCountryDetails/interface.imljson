@@ -1,1 +1,77 @@
-[]
+[
+  {
+    "name": "name",
+    "label": "Name",
+    "type": "text"
+  },
+  {
+    "name": "iso_alpha_2",
+    "label": "Iso alpha 2",
+    "type": "text"
+  },
+  {
+    "name": "iso_alpha_3",
+    "label": "Iso alpha 3",
+    "type": "text"
+  },
+  {
+    "name": "iso_numeric",
+    "label": "Iso numeric",
+    "type": "number"
+  },
+  {
+    "name": "phone_code",
+    "label": "Phone code",
+    "type": "number"
+  },
+  {
+    "name": "capital",
+    "label": "Capital",
+    "type": "text"
+  },
+  {
+    "name": "top_level_domain",
+    "label": "Top level domain",
+    "type": "text"
+  },
+  {
+    "name": "native_name",
+    "label": "Native name",
+    "type": "text"
+  },
+  {
+    "name": "region",
+    "label": "Region",
+    "type": "text"
+  },
+  {
+    "name": "subregion",
+    "label": "Subregion",
+    "type": "text"
+  },
+  {
+    "name": "nationality",
+    "label": "Nationality",
+    "type": "text"
+  },
+  {
+    "name": "flag_emoji",
+    "label": "Flag emoji",
+    "type": "text"
+  },
+  {
+    "name": "currency_code",
+    "label": "Currency code",
+    "type": "text"
+  },
+  {
+    "name": "currency_name",
+    "label": "Currency name",
+    "type": "text"
+  },
+  {
+    "name": "currency_symbol",
+    "label": "Currency symbol",
+    "type": "text"
+  }
+]

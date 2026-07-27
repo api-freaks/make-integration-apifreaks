@@ -1,26 +1,18 @@
 [
   {
-    "name": "format",
-    "label": "Format",
-    "type": "select",
+    "name": "fileName",
+    "label": "File name",
+    "type": "filename",
     "required": false,
-    "help": "Specifies the desired format for the API response. Choose 'json' for a JSON object or 'xml' for an XML structure.",
-    "options": [
-      {
-        "label": "json",
-        "value": "json"
-      },
-      {
-        "label": "xml",
-        "value": "xml"
-      }
-    ]
+    "semantic": "file:name",
+    "help": "Name of the file being uploaded."
   },
   {
-    "name": "file",
+    "name": "fileData",
     "label": "File",
-    "type": "array",
+    "type": "buffer",
     "required": false,
-    "help": "The PDF files to be uploaded to the API Freaks server. Multiple files can be provided in an array."
+    "semantic": "file:data",
+    "help": "The file to process. Leave empty to use a previously uploaded file referenced by File ID."
   }
 ]

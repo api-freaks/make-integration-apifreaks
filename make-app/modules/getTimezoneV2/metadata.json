@@ -1,7 +1,7 @@
 {
   "name": "getTimezoneV2",
-  "label": "Timezone: Timezone lookup (v2.0)",
-  "description": "Retrieve current time, date, and timezone-related information by specifying a timezone name, location address, location coordinates, IP address, or use the client IP address if no parameter is passed. - v2.0 response format.",
+  "label": "Get timezone by IP",
+  "description": "Returns current time, date, and timezone-related information by specifying a timezone name, location address, location coordinates, IP address, or use the client IP address if no parameter is passed. - v2.0 response format.",
   "connection": "apifreaks",
   "typeId": 4
 }

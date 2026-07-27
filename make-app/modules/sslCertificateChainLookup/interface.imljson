@@ -1,1 +1,385 @@
-[]
+[
+  {
+    "name": "domainName",
+    "label": "Domain name",
+    "type": "text"
+  },
+  {
+    "name": "queryTime",
+    "label": "Query time",
+    "type": "date"
+  },
+  {
+    "name": "sslCertificates",
+    "label": "SSL certificates",
+    "type": "array",
+    "spec": [
+      {
+        "name": "chainOrder",
+        "label": "Chain order",
+        "type": "text"
+      },
+      {
+        "name": "authenticationType",
+        "label": "Authentication type",
+        "type": "text"
+      },
+      {
+        "name": "validityStartDate",
+        "label": "Validity start date",
+        "type": "text"
+      },
+      {
+        "name": "validityEndDate",
+        "label": "Validity end date",
+        "type": "text"
+      },
+      {
+        "name": "serialNumber",
+        "label": "Serial number",
+        "type": "text"
+      },
+      {
+        "name": "signatureAlgorithm",
+        "label": "Signature algorithm",
+        "type": "text"
+      },
+      {
+        "name": "pemRaw",
+        "label": "Pem raw",
+        "type": "text"
+      },
+      {
+        "name": "subject",
+        "label": "Subject",
+        "type": "collection",
+        "spec": [
+          {
+            "name": "commonName",
+            "label": "Common name",
+            "type": "text"
+          },
+          {
+            "name": "organization",
+            "label": "Organization",
+            "type": "text"
+          },
+          {
+            "name": "organizationalUnit",
+            "label": "Organizational unit",
+            "type": "text"
+          },
+          {
+            "name": "locality",
+            "label": "Locality",
+            "type": "text"
+          },
+          {
+            "name": "state",
+            "label": "State",
+            "type": "text"
+          },
+          {
+            "name": "country",
+            "label": "Country",
+            "type": "text"
+          },
+          {
+            "name": "incCountry",
+            "label": "Inc country",
+            "type": "text"
+          },
+          {
+            "name": "incState",
+            "label": "Inc state",
+            "type": "text"
+          },
+          {
+            "name": "businessCategory",
+            "label": "Business category",
+            "type": "text"
+          },
+          {
+            "name": "street",
+            "label": "Street",
+            "type": "text"
+          },
+          {
+            "name": "postalCode",
+            "label": "Postal code",
+            "type": "text"
+          },
+          {
+            "name": "serialNumber",
+            "label": "Serial number",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "name": "issuer",
+        "label": "Issuer",
+        "type": "collection",
+        "spec": [
+          {
+            "name": "commonName",
+            "label": "Common name",
+            "type": "text"
+          },
+          {
+            "name": "organization",
+            "label": "Organization",
+            "type": "text"
+          },
+          {
+            "name": "organizationalUnit",
+            "label": "Organizational unit",
+            "type": "text"
+          },
+          {
+            "name": "locality",
+            "label": "Locality",
+            "type": "text"
+          },
+          {
+            "name": "state",
+            "label": "State",
+            "type": "text"
+          },
+          {
+            "name": "country",
+            "label": "Country",
+            "type": "text"
+          },
+          {
+            "name": "incCountry",
+            "label": "Inc country",
+            "type": "text"
+          },
+          {
+            "name": "incState",
+            "label": "Inc state",
+            "type": "text"
+          },
+          {
+            "name": "businessCategory",
+            "label": "Business category",
+            "type": "text"
+          },
+          {
+            "name": "street",
+            "label": "Street",
+            "type": "text"
+          },
+          {
+            "name": "postalCode",
+            "label": "Postal code",
+            "type": "text"
+          },
+          {
+            "name": "serialNumber",
+            "label": "Serial number",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "name": "publicKey",
+        "label": "Public key",
+        "type": "collection",
+        "spec": [
+          {
+            "name": "keySize",
+            "label": "Key size",
+            "type": "text"
+          },
+          {
+            "name": "keyAlgorithm",
+            "label": "Key algorithm",
+            "type": "text"
+          },
+          {
+            "name": "pemRaw",
+            "label": "Pem raw",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "name": "extensions",
+        "label": "Extensions",
+        "type": "collection",
+        "spec": [
+          {
+            "name": "authorityKeyIdentifier",
+            "label": "Authority key identifier",
+            "type": "text"
+          },
+          {
+            "name": "subjectKeyIdentifier",
+            "label": "Subject key identifier",
+            "type": "text"
+          },
+          {
+            "name": "keyUsages",
+            "label": "Key usages",
+            "type": "array",
+            "spec": {
+              "type": "text",
+              "label": "Key usages"
+            }
+          },
+          {
+            "name": "extendedKeyUsages",
+            "label": "Extended key usages",
+            "type": "array",
+            "spec": {
+              "type": "text",
+              "label": "Extended key usages"
+            }
+          },
+          {
+            "name": "crlDistributionPoints",
+            "label": "Crl distribution points",
+            "type": "array",
+            "spec": {
+              "type": "text",
+              "label": "Crl distribution points"
+            }
+          },
+          {
+            "name": "authorityInfoAccess",
+            "label": "Authority info access",
+            "type": "collection",
+            "spec": [
+              {
+                "name": "issuers",
+                "label": "Issuers",
+                "type": "array",
+                "spec": {
+                  "type": "text",
+                  "label": "Issuers"
+                }
+              },
+              {
+                "name": "ocsp",
+                "label": "Ocsp",
+                "type": "array",
+                "spec": {
+                  "type": "text",
+                  "label": "Ocsp"
+                }
+              }
+            ]
+          },
+          {
+            "name": "subjectAlternativeNames",
+            "label": "Subject alternative names",
+            "type": "collection",
+            "spec": [
+              {
+                "name": "dnsNames",
+                "label": "DNS names",
+                "type": "array",
+                "spec": {
+                  "type": "text",
+                  "label": "DNS names"
+                }
+              },
+              {
+                "name": "emailAddresses",
+                "label": "Email addresses",
+                "type": "array",
+                "spec": {
+                  "type": "text",
+                  "label": "Email addresses"
+                }
+              },
+              {
+                "name": "ipAddresses",
+                "label": "IP addresses",
+                "type": "array",
+                "spec": {
+                  "type": "text",
+                  "label": "IP addresses"
+                }
+              },
+              {
+                "name": "uris",
+                "label": "Uris",
+                "type": "array",
+                "spec": {
+                  "type": "text",
+                  "label": "Uris"
+                }
+              }
+            ]
+          },
+          {
+            "name": "certificatePolicies",
+            "label": "Certificate policies",
+            "type": "array",
+            "spec": [
+              {
+                "name": "policyId",
+                "label": "Policy ID",
+                "type": "text"
+              },
+              {
+                "name": "policyQualifier",
+                "label": "Policy qualifier",
+                "type": "collection",
+                "spec": [
+                  {
+                    "name": "oid",
+                    "label": "Oid",
+                    "type": "text"
+                  },
+                  {
+                    "name": "cpsUri",
+                    "label": "Cps URI",
+                    "type": "text"
+                  },
+                  {
+                    "name": "userNotice",
+                    "label": "User notice",
+                    "type": "collection",
+                    "spec": [
+                      {
+                        "name": "explicitText",
+                        "label": "Explicit text",
+                        "type": "text"
+                      },
+                      {
+                        "name": "noticeRef",
+                        "label": "Notice ref",
+                        "type": "collection",
+                        "spec": [
+                          {
+                            "name": "organization",
+                            "label": "Organization",
+                            "type": "text"
+                          },
+                          {
+                            "name": "noticeNumbers",
+                            "label": "Notice numbers",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "sslRaw",
+    "label": "SSL raw",
+    "type": "text"
+  }
+]

@@ -2,7 +2,6 @@
   "url": "/v1.0/currency/rates/historical",
   "method": "GET",
   "qs": {
-    "format": "{{parameters.format}}",
     "base": "{{parameters.base}}",
     "symbols": "{{parameters.symbols}}",
     "date": "{{parameters.date}}"

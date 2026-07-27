@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "name": "startDate",
+    "label": "Start date",
+    "type": "text"
+  },
+  {
+    "name": "endDate",
+    "label": "End date",
+    "type": "text"
+  },
+  {
+    "name": "base",
+    "label": "Base",
+    "type": "text"
+  },
+  {
+    "name": "rateFluctuations",
+    "label": "Rate fluctuations",
+    "type": "collection",
+    "spec": []
+  }
+]

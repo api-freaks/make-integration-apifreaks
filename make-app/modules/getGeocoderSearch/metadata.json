@@ -1,7 +1,7 @@
 {
   "name": "getGeocoderSearch",
-  "label": "Geocoding: Forward geocoding (address to coordinates)",
-  "description": "Convert a given address or place name into geographic coordinates (latitude and longitude).",
+  "label": "Search addresses (forward geocoding)",
+  "description": "Converts a given address or place name into geographic coordinates (latitude and longitude).",
   "connection": "apifreaks",
   "typeId": 9
 }

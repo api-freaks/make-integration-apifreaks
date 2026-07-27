@@ -2,16 +2,24 @@
   "url": "/v1.0/domain/whois/reverse",
   "method": "GET",
   "qs": {
-    "format": "{{parameters.format}}",
     "keyword": "{{parameters.keyword}}",
     "email": "{{parameters.email}}",
     "owner": "{{parameters.owner}}",
     "company": "{{parameters.company}}",
     "exact": "{{parameters.exact}}",
-    "mode": "{{parameters.mode}}",
-    "page": "{{parameters.page}}"
+    "mode": "{{parameters.mode}}"
   },
   "response": {
-    "output": "{{body}}"
+    "iterate": "{{body.whois_domains_historical}}",
+    "output": {
+      "value": "{{item}}"
+    },
+    "limit": "{{parameters.limit}}"
+  },
+  "pagination": {
+    "qs": {
+      "page": "{{pagination.page}}"
+    },
+    "condition": "{{body.current_Page < body.total_Pages}}"
   }
 }

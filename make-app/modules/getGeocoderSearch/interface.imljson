@@ -1,1 +1,108 @@
-[]
+[
+  {
+    "name": "lat",
+    "label": "Latitude",
+    "type": "number"
+  },
+  {
+    "name": "lon",
+    "label": "Lon",
+    "type": "number"
+  },
+  {
+    "name": "name",
+    "label": "Name",
+    "type": "text"
+  },
+  {
+    "name": "category",
+    "label": "Category",
+    "type": "text"
+  },
+  {
+    "name": "type",
+    "label": "Type",
+    "type": "text"
+  },
+  {
+    "name": "poi",
+    "label": "POI",
+    "type": "array",
+    "spec": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "category",
+        "label": "Category",
+        "type": "text"
+      },
+      {
+        "name": "type",
+        "label": "Type",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "name": "street",
+    "label": "Street",
+    "type": "text"
+  },
+  {
+    "name": "area",
+    "label": "Area",
+    "type": "text"
+  },
+  {
+    "name": "postcode",
+    "label": "Postcode",
+    "type": "text"
+  },
+  {
+    "name": "city",
+    "label": "City",
+    "type": "text"
+  },
+  {
+    "name": "county",
+    "label": "County",
+    "type": "text"
+  },
+  {
+    "name": "state_code",
+    "label": "State code",
+    "type": "text"
+  },
+  {
+    "name": "state",
+    "label": "State",
+    "type": "text"
+  },
+  {
+    "name": "country_code",
+    "label": "Country code",
+    "type": "text"
+  },
+  {
+    "name": "country",
+    "label": "Country",
+    "type": "text"
+  },
+  {
+    "name": "full_address",
+    "label": "Full address",
+    "type": "text"
+  },
+  {
+    "name": "bounding_box",
+    "label": "Bounding box",
+    "type": "array",
+    "spec": {
+      "type": "text",
+      "label": "Bounding box"
+    }
+  }
+]

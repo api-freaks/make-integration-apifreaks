@@ -1,9 +1,6 @@
 {
   "url": "/v1.0/currency/supported",
   "method": "GET",
-  "qs": {
-    "format": "{{parameters.format}}"
-  },
   "response": {
     "output": "{{body}}"
   }

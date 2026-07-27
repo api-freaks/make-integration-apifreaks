@@ -5,6 +5,9 @@
     "lat": "{{parameters.lat}}",
     "lon": "{{parameters.lon}}"
   },
+  "headers": {
+    "Accept-Language": "{{parameters.AcceptLanguage}}"
+  },
   "response": {
     "output": "{{body}}"
   }

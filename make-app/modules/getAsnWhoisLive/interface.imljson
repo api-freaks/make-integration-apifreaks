@@ -1,1 +1,570 @@
-[]
+[
+  {
+    "name": "asNumber",
+    "label": "As number",
+    "type": "text"
+  },
+  {
+    "name": "asName",
+    "label": "As name",
+    "type": "text"
+  },
+  {
+    "name": "orgName",
+    "label": "Org name",
+    "type": "text"
+  },
+  {
+    "name": "description",
+    "label": "Description",
+    "type": "text"
+  },
+  {
+    "name": "orgHandle",
+    "label": "Org handle",
+    "type": "text"
+  },
+  {
+    "name": "country",
+    "label": "Country",
+    "type": "text"
+  },
+  {
+    "name": "domain",
+    "label": "Domain",
+    "type": "text"
+  },
+  {
+    "name": "website",
+    "label": "Website",
+    "type": "text"
+  },
+  {
+    "name": "allocationStatus",
+    "label": "Allocation status",
+    "type": "text"
+  },
+  {
+    "name": "numOfIPv4Routes",
+    "label": "Num of i pv 4 routes",
+    "type": "text"
+  },
+  {
+    "name": "numOfIPv6Routes",
+    "label": "Num of i pv 6 routes",
+    "type": "text"
+  },
+  {
+    "name": "whoisHost",
+    "label": "WHOIS host",
+    "type": "text"
+  },
+  {
+    "name": "dateAllocated",
+    "label": "Date allocated",
+    "type": "date"
+  },
+  {
+    "name": "type",
+    "label": "Type",
+    "type": "text"
+  },
+  {
+    "name": "routeObjects",
+    "label": "Route objects",
+    "type": "array",
+    "spec": [
+      {
+        "name": "route",
+        "label": "Route",
+        "type": "text"
+      },
+      {
+        "name": "origin",
+        "label": "Origin",
+        "type": "text"
+      },
+      {
+        "name": "originName",
+        "label": "Origin name",
+        "type": "text"
+      },
+      {
+        "name": "isp",
+        "label": "ISP",
+        "type": "text"
+      },
+      {
+        "name": "numberOfIps",
+        "label": "Number of IP addresses",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "name": "whoisResponse",
+    "label": "WHOIS response",
+    "type": "text"
+  },
+  {
+    "name": "downstreams",
+    "label": "Downstreams",
+    "type": "array",
+    "spec": [
+      {
+        "name": "asNumber",
+        "label": "As number",
+        "type": "text"
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "text"
+      },
+      {
+        "name": "country",
+        "label": "Country",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "name": "parsedWhoisResponse",
+    "label": "Parsed WHOIS response",
+    "type": "collection",
+    "spec": [
+      {
+        "name": "status",
+        "label": "Status",
+        "type": "boolean"
+      },
+      {
+        "name": "whois_server",
+        "label": "WHOIS server",
+        "type": "text"
+      },
+      {
+        "name": "aut_nums",
+        "label": "Aut nums",
+        "type": "array",
+        "spec": [
+          {
+            "name": "aut_num",
+            "label": "Aut num",
+            "type": "text"
+          },
+          {
+            "name": "as_handle",
+            "label": "As handle",
+            "type": "text"
+          },
+          {
+            "name": "as_name",
+            "label": "As name",
+            "type": "text"
+          },
+          {
+            "name": "description",
+            "label": "Description",
+            "type": "array",
+            "spec": {
+              "type": "text",
+              "label": "Description"
+            }
+          },
+          {
+            "name": "country",
+            "label": "Country",
+            "type": "text"
+          },
+          {
+            "name": "status",
+            "label": "Status",
+            "type": "text"
+          },
+          {
+            "name": "member_of",
+            "label": "Member of",
+            "type": "array",
+            "spec": {
+              "type": "text",
+              "label": "Member of"
+            }
+          },
+          {
+            "name": "import_via",
+            "label": "Import via",
+            "type": "array",
+            "spec": {
+              "type": "text",
+              "label": "Import via"
+            }
+          },
+          {
+            "name": "import",
+            "label": "Import",
+            "type": "array",
+            "spec": {
+              "type": "text",
+              "label": "Import"
+            }
+          },
+          {
+            "name": "mp_import",
+            "label": "Mp import",
+            "type": "array",
+            "spec": {
+              "type": "text",
+              "label": "Mp import"
+            }
+          },
+          {
+            "name": "export_via",
+            "label": "Export via",
+            "type": "array",
+            "spec": {
+              "type": "text",
+              "label": "Export via"
+            }
+          },
+          {
+            "name": "export",
+            "label": "Export",
+            "type": "array",
+            "spec": {
+              "type": "text",
+              "label": "Export"
+            }
+          },
+          {
+            "name": "mp_export",
+            "label": "Mp export",
+            "type": "array",
+            "spec": {
+              "type": "text",
+              "label": "Mp export"
+            }
+          },
+          {
+            "name": "default",
+            "label": "Default",
+            "type": "array",
+            "spec": {
+              "type": "text",
+              "label": "Default"
+            }
+          },
+          {
+            "name": "mp_default",
+            "label": "Mp default",
+            "type": "array",
+            "spec": {
+              "type": "text",
+              "label": "Mp default"
+            }
+          },
+          {
+            "name": "organization",
+            "label": "Organization",
+            "type": "text"
+          },
+          {
+            "name": "sponsoring_organization",
+            "label": "Sponsoring organization",
+            "type": "text"
+          },
+          {
+            "name": "admin_contacts",
+            "label": "Admin contacts",
+            "type": "array",
+            "spec": {
+              "type": "text",
+              "label": "Admin contacts"
+            }
+          },
+          {
+            "name": "tech_contacts",
+            "label": "Tech contacts",
+            "type": "array",
+            "spec": {
+              "type": "text",
+              "label": "Tech contacts"
+            }
+          },
+          {
+            "name": "abuse_contacts",
+            "label": "Abuse contacts",
+            "type": "array",
+            "spec": {
+              "type": "text",
+              "label": "Abuse contacts"
+            }
+          },
+          {
+            "name": "date_created",
+            "label": "Date created",
+            "type": "date"
+          },
+          {
+            "name": "date_updated",
+            "label": "Date updated",
+            "type": "date"
+          },
+          {
+            "name": "source",
+            "label": "Source",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "name": "organization",
+        "label": "Organization",
+        "type": "collection",
+        "spec": [
+          {
+            "name": "handle",
+            "label": "Handle",
+            "type": "text"
+          },
+          {
+            "name": "name",
+            "label": "Name",
+            "type": "text"
+          },
+          {
+            "name": "address",
+            "label": "Address",
+            "type": "array",
+            "spec": {
+              "type": "text",
+              "label": "Address"
+            }
+          },
+          {
+            "name": "street",
+            "label": "Street",
+            "type": "text"
+          },
+          {
+            "name": "city",
+            "label": "City",
+            "type": "text"
+          },
+          {
+            "name": "state",
+            "label": "State",
+            "type": "text"
+          },
+          {
+            "name": "zip_code",
+            "label": "ZIP code",
+            "type": "text"
+          },
+          {
+            "name": "country",
+            "label": "Country",
+            "type": "array",
+            "spec": {
+              "type": "text",
+              "label": "Country"
+            }
+          },
+          {
+            "name": "addressCountry",
+            "label": "Address country",
+            "type": "text"
+          },
+          {
+            "name": "date_created",
+            "label": "Date created",
+            "type": "date"
+          },
+          {
+            "name": "date_updated",
+            "label": "Date updated",
+            "type": "date"
+          },
+          {
+            "name": "source",
+            "label": "Source",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "name": "technical_contacts",
+        "label": "Technical contacts",
+        "type": "array",
+        "spec": [
+          {
+            "name": "handle",
+            "label": "Handle",
+            "type": "text"
+          },
+          {
+            "name": "name",
+            "label": "Name",
+            "type": "text"
+          },
+          {
+            "name": "email",
+            "label": "Email",
+            "type": "array",
+            "spec": {
+              "type": "text",
+              "label": "Email"
+            }
+          },
+          {
+            "name": "phone",
+            "label": "Phone",
+            "type": "array",
+            "spec": {
+              "type": "text",
+              "label": "Phone"
+            }
+          },
+          {
+            "name": "source",
+            "label": "Source",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "name": "abuse_contacts",
+        "label": "Abuse contacts",
+        "type": "array",
+        "spec": [
+          {
+            "name": "handle",
+            "label": "Handle",
+            "type": "text"
+          },
+          {
+            "name": "name",
+            "label": "Name",
+            "type": "text"
+          },
+          {
+            "name": "email",
+            "label": "Email",
+            "type": "array",
+            "spec": {
+              "type": "text",
+              "label": "Email"
+            }
+          },
+          {
+            "name": "phone",
+            "label": "Phone",
+            "type": "array",
+            "spec": {
+              "type": "text",
+              "label": "Phone"
+            }
+          },
+          {
+            "name": "source",
+            "label": "Source",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "name": "whois_raw_response",
+        "label": "WHOIS raw response",
+        "type": "text"
+      },
+      {
+        "name": "r_whois_raw_response",
+        "label": "R WHOIS raw response",
+        "type": "text"
+      },
+      {
+        "name": "query_time",
+        "label": "Query time",
+        "type": "date"
+      }
+    ]
+  },
+  {
+    "name": "upstreams",
+    "label": "Upstreams",
+    "type": "array",
+    "spec": [
+      {
+        "name": "asNumber",
+        "label": "As number",
+        "type": "text"
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "text"
+      },
+      {
+        "name": "country",
+        "label": "Country",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "name": "peers",
+    "label": "Peers",
+    "type": "array",
+    "spec": [
+      {
+        "name": "asNumber",
+        "label": "As number",
+        "type": "text"
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "text"
+      },
+      {
+        "name": "country",
+        "label": "Country",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "name": "contacts",
+    "label": "Contacts",
+    "type": "collection",
+    "spec": [
+      {
+        "name": "emailContacts",
+        "label": "Email contacts",
+        "type": "array",
+        "spec": {
+          "type": "text",
+          "label": "Email contacts"
+        }
+      },
+      {
+        "name": "abuseContacts",
+        "label": "Abuse contacts",
+        "type": "array",
+        "spec": {
+          "type": "text",
+          "label": "Abuse contacts"
+        }
+      }
+    ]
+  },
+  {
+    "name": "legacyRoutes",
+    "label": "Legacy routes",
+    "type": "array",
+    "spec": {
+      "type": "text",
+      "label": "Legacy routes"
+    }
+  }
+]

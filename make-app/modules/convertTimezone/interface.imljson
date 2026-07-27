@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "name": "original_time",
+    "label": "Original time",
+    "type": "date"
+  },
+  {
+    "name": "converted_time",
+    "label": "Converted time",
+    "type": "date"
+  },
+  {
+    "name": "diff_hour",
+    "label": "Diff hour",
+    "type": "number"
+  },
+  {
+    "name": "diff_min",
+    "label": "Diff min",
+    "type": "number"
+  }
+]

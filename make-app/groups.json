@@ -1,0 +1,230 @@
+[
+  {
+    "label": "IP Geolocation",
+    "modules": [
+      "getGeolocationLookup",
+      "bulkIpLookup",
+      "getIpSecurity",
+      "bulkIpSecurityLookup",
+      "getGeolocationLookupV2",
+      "bulkIpLookupV2"
+    ]
+  },
+  {
+    "label": "WHOIS",
+    "modules": [
+      "whoisLookup",
+      "postDomainWhoisLive",
+      "getIpWhoisLive",
+      "getAsnWhoisLive",
+      "whoisHistoryLookup",
+      "getDomainWhoisReverse",
+      "whoisLookupV2",
+      "postDomainWhoisLiveV2"
+    ]
+  },
+  {
+    "label": "DNS",
+    "modules": [
+      "dnsLookup",
+      "bulkDnsLookup",
+      "dnsHistoryLookup",
+      "reverseDnsLookup"
+    ]
+  },
+  {
+    "label": "Domain",
+    "modules": [
+      "getDomainAvailability",
+      "postDomainAvailability",
+      "getDomainAvailabilitySuggestions",
+      "getSubdomainsLookup"
+    ]
+  },
+  {
+    "label": "SSL",
+    "modules": [
+      "sslCertificateLookup",
+      "sslCertificateChainLookup"
+    ]
+  },
+  {
+    "label": "Geocoding",
+    "modules": [
+      "getGeocoderSearch",
+      "getGeocoderReverse"
+    ]
+  },
+  {
+    "label": "GeoDB",
+    "modules": [
+      "getCountries",
+      "getCountryDetails",
+      "getGeoRegions",
+      "getSubregionsByRegion",
+      "getAdminUnits",
+      "getGeoAdminUnits",
+      "getGeoAdminUnitDetails",
+      "getGeoCities",
+      "getFlagsSupported",
+      "getFlags"
+    ]
+  },
+  {
+    "label": "ZIP Code",
+    "modules": [
+      "lookupZipCodes",
+      "bulklookupZipCodesPost",
+      "searchZipByCity",
+      "searchZipByRegion",
+      "searchZipByRadius",
+      "getZipcodeDistance",
+      "getZipcodeDistanceMatch"
+    ]
+  },
+  {
+    "label": "Currency",
+    "modules": [
+      "getLatestExchangeRates",
+      "getHistoricalExchangeRates",
+      "convertLatest",
+      "convertHistorical",
+      "getTimeSeries",
+      "getFluctuation",
+      "convertByIp",
+      "getSupportedCurrencies",
+      "getCurrencySymbols",
+      "getHistoricalDataLimits"
+    ]
+  },
+  {
+    "label": "Commodity",
+    "modules": [
+      "getLatestCommodityPrices",
+      "getHistoricalCommodityPrices",
+      "getCommodityTimeSeries",
+      "getCommodityFluctuation",
+      "getCommoditySymbols"
+    ]
+  },
+  {
+    "label": "Financial",
+    "modules": [
+      "getVatSupportedCountries",
+      "getVatRatesIpAddress",
+      "getVatRatesCountry",
+      "postVatRatesCountry",
+      "getVatValidation",
+      "getIbanValidation",
+      "getSwiftCodeFinder",
+      "getSwiftCodeLookup"
+    ]
+  },
+  {
+    "label": "Weather",
+    "modules": [
+      "getCurrent",
+      "postCurrent",
+      "getForecast",
+      "getHistorical",
+      "getWeatherTimeSeries",
+      "getMarine",
+      "getAirQuality",
+      "getFlood"
+    ]
+  },
+  {
+    "label": "Timezone",
+    "modules": [
+      "getTimezone",
+      "convertTimezone",
+      "getTimezoneV2"
+    ]
+  },
+  {
+    "label": "Astronomy",
+    "modules": [
+      "getGeolocationAstronomy",
+      "getGeolocationAstronomyV2"
+    ]
+  },
+  {
+    "label": "Email & Phone Validation",
+    "modules": [
+      "postEmailValidationSingle",
+      "postEmailValidationBulk",
+      "postPhoneValidation",
+      "postPhoneValidationBulk"
+    ]
+  },
+  {
+    "label": "User Agent",
+    "modules": [
+      "getUserAgentLookup",
+      "postUserAgentLookup"
+    ]
+  },
+  {
+    "label": "Readability",
+    "modules": [
+      "grammarDetect",
+      "grammarCorrect",
+      "weakWordsDetect",
+      "readabilityScore"
+    ]
+  },
+  {
+    "label": "OCR",
+    "modules": [
+      "ocrPredict"
+    ]
+  },
+  {
+    "label": "Web Scraping",
+    "modules": [
+      "performScraping"
+    ]
+  },
+  {
+    "label": "Screenshot",
+    "modules": [
+      "websiteScreenshot",
+      "bulkScreenshot"
+    ]
+  },
+  {
+    "label": "PDF",
+    "modules": [
+      "postPdfMerge",
+      "postPdfRemovePages",
+      "postPdfSplit",
+      "postPdfRotate",
+      "postPdfCompress",
+      "postPdfExtractPages",
+      "postPdfLinearize",
+      "postPdfEncrypt",
+      "postPdfDecrypt",
+      "postPdfRestrict",
+      "postPdfUnrestrict",
+      "postPdfPng",
+      "postPdfJpg",
+      "postPdfTif",
+      "postPdfBmp",
+      "postPdfGif",
+      "postPdfResourceUpload",
+      "postPdfResourceUploadBinary",
+      "getPdfResourceDownload",
+      "getPdfTaskStatus",
+      "getPdfFileStatus",
+      "getPdfFiles",
+      "deletePdfFile"
+    ]
+  },
+  {
+    "label": "General",
+    "modules": [
+      "getCreditsUsageInfo",
+      "makeApiCall"
+    ]
+  }
+]

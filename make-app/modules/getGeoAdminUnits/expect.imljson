@@ -1,22 +1,5 @@
 [
   {
-    "name": "format",
-    "label": "Format",
-    "type": "select",
-    "required": false,
-    "help": "Format of the response.",
-    "options": [
-      {
-        "label": "json",
-        "value": "json"
-      },
-      {
-        "label": "xml",
-        "value": "xml"
-      }
-    ]
-  },
-  {
     "name": "country",
     "label": "Country",
     "type": "text",
@@ -25,7 +8,7 @@
   },
   {
     "name": "adminLevels",
-    "label": "Adminlevels",
+    "label": "Admin levels",
     "type": "array",
     "required": false,
     "help": "Comma-separated list to filter results by one or more administrative levels."

@@ -2,7 +2,6 @@
   "url": "/v1.0/domain/availability",
   "method": "GET",
   "qs": {
-    "format": "{{parameters.format}}",
     "domain": "{{parameters.domain}}",
     "source": "{{parameters.source}}"
   },

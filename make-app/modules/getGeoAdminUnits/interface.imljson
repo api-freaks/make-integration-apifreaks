@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "name": "admin_units",
+    "label": "Admin units",
+    "type": "array",
+    "spec": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "admin_code",
+        "label": "Admin code",
+        "type": "text"
+      },
+      {
+        "name": "admin_level",
+        "label": "Admin level",
+        "type": "text"
+      }
+    ]
+  }
+]

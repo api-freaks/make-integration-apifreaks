@@ -1,24 +1,7 @@
 [
   {
-    "name": "format",
-    "label": "Format",
-    "type": "select",
-    "required": false,
-    "help": "Response format (defaults to json)",
-    "options": [
-      {
-        "label": "json",
-        "value": "json"
-      },
-      {
-        "label": "xml",
-        "value": "xml"
-      }
-    ]
-  },
-  {
     "name": "domainName",
-    "label": "Domainname",
+    "label": "Domain name",
     "type": "text",
     "required": true,
     "help": "Domain name for WHOIS lookup"

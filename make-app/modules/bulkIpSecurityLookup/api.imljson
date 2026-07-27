@@ -1,15 +1,16 @@
 {
   "url": "/v1.0/ip/security",
   "method": "POST",
-  "qs": {
-    "format": "{{parameters.format}}",
-    "fields": "{{parameters.fields}}",
-    "excludes": "{{parameters.excludes}}"
-  },
   "body": {
     "ips": "{{parameters.ips}}"
   },
+  "qs": {
+    "fields": "{{parameters.fields}}",
+    "excludes": "{{parameters.excludes}}"
+  },
   "response": {
-    "output": "{{body}}"
+    "iterate": "{{body}}",
+    "output": "{{item}}",
+    "limit": "{{parameters.limit}}"
   }
 }
